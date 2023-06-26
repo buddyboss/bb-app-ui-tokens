@@ -1,0 +1,155 @@
+[
+  {
+    "id": "81c12a6114df618d21e64f5e83aafa676928cefb",
+    "name": "base",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "components/ProgressBar": "enabled",
+      "components/RadioButton": "enabled",
+      "components/Button": "enabled",
+      "components/Checkbox": "enabled",
+      "components/Code": "enabled",
+      "components/Collapsible": "enabled",
+      "components/Divider": "enabled",
+      "components/Select": "enabled",
+      "components/Slider": "enabled",
+      "components/Table": "enabled",
+      "components/Text": "enabled",
+      "components/Textarea": "enabled",
+      "components/TextInput": "enabled",
+      "components/Icon": "enabled",
+      "components/Skeleton": "enabled",
+      "components/Figure": "enabled",
+      "components/Quote": "enabled",
+      "base/system": "enabled",
+      "base/ref": "source",
+      "base/web": "enabled",
+      "components/Count": "enabled",
+      "components/IconButton": "enabled",
+      "components/Avatar": "enabled",
+      "components/AvatarGroup": "enabled",
+      "components/IconToggle": "enabled",
+      "components/Image": "enabled",
+      "components/Label": "enabled",
+      "components/Link": "enabled",
+      "components/Loader": "enabled",
+      "components/Thumbnail": "enabled",
+      "components/Toast": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:3",
+    "$figmaModeId": "45:0",
+    "$figmaVariableReferences": {},
+    "group": "base"
+  },
+  {
+    "id": "a17cf986d34adbf4cb6f0e7e441540817080e8cd",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/default": "enabled"
+    },
+    "group": "brand",
+    "$figmaCollectionId": "VariableCollectionId:45:199",
+    "$figmaModeId": "45:1",
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "418bc1d85fbc73e89ddfedebd077bd5d8b2be4df",
+    "name": "financial",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/financial": "enabled",
+      "brand/default": "source"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:199",
+    "$figmaModeId": "45:2",
+    "$figmaVariableReferences": {},
+    "group": "brand"
+  },
+  {
+    "id": "256b3f241a7944c817fed9bb79d4dee2ddb6aef9",
+    "name": "fitness",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/fitness": "enabled",
+      "brand/default": "source"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:199",
+    "$figmaModeId": "45:3",
+    "$figmaVariableReferences": {},
+    "group": "brand"
+  },
+  {
+    "id": "a21a2c628073bf8a38ddc698620ca831ec638414",
+    "name": "video",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "brand/gaming": "enabled",
+      "brand/default": "source"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:199",
+    "$figmaModeId": "45:4",
+    "$figmaVariableReferences": {},
+    "group": "brand"
+  },
+  {
+    "id": "951566ca335498e72a40ff3d5fe7734bf5aa259d",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "mode/light": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:268",
+    "$figmaModeId": "45:5",
+    "$figmaVariableReferences": {},
+    "group": "mode"
+  },
+  {
+    "id": "5a8447e3f5b4e6a47db9f778b69b7b6487be27fe",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "mode/dark": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:268",
+    "$figmaModeId": "45:6",
+    "$figmaVariableReferences": {},
+    "group": "mode"
+  },
+  {
+    "id": "6b2cbbceeb81d75ba0cd503a217630c35f127d36",
+    "name": "legacy",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "mode/legacy": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:268",
+    "$figmaModeId": "45:7",
+    "$figmaVariableReferences": {},
+    "group": "mode"
+  },
+  {
+    "id": "3a329565bef66d80446b85dedfc2d1fcb8f29c05",
+    "name": "ios",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "device/ios": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:340",
+    "$figmaModeId": "45:9",
+    "$figmaVariableReferences": {},
+    "group": "device"
+  },
+  {
+    "id": "5c4879219501ba112d5586789e716623ec1f88dd",
+    "name": "android",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "device/android": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:45:340",
+    "$figmaModeId": "45:8",
+    "$figmaVariableReferences": {},
+    "group": "device"
+  }
+]

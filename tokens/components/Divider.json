@@ -1,0 +1,18 @@
+{
+  "Divider": {
+    "shape": {
+      "value": {
+        "verticalPadding": "",
+        "horizontalPadding": ""
+      },
+      "type": "composition"
+    },
+    "border": {
+      "value": {
+        "color": "",
+        "width": ""
+      },
+      "type": "border"
+    }
+  }
+}

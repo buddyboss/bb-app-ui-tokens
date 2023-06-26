@@ -1,0 +1,144 @@
+{
+  "styles": {
+    "Avatar": {
+      "xs": {
+        "value": {
+          "sizing": "{utility.grid-size.20}"
+        },
+        "type": "composition"
+      },
+      "sm": {
+        "value": {
+          "sizing": "{utility.grid-size.24}"
+        },
+        "type": "composition"
+      },
+      "md": {
+        "value": {
+          "sizing": "{utility.grid-size.32}"
+        },
+        "type": "composition"
+      },
+      "lg": {
+        "value": {
+          "sizing": "{utility.grid-size.40}"
+        },
+        "type": "composition"
+      },
+      "xl": {
+        "value": {
+          "sizing": "{utility.grid-size.56}"
+        },
+        "type": "composition"
+      },
+      "huge": {
+        "value": {
+          "sizing": "{utility.grid-size.120}"
+        },
+        "type": "composition"
+      },
+      "initials": {
+        "xs": {
+          "value": {
+            "fontFamily": "{font.family.plain}",
+            "fontWeight": "{ref.font-weight.plain-bold}",
+            "lineHeight": "{ref.font-size.tiny.lineHeight}",
+            "fontSize": "8",
+            "textCase": "{ref.text-case.uppercase}"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{font.family.plain}",
+            "fontWeight": "{ref.font-weight.plain-bold}",
+            "lineHeight": "{ref.font-size.tiny.lineHeight}",
+            "fontSize": "{ref.font-size.tiny.fontSize}",
+            "textCase": "{ref.text-case.uppercase}"
+          },
+          "type": "typography"
+        },
+        "md": {
+          "value": {
+            "fontFamily": "{font.family.plain}",
+            "fontWeight": "{ref.font-weight.plain-semibold}",
+            "lineHeight": "{ref.font-size.xs.lineHeight}",
+            "fontSize": "{ref.font-size.xs.fontSize}",
+            "textCase": "{ref.text-case.uppercase}"
+          },
+          "type": "typography"
+        },
+        "lg": {
+          "value": {
+            "fontFamily": "{font.family.plain}",
+            "fontWeight": "{ref.font-weight.plain-semibold}",
+            "lineHeight": "{ref.font-size.sm.lineHeight}",
+            "fontSize": "{ref.font-size.sm.fontSize}",
+            "textCase": "{ref.text-case.uppercase}"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{font.family.plain}",
+            "fontWeight": "{ref.font-weight.plain-semibold}",
+            "lineHeight": "{ref.font-size.xl.lineHeight}",
+            "fontSize": "{ref.font-size.xl.fontSize}",
+            "textCase": "{ref.text-case.uppercase}"
+          },
+          "type": "typography"
+        },
+        "huge": {
+          "value": {
+            "fontFamily": "{font.family.plain}",
+            "fontWeight": "{ref.font-weight.plain-semibold}",
+            "lineHeight": "{ref.font-size.4xl.lineHeight}",
+            "fontSize": "{ref.font-size.4xl.fontSize}",
+            "textCase": "{ref.text-case.uppercase}"
+          },
+          "type": "typography"
+        }
+      },
+      "pressed": {
+        "value": "{opacity.pressed}",
+        "type": "opacity",
+        "description": "Applied to avatars during onPress events."
+      },
+      "disabled": {
+        "value": "{opacity.disabled}",
+        "type": "opacity",
+        "description": "Applied to avatars when disabled."
+      },
+      "border-radius": {
+        "xs": {
+          "value": "{shape.corner.sm}",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "{shape.corner.sm}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{shape.corner.md}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{shape.corner.md}",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "{shape.corner.lg}",
+          "type": "borderRadius"
+        },
+        "huge": {
+          "value": "{shape.corner.xl}",
+          "type": "borderRadius"
+        },
+        "circle": {
+          "value": "{shape.corner.full}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Quote": {
+    "shape": {
+      "value": {
+        "height": "",
+        "itemSpacing": "",
+        "borderRadius": ""
+      },
+      "type": "composition"
+    },
+    "color": {
+      "bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "fg": {
+        "value": "#",
+        "type": "color"
+      }
+    },
+    "font": {
+      "value": {
+        "fontFamily": ""
+      },
+      "type": "typography"
+    },
+    "border": {
+      "value": {
+        "color": ""
+      },
+      "type": "border"
+    }
+  }
+}

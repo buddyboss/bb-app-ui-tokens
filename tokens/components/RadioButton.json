@@ -1,0 +1,10 @@
+{
+  "Radio": {
+    "shape": {
+      "value": {
+        "itemSpacing": ""
+      },
+      "type": "composition"
+    }
+  }
+}

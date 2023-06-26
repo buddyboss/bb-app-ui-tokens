@@ -1,0 +1,76 @@
+{
+  "styles": {
+    "Skeleton": {
+      "Text": {
+        "xl": {
+          "value": {
+            "height": "{utility.grid-size.32}"
+          },
+          "type": "composition"
+        },
+        "lg": {
+          "value": {
+            "height": "{utility.grid-size.24}"
+          },
+          "type": "composition"
+        },
+        "md": {
+          "value": {
+            "height": "{utility.grid-size.16}"
+          },
+          "type": "composition"
+        },
+        "sm": {
+          "value": {
+            "height": "{utility.grid-size.8}"
+          },
+          "type": "composition"
+        },
+        "border-radius": {
+          "xl": {
+            "value": "{shape.corner.md}",
+            "type": "borderRadius"
+          },
+          "lg": {
+            "value": "{shape.corner.sm}",
+            "type": "borderRadius"
+          },
+          "md": {
+            "value": "4",
+            "type": "borderRadius"
+          },
+          "sm": {
+            "value": "2",
+            "type": "borderRadius"
+          },
+          "pill": {
+            "value": "{shape.corner.full}",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "gradient-walker": {
+        "value": {
+          "fill": "{color.skeleton.gradient}",
+          "width": "200"
+        },
+        "type": "composition",
+        "description": "Applied to the gradient walker that transitions across skeletons."
+      }
+    }
+  },
+  "motion": {
+    "skeleton": {
+      "duration": {
+        "value": "1400",
+        "type": "other",
+        "description": "The duration that the gradient walker takes to cross from left to right."
+      },
+      "easing": {
+        "value": "{motion.easing.transition}",
+        "type": "other",
+        "description": "The easing applied to the gradient walker"
+      }
+    }
+  }
+}

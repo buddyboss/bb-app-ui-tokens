@@ -1,0 +1,50 @@
+{
+  "Collapsible": {
+    "shape": {
+      "value": {
+        "spacing": "",
+        "itemSpacing": ""
+      },
+      "type": "composition"
+    },
+    "font": {
+      "value": {
+        "fontFamily": ""
+      },
+      "type": "typography"
+    },
+    "Title": {
+      "font": {
+        "value": {
+          "fontFamily": ""
+        },
+        "type": "typography"
+      }
+    },
+    "border": {
+      "value": {
+        "color": "",
+        "width": ""
+      },
+      "type": "border"
+    },
+    "color": {
+      "bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "fg": {
+        "value": "#",
+        "type": "color"
+      },
+      "title-bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "title-fg": {
+        "value": "#",
+        "type": "color"
+      }
+    }
+  }
+}

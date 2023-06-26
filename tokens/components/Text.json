@@ -1,0 +1,34 @@
+{
+  "Text": {
+    "List": {
+      "value": {
+        "verticalPadding": "",
+        "paddingLeft": "",
+        "itemSpacing": ""
+      },
+      "type": "composition"
+    },
+    "Highlight": {
+      "default": {
+        "value": {
+          "fill": "",
+          "borderWidthBottom": "",
+          "borderColor": ""
+        },
+        "type": "composition"
+      },
+      "success": {
+        "value": {
+          "fill": ""
+        },
+        "type": "composition"
+      },
+      "error": {
+        "value": {
+          "fill": ""
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

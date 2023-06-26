@@ -1,0 +1,84 @@
+{
+  "Table": {
+    "shape": {
+      "value": {
+        "borderRadius": ""
+      },
+      "type": "composition"
+    },
+    "Head": {
+      "shape": {
+        "value": {
+          "height": "",
+          "horizontalPadding": "",
+          "verticalPadding": ""
+        },
+        "type": "composition"
+      },
+      "font": {
+        "value": {
+          "fontFamily": ""
+        },
+        "type": "typography"
+      }
+    },
+    "Cell": {
+      "shape": {
+        "value": {
+          "height": "",
+          "horizontalPadding": "",
+          "verticalPadding": ""
+        },
+        "type": "composition"
+      },
+      "font": {
+        "value": {
+          "fontFamily": ""
+        },
+        "type": "typography"
+      }
+    },
+    "Foot": {
+      "shape": {
+        "value": {
+          "height": "",
+          "horizontalPadding": "",
+          "verticalPadding": ""
+        },
+        "type": "composition"
+      },
+      "font": {
+        "value": {
+          "fontFamily": ""
+        },
+        "type": "typography"
+      }
+    },
+    "color": {
+      "bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "header-bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "footer-bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "fg": {
+        "value": "#",
+        "type": "color"
+      },
+      "header-fg": {
+        "value": "#",
+        "type": "color"
+      },
+      "footer-fg": {
+        "value": "#",
+        "type": "color"
+      }
+    }
+  }
+}

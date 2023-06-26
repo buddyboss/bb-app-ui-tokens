@@ -1,0 +1,224 @@
+{
+  "BuddyBossIcon": {
+    "spacing": {
+      "sm": {
+        "value": "1",
+        "type": "spacing",
+        "description": "Applied as top padding to unboxed icons using the 20 size."
+      },
+      "lg": {
+        "value": "2",
+        "type": "spacing",
+        "description": "Applied as top padding to unboxed icons in the 40, 56 and 72 sizes."
+      }
+    },
+    "font": {
+      "outlined": {
+        "value": {
+          "fontFamily": "BuddyBoss Icons",
+          "fontWeight": "Outlined"
+        },
+        "type": "typography"
+      },
+      "outlined-box": {
+        "value": {
+          "fontFamily": "BuddyBoss Icons",
+          "fontWeight": "Outlined Box"
+        },
+        "type": "typography"
+      },
+      "outlined-round": {
+        "value": {
+          "fontFamily": "BuddyBoss Icons",
+          "fontWeight": "Outlined Round"
+        },
+        "type": "typography"
+      },
+      "filled": {
+        "value": {
+          "fontFamily": "BuddyBoss Icons",
+          "fontWeight": "Filled"
+        },
+        "type": "typography"
+      },
+      "filled-box": {
+        "value": {
+          "fontFamily": "BuddyBoss Icons",
+          "fontWeight": "Filled Box"
+        },
+        "type": "typography"
+      },
+      "filled-round": {
+        "value": {
+          "fontFamily": "BuddyBoss Icons",
+          "fontWeight": "Filled Round"
+        },
+        "type": "typography"
+      }
+    },
+    "shape": {
+      "default-8": {
+        "value": {
+          "fontSizes": "{utility.grid-size.8}",
+          "lineHeights": "{utility.grid-size.8}"
+        },
+        "type": "composition"
+      },
+      "default-12": {
+        "value": {
+          "fontSizes": "{utility.grid-size.12}",
+          "lineHeights": "{utility.grid-size.12}"
+        },
+        "type": "composition"
+      },
+      "default-16": {
+        "value": {
+          "fontSizes": "{utility.grid-size.16}",
+          "lineHeights": "{utility.grid-size.16}"
+        },
+        "type": "composition"
+      },
+      "default-20": {
+        "value": {
+          "fontSizes": "{utility.grid-size.20}",
+          "lineHeights": "{utility.grid-size.20}"
+        },
+        "type": "composition"
+      },
+      "default-24": {
+        "value": {
+          "fontSizes": "{utility.grid-size.24}",
+          "lineHeights": "{utility.grid-size.24}"
+        },
+        "type": "composition"
+      },
+      "default-28": {
+        "value": {
+          "fontSizes": "{utility.grid-size.28}",
+          "lineHeights": "{utility.grid-size.28}"
+        },
+        "type": "composition"
+      },
+      "default-32": {
+        "value": {
+          "fontSizes": "{utility.grid-size.32}",
+          "lineHeights": "{utility.grid-size.32}"
+        },
+        "type": "composition"
+      },
+      "default-40": {
+        "value": {
+          "fontSizes": "{utility.grid-size.40}",
+          "lineHeights": "{utility.grid-size.40}"
+        },
+        "type": "composition"
+      },
+      "default-56": {
+        "value": {
+          "fontSizes": "{utility.grid-size.56}",
+          "lineHeights": "{utility.grid-size.56}"
+        },
+        "type": "composition"
+      },
+      "default-72": {
+        "value": {
+          "fontSizes": "{utility.grid-size.72}",
+          "lineHeights": "{utility.grid-size.72}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "Icon": {
+    "shape": {
+      "default-8": {
+        "value": {
+          "sizing": "{utility.grid-size.8}"
+        },
+        "type": "composition"
+      },
+      "default-12": {
+        "value": {
+          "sizing": "{utility.grid-size.12}"
+        },
+        "type": "composition"
+      },
+      "default-16": {
+        "value": {
+          "sizing": "{utility.grid-size.16}"
+        },
+        "type": "composition"
+      },
+      "default-20": {
+        "value": {
+          "sizing": "{utility.grid-size.20}"
+        },
+        "type": "composition"
+      },
+      "unboxed-20": {
+        "value": {
+          "sizing": "{utility.grid-size.20}",
+          "paddingTop": "{BuddyBossIcon.spacing.sm}"
+        },
+        "type": "composition"
+      },
+      "default-24": {
+        "value": {
+          "sizing": "{utility.grid-size.24}"
+        },
+        "type": "composition"
+      },
+      "default-28": {
+        "value": {
+          "sizing": "{utility.grid-size.28}"
+        },
+        "type": "composition"
+      },
+      "default-32": {
+        "value": {
+          "sizing": "{utility.grid-size.32}"
+        },
+        "type": "composition"
+      },
+      "default-40": {
+        "value": {
+          "sizing": "{utility.grid-size.40}"
+        },
+        "type": "composition"
+      },
+      "unboxed-40": {
+        "value": {
+          "sizing": "{utility.grid-size.40}",
+          "paddingTop": "{BuddyBossIcon.spacing.lg}"
+        },
+        "type": "composition"
+      },
+      "default-56": {
+        "value": {
+          "sizing": "{utility.grid-size.56}"
+        },
+        "type": "composition"
+      },
+      "unboxed-56": {
+        "value": {
+          "sizing": "{utility.grid-size.56}",
+          "paddingTop": "{BuddyBossIcon.spacing.lg}"
+        },
+        "type": "composition"
+      },
+      "default-72": {
+        "value": {
+          "sizing": "{utility.grid-size.72}"
+        },
+        "type": "composition"
+      },
+      "unboxed-72": {
+        "value": {
+          "sizing": "{utility.grid-size.72}",
+          "paddingTop": "{BuddyBossIcon.spacing.lg}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

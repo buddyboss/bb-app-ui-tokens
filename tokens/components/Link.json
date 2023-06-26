@@ -1,0 +1,15 @@
+{
+  "styles": {
+    "Link": {
+      "disabled": {
+        "value": "{opacity.disabled}",
+        "type": "opacity",
+        "description": "Applied to inverse links when disabled."
+      },
+      "pressed": {
+        "value": "{opacity.60}",
+        "type": "opacity"
+      }
+    }
+  }
+}

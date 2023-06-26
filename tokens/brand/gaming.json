@@ -1,0 +1,746 @@
+{
+  "api": {
+    "color-mode": {
+      "body": {
+        "value": "light",
+        "type": "other",
+        "description": "Returns whether bodyFrontBg is a light or dark color."
+      },
+      "header": {
+        "value": "dark",
+        "type": "other",
+        "description": "Returns whether headerBg is a light or dark color."
+      },
+      "footer": {
+        "value": "light",
+        "type": "other",
+        "description": "Returns whether bottomTabsBg is a light or dark color."
+      },
+      "auth": {
+        "value": "dark",
+        "type": "other",
+        "description": "Returns whether authBgColor is a light or dark color."
+      },
+      "reg": {
+        "value": "dark",
+        "type": "other",
+        "description": "Returns whether regBgColor is a light or dark color."
+      }
+    },
+    "color": {
+      "bodyFrontBg": {
+        "value": "#151618",
+        "type": "color",
+        "description": "Background color for secondary content areas throughout the app."
+      },
+      "bodyBg": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Background color for the main content throughout the app."
+      },
+      "coverImageBg": {
+        "value": "#7a7a7a",
+        "type": "color",
+        "description": "Background color to use when no cover image is uploaded."
+      },
+      "borderColor": {
+        "value": "#332b2b",
+        "type": "color",
+        "description": "Color of the border dividers between sections throughout the app."
+      },
+      "primaryColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Used for various app elements."
+      },
+      "headerBg": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Background color for the navigation bar at the top of the app."
+      },
+      "headerColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for titles in the navigation bar at the top of the app."
+      },
+      "headerIconColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Color for links and icons in the navigation bar at the top of the app."
+      },
+      "bottomTabsBg": {
+        "value": "#121418",
+        "type": "color",
+        "description": "Background color for the Tab Bar navigation at the bottom of the app."
+      },
+      "bottomTabsColor": {
+        "value": "#6a6b6d",
+        "type": "color",
+        "description": "Default color for icons, and labels if enabled, in the Tab Bar and More Screen. Can be overwritten in menus with custom icon colors."
+      },
+      "bottomTabsActiveColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Color for icons, and labels if enabled, when the icon is currently selected in the Tab Bar."
+      },
+      "primaryButtonBg": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Background color of buttons seen on Login and Signup Screen."
+      },
+      "primaryButtonColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color of buttons seen on Course Lesson and Topic screens."
+      },
+      "secondaryButtonBg": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Background color for Secondary Button."
+      },
+      "secondaryButtonColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Text color for Secondary Button."
+      },
+      "headingsColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for Heading elements."
+      },
+      "textColor": {
+        "value": "#88898b",
+        "type": "color",
+        "description": "Text color for the General Body content. "
+      },
+      "descTextColor": {
+        "value": "#88898b",
+        "type": "color",
+        "description": "Text color for Item descriptions."
+      },
+      "descLightTextColor": {
+        "value": "#716f70",
+        "type": "color",
+        "description": "Text color for meta items like '2 days ago' and '3 Discussions'."
+      },
+      "labelBgColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Background color for the labels."
+      },
+      "labelTextColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for the labels."
+      },
+      "authBgColor": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Background color for Login, Forgot Password, and related authentication screens. Login screen can also be a background image."
+      },
+      "authTextColor": {
+        "value": "#87fdf1",
+        "type": "color",
+        "description": "Text color for Login, Forgot Password, and related authentication screens."
+      },
+      "authFieldBgColor": {
+        "value": "rgba(135,253,241,0.15)",
+        "type": "color",
+        "description": "Background color for input fields on Login, Forgot Password, and related authentication screens."
+      },
+      "authFieldTextColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for input fields on Login, Forgot Password, and related authentication screens."
+      },
+      "authButtonBgColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Background color for buttons on Login, Forgot Password, and related authentication screens."
+      },
+      "authButtonTextColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for buttons on Login, Forgot Password, and related authentication screens."
+      },
+      "regBgColor": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Background color for Registration and Activation Code screens. Registration screen can also be a background image."
+      },
+      "regTextColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for Registration and Activation Code screens."
+      },
+      "regFieldBgColor": {
+        "value": "rgba(135,253,241,0.15)",
+        "type": "color",
+        "description": "Background color for input fields and products on Registration and Activation Code screens."
+      },
+      "regFieldTextColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for input fields and products on Registration and Activation Code screens."
+      },
+      "regButtonBgColor": {
+        "value": "#26c7b6",
+        "type": "color",
+        "description": "Background color for buttons on Registration and Activation Code screens."
+      },
+      "regButtonTextColor": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for buttons on Registration and Activation Code screens."
+      },
+      "androidStatusBgColor": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Background color for the Android Status Bar."
+      },
+      "coursesLabelCompleted": {
+        "value": "#18b70c",
+        "type": "color",
+        "description": "Background color for courses completed status label."
+      },
+      "coursesLabelProgress": {
+        "value": "#8F42E1",
+        "type": "color",
+        "description": "Background color for courses in progress status label."
+      },
+      "coursesLabelStart": {
+        "value": "#007cff",
+        "type": "color",
+        "description": "Background color for courses start course status label."
+      },
+      "coursesLabelFree": {
+        "value": "#8F42E1",
+        "type": "color",
+        "description": "Background color for courses free status label."
+      },
+      "coursesLabelNotEnrolled": {
+        "value": "#E142A6",
+        "type": "color",
+        "description": "Background color for courses not enrolled status label."
+      },
+      "iapStatusCheckmark": {
+        "value": "#10D639",
+        "type": "color",
+        "description": "Color for purchased status checkmark."
+      },
+      "iapBenefitsCheckmark": {
+        "value": "#10D639",
+        "type": "color",
+        "description": "Color for benefits checkmark."
+      },
+      "body": {
+        "01": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x1}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "02": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x2}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x3}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "04": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x4}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "05": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x5}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "06": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x6}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{api.legacy.color.bodyFrontBg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.inverse}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "accent": {
+        "01": {
+          "value": "{api.legacy.color.primaryColor}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x6}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "02": {
+          "value": "{api.legacy.color.primaryColor}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x4}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{api.legacy.color.primaryColor}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x5}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{api.legacy.color.primaryColor}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.darken-amount.inverse}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "info": {
+        "01": {
+          "value": "{ref.key-color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x6}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "02": {
+          "value": "{ref.key-color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x4}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{ref.key-color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x5}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{ref.key-color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.darken-amount.inverse}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "success": {
+        "01": {
+          "value": "{ref.key-color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x6}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "02": {
+          "value": "{ref.key-color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x4}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{ref.key-color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x5}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{ref.key-color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.darken-amount.inverse}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "danger": {
+        "01": {
+          "value": "{ref.key-color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x6}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "02": {
+          "value": "{ref.key-color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x4}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{ref.key-color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x5}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{ref.key-color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.darken-amount.inverse}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "warning": {
+        "01": {
+          "value": "{ref.key-color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x6}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "02": {
+          "value": "{ref.key-color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{utility.darken-amount.x4}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "03": {
+          "value": "{ref.key-color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.lighten-amount.x5}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "inverse": {
+          "value": "{ref.key-color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{utility.darken-amount.inverse}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      }
+    },
+    "font-scaling": {
+      "plain": {
+        "value": "1",
+        "type": "other",
+        "description": "Returns the scaling value for the font applied to bodyText as a decimal (i.e. 160% = 1.6)"
+      },
+      "brand": {
+        "value": "1",
+        "type": "other",
+        "description": "Returns the scaling value for the font applied to appHeadings as a decimal (i.e. 160% = 1.6)"
+      },
+      "header": {
+        "value": "1",
+        "type": "other",
+        "description": "Returns the scaling value for the font applied to appHeaderTitle as a decimal (i.e. 160% = 1.6)"
+      },
+      "footer": {
+        "value": "1",
+        "type": "other",
+        "description": "Returns the scaling value for the font applied to appTabBar as a decimal (i.e. 160% = 1.6)"
+      },
+      "menu": {
+        "value": "1",
+        "type": "other",
+        "description": "Returns the scaling value for the font applied to appMenus as a decimal (i.e. 160% = 1.6)"
+      }
+    },
+    "font-stack": {
+      "plain": {
+        "value": "Albert Sans",
+        "type": "fontFamilies"
+      },
+      "brand": {
+        "value": "Albert Sans",
+        "type": "fontFamilies"
+      },
+      "header": {
+        "value": "Albert Sans",
+        "type": "fontFamilies"
+      },
+      "footer": {
+        "value": "Albert Sans",
+        "type": "fontFamilies"
+      },
+      "menu": {
+        "value": "Albert Sans",
+        "type": "fontFamilies"
+      },
+      "plain-light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "plain-light-italic": {
+        "value": "Light Italic",
+        "type": "fontWeights"
+      },
+      "plain-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "plain-italic": {
+        "value": "Italic",
+        "type": "fontWeights"
+      },
+      "plain-medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "plain-medium-italic": {
+        "value": "Medium Italic",
+        "type": "fontWeights"
+      },
+      "plain-semibold": {
+        "value": "SemiBold Italic",
+        "type": "fontWeights"
+      },
+      "plain-semibold-italic": {
+        "value": "SemiBold Italic",
+        "type": "fontWeights"
+      },
+      "plain-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "plain-bold-italic": {
+        "value": "Bold Italic",
+        "type": "fontWeights"
+      },
+      "brand-light": {
+        "value": "light}",
+        "type": "fontWeights"
+      },
+      "brand-light-italic": {
+        "value": "Light Italic",
+        "type": "fontWeights"
+      },
+      "brand-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "brand-italic": {
+        "value": "Italic",
+        "type": "fontWeights"
+      },
+      "brand-medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "brand-medium-italic": {
+        "value": "Medium Italic",
+        "type": "fontWeights"
+      },
+      "brand-semibold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "brand-semibold italic": {
+        "value": "SemiBold Italic",
+        "type": "fontWeights"
+      },
+      "brand-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "brand-bold-italic": {
+        "value": "Bold Italic",
+        "type": "fontWeights"
+      },
+      "header-bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "header-semibold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "footer-regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "menu-semibold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      }
+    }
+  }
+}

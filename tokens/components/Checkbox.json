@@ -1,0 +1,10 @@
+{
+  "Checkbox": {
+    "shape": {
+      "value": {
+        "itemSpacing": ""
+      },
+      "type": "composition"
+    }
+  }
+}

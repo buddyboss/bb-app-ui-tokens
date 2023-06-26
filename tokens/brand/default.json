@@ -1,0 +1,2004 @@
+{
+  "api": {
+    "legacy": {
+      "color": {
+        "bodyFrontBg": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Background color for secondary content areas throughout the app."
+        },
+        "bodyBg": {
+          "value": "#f6f6f8",
+          "type": "color",
+          "description": "Background color for the main content throughout the app."
+        },
+        "coverImageBg": {
+          "value": "#EDEEF2",
+          "type": "color",
+          "description": "Background color to use when no cover image is uploaded."
+        },
+        "borderColor": {
+          "value": "#C6C6C8",
+          "type": "color",
+          "description": "Color of the border dividers between sections throughout the app."
+        },
+        "primaryColor": {
+          "value": "#007cff",
+          "type": "color",
+          "description": "Used for various app elements."
+        },
+        "headerBg": {
+          "value": "#F9F9F9",
+          "type": "color",
+          "description": "Background color for the navigation bar at the top of the app."
+        },
+        "headerColor": {
+          "value": "#211C44",
+          "type": "color",
+          "description": "Text color for titles in the navigation bar at the top of the app."
+        },
+        "headerIconColor": {
+          "value": "#2F74F6",
+          "type": "color",
+          "description": "Color for links and icons in the navigation bar at the top of the app."
+        },
+        "bottomTabsBg": {
+          "value": "#EEF0F3",
+          "type": "color",
+          "description": "Background color for the Tab Bar navigation at the bottom of the app."
+        },
+        "bottomTabsColor": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Default color for icons, and labels if enabled, in the Tab Bar and More Screen. Can be overwritten in menus with custom icon colors."
+        },
+        "bottomTabsActiveColor": {
+          "value": "#007cff",
+          "type": "color",
+          "description": "Color for icons, and labels if enabled, when the icon is currently selected in the Tab Bar."
+        },
+        "primaryButtonBg": {
+          "value": "#013A7E",
+          "type": "color",
+          "description": "Background color of buttons seen on Login and Signup Screen."
+        },
+        "primaryButtonColor": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text color of buttons seen on Course Lesson and Topic screens."
+        },
+        "secondaryButtonBg": {
+          "value": "#EDEEF2",
+          "type": "color",
+          "description": "Background color for Secondary Button."
+        },
+        "secondaryButtonColor": {
+          "value": "#516CD9",
+          "type": "color",
+          "description": "Text color for Secondary Button."
+        },
+        "headingsColor": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Text color for Heading elements."
+        },
+        "textColor": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Text color for the General Body content. "
+        },
+        "descTextColor": {
+          "value": "#737679",
+          "type": "color",
+          "description": "Text color for Item descriptions."
+        },
+        "descLightTextColor": {
+          "value": "#838A98",
+          "type": "color",
+          "description": "Text color for meta items like '2 days ago' and '3 Discussions'."
+        },
+        "labelBgColor": {
+          "value": "#EDEEF2",
+          "type": "color",
+          "description": "Background color for the labels."
+        },
+        "labelTextColor": {
+          "value": "#92949D",
+          "type": "color",
+          "description": "Text color for the labels."
+        },
+        "authBgColor": {
+          "value": "#3598FF",
+          "type": "color",
+          "description": "Background color for Login, Forgot Password, and related authentication screens. Login screen can also be a background image."
+        },
+        "authTextColor": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Text color for Login, Forgot Password, and related authentication screens."
+        },
+        "authFieldBgColor": {
+          "value": "rgba(0,0,0,0.2)",
+          "type": "color",
+          "description": "Background color for input fields on Login, Forgot Password, and related authentication screens."
+        },
+        "authFieldTextColor": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text color for input fields on Login, Forgot Password, and related authentication screens."
+        },
+        "authButtonBgColor": {
+          "value": "#013a7e",
+          "type": "color",
+          "description": "Background color for buttons on Login, Forgot Password, and related authentication screens."
+        },
+        "authButtonTextColor": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text color for buttons on Login, Forgot Password, and related authentication screens."
+        },
+        "regBgColor": {
+          "value": "#3598FF",
+          "type": "color",
+          "description": "Background color for Registration and Activation Code screens. Registration screen can also be a background image."
+        },
+        "regTextColor": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Text color for Registration and Activation Code screens."
+        },
+        "regFieldBgColor": {
+          "value": "rgba(0,0,0,0.2)",
+          "type": "color",
+          "description": "Background color for input fields and products on Registration and Activation Code screens."
+        },
+        "regFieldTextColor": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text color for input fields and products on Registration and Activation Code screens."
+        },
+        "regButtonBgColor": {
+          "value": "#013a7e",
+          "type": "color",
+          "description": "Background color for buttons on Registration and Activation Code screens."
+        },
+        "regButtonTextColor": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text color for buttons on Registration and Activation Code screens."
+        },
+        "androidStatusBgColor": {
+          "value": "#3598FF",
+          "type": "color",
+          "description": "Background color for the Android Status Bar."
+        },
+        "coursesLabelCompleted": {
+          "value": "#10D639",
+          "type": "color",
+          "description": "Background color for courses completed status label."
+        },
+        "coursesLabelProgress": {
+          "value": "#8F42E1",
+          "type": "color",
+          "description": "Background color for courses in progress status label."
+        },
+        "coursesLabelStart": {
+          "value": "#007cff",
+          "type": "color",
+          "description": "Background color for courses start course status label."
+        },
+        "coursesLabelFree": {
+          "value": "#8F42E1",
+          "type": "color",
+          "description": "Background color for courses free status label."
+        },
+        "coursesLabelNotEnrolled": {
+          "value": "#E142A6",
+          "type": "color",
+          "description": "Background color for courses not enrolled status label."
+        },
+        "iapStatusCheckmark": {
+          "value": "#10D639",
+          "type": "color",
+          "description": "Color for purchased status checkmark."
+        },
+        "iapBenefitsCheckmark": {
+          "value": "#10D639",
+          "type": "color",
+          "description": "Color for benefits checkmark."
+        }
+      },
+      "palette": {
+        "body": {
+          "01": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x1}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "02": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x2}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "03": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x3}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "04": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x4}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "05": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x5}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "06": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x6}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "inverse": {
+            "value": "{api.legacy.color.bodyFrontBg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.inverse}",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "accent": {
+          "01": {
+            "value": "{api.legacy.color.primaryColor}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x6}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "02": {
+            "value": "{api.legacy.color.primaryColor}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x4}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "03": {
+            "value": "{api.legacy.color.primaryColor}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x5}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "inverse": {
+            "value": "{api.legacy.color.primaryColor}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.darken-amount.inverse}",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "info": {
+          "01": {
+            "value": "{api.color.info}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x6}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "02": {
+            "value": "{api.color.info}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x4}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "03": {
+            "value": "{api.color.info}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x5}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "inverse": {
+            "value": "{api.color.info}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.darken-amount.inverse}",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "success": {
+          "01": {
+            "value": "{api.color.success}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x6}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "02": {
+            "value": "{api.color.success}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x4}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "03": {
+            "value": "{api.color.success}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x5}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "inverse": {
+            "value": "{api.color.success}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.darken-amount.inverse}",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "warning": {
+          "01": {
+            "value": "{api.color.warning}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x6}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "02": {
+            "value": "{api.color.warning}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x4}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "03": {
+            "value": "{api.color.warning}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x5}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "inverse": {
+            "value": "{api.color.warning}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.darken-amount.inverse}",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "danger": {
+          "01": {
+            "value": "{api.color.danger}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x6}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "02": {
+            "value": "{api.color.danger}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.lighten-amount.x4}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "03": {
+            "value": "{api.color.danger}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{ref.darken-amount.x5}",
+                  "space": "srgb"
+                }
+              }
+            }
+          },
+          "inverse": {
+            "value": "{api.color.danger}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{ref.darken-amount.inverse}",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "shade": {
+        "body": {
+          "value": "light",
+          "type": "other",
+          "description": "Returns whether bodyFrontBg is a light or dark color."
+        },
+        "header": {
+          "value": "light",
+          "type": "other",
+          "description": "Returns whether headerBg is a light or dark color."
+        },
+        "footer": {
+          "value": "light",
+          "type": "other",
+          "description": "Returns whether bottomTabsBg is a light or dark color."
+        },
+        "auth": {
+          "value": "dark",
+          "type": "other",
+          "description": "Returns whether authBgColor is a light or dark color."
+        },
+        "reg": {
+          "value": "dark",
+          "type": "other",
+          "description": "Returns whether regBgColor is a light or dark color."
+        }
+      },
+      "accent": {
+        "value": "#007AFF",
+        "type": "color"
+      },
+      "info": {
+        "value": "#007AFF",
+        "type": "color"
+      },
+      "success": {
+        "value": "#34C759",
+        "type": "color"
+      },
+      "danger": {
+        "value": "#FF3B30",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#FF9500",
+        "type": "color"
+      },
+      "neutral": {
+        "value": "#202020",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0.08",
+              "space": "lch",
+              "color": "{api.key-color.accent}"
+            }
+          }
+        }
+      }
+    },
+    "palette": {
+      "accent": {
+        "0": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.0}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.10}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.20}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.30}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.40}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.50}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "60": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.60}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "70": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.70}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "80": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.80}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "90": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.90}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "95": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.95}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "98": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.98}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "99": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.99}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "100": {
+          "value": "{api.color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.100}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "info": {
+        "0": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.0}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.10}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.20}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.30}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.40}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.50}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "60": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.60}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "70": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.70}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "80": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.80}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "90": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.90}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "95": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.95}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "98": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.98}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "99": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.99}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "100": {
+          "value": "{api.color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.100}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "success": {
+        "0": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.0}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.10}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.20}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.30}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.40}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.50}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "60": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.60}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "70": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.70}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "80": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.80}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "90": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.90}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "95": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.95}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "98": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.98}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "99": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.99}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "100": {
+          "value": "{api.color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.100}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "danger": {
+        "0": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.0}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.10}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.20}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.30}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.40}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.50}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "60": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.60}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "70": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.70}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "80": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.80}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "90": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.90}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "95": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.95}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "98": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.98}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "99": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.99}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "100": {
+          "value": "{api.color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.100}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "warning": {
+        "0": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.0}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.10}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.20}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.30}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.40}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.50}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "60": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.60}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "70": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.70}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "80": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.80}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "90": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.90}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "95": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.95}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "98": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.98}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "99": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.99}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "100": {
+          "value": "{api.color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.100}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "neutral": {
+        "0": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.0}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "10": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.10}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "20": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.20}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "30": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.30}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "40": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.40}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "50": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{ref.tone-amount.50}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "60": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.60}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "70": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.70}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "80": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.80}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "90": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.90}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "95": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.95}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "98": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.98}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "99": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.99}",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "100": {
+          "value": "{api.color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{ref.tone-amount.100}",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      }
+    },
+    "font": {
+      "plain": {
+        "300": {
+          "value": "{native.font.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{native.font.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{native.font.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{native.font.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{native.font.700}",
+          "type": "fontWeights"
+        },
+        "family": {
+          "value": "{native.font.family}",
+          "type": "fontFamilies"
+        },
+        "scaling": {
+          "value": "1",
+          "type": "number",
+          "description": "Returns the scaling value for the font applied to bodyText as a decimal (i.e. 160% = 1.6)"
+        },
+        "300-italic": {
+          "value": "{native.font.300-italic}",
+          "type": "fontWeights"
+        },
+        "400-italic": {
+          "value": "{native.font.400-italic}",
+          "type": "fontWeights"
+        },
+        "500-italic": {
+          "value": "{native.font.500-italic}",
+          "type": "fontWeights"
+        },
+        "600-italic": {
+          "value": "{native.font.600-italic}",
+          "type": "fontWeights"
+        },
+        "700-italic": {
+          "value": "{native.font.700-italic}",
+          "type": "fontWeights"
+        }
+      },
+      "brand": {
+        "300": {
+          "value": "{native.font.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{native.font.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{native.font.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{native.font.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{native.font.700}",
+          "type": "fontWeights"
+        },
+        "family": {
+          "value": "{native.font.family}",
+          "type": "fontFamilies"
+        },
+        "scaling": {
+          "value": "1",
+          "type": "number",
+          "description": "Returns the scaling value for the font applied to appHeadings as a decimal (i.e. 160% = 1.6)"
+        },
+        "300-italic": {
+          "value": "{native.font.300-italic}",
+          "type": "fontWeights"
+        },
+        "400-italic": {
+          "value": "{native.font.400-italic}",
+          "type": "fontWeights"
+        },
+        "500-italic": {
+          "value": "{native.font.500-italic}",
+          "type": "fontWeights"
+        },
+        "600-italic": {
+          "value": "{native.font.600-italic}",
+          "type": "fontWeights"
+        },
+        "700-italic": {
+          "value": "{native.font.700-italic}",
+          "type": "fontWeights"
+        }
+      },
+      "header": {
+        "300": {
+          "value": "{native.font.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{native.font.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{native.font.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{native.font.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{native.font.700}",
+          "type": "fontWeights"
+        },
+        "family": {
+          "value": "{native.font.family}",
+          "type": "fontFamilies"
+        },
+        "scaling": {
+          "value": "1",
+          "type": "number",
+          "description": "Returns the scaling value for the font applied to appHeaderTitle as a decimal (i.e. 160% = 1.6)"
+        },
+        "300-italic": {
+          "value": "{native.font.300-italic}",
+          "type": "fontWeights"
+        },
+        "400-italic": {
+          "value": "{native.font.400-italic}",
+          "type": "fontWeights"
+        },
+        "500-italic": {
+          "value": "{native.font.500-italic}",
+          "type": "fontWeights"
+        },
+        "600-italic": {
+          "value": "{native.font.600-italic}",
+          "type": "fontWeights"
+        },
+        "700-italic": {
+          "value": "{native.font.700-italic}",
+          "type": "fontWeights"
+        }
+      },
+      "footer": {
+        "300": {
+          "value": "{native.font.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{native.font.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{native.font.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{native.font.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{native.font.700}",
+          "type": "fontWeights"
+        },
+        "family": {
+          "value": "{native.font.family}",
+          "type": "fontFamilies"
+        },
+        "scaling": {
+          "value": "1",
+          "type": "number",
+          "description": "Returns the scaling value for the font applied to appTabBar as a decimal (i.e. 160% = 1.6)"
+        },
+        "300-italic": {
+          "value": "{native.font.300-italic}",
+          "type": "fontWeights"
+        },
+        "400-italic": {
+          "value": "{native.font.400-italic}",
+          "type": "fontWeights"
+        },
+        "500-italic": {
+          "value": "{native.font.500-italic}",
+          "type": "fontWeights"
+        },
+        "600-italic": {
+          "value": "{native.font.600-italic}",
+          "type": "fontWeights"
+        },
+        "700-italic": {
+          "value": "{native.font.700-italic}",
+          "type": "fontWeights"
+        }
+      },
+      "menu": {
+        "300": {
+          "value": "{native.font.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{native.font.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{native.font.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{native.font.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{native.font.700}",
+          "type": "fontWeights"
+        },
+        "family": {
+          "value": "{native.font.family}",
+          "type": "fontFamilies"
+        },
+        "scaling": {
+          "value": "1",
+          "type": "number",
+          "description": "Returns the scaling value for the font applied to appMenus as a decimal (i.e. 160% = 1.6)"
+        },
+        "300-italic": {
+          "value": "{native.font.300-italic}",
+          "type": "fontWeights"
+        },
+        "400-italic": {
+          "value": "{native.font.400-italic}",
+          "type": "fontWeights"
+        },
+        "500-italic": {
+          "value": "{native.font.500-italic}",
+          "type": "fontWeights"
+        },
+        "600-italic": {
+          "value": "{native.font.600-italic}",
+          "type": "fontWeights"
+        },
+        "700-italic": {
+          "value": "{native.font.700-italic}",
+          "type": "fontWeights"
+        }
+      }
+    }
+  }
+}

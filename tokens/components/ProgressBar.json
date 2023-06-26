@@ -1,0 +1,21 @@
+{
+  "ProgressBar": {
+    "shape": {
+      "value": {
+        "height": "",
+        "borderRadius": ""
+      },
+      "type": "composition"
+    },
+    "color": {
+      "bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "fg": {
+        "value": "#",
+        "type": "color"
+      }
+    }
+  }
+}
