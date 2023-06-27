@@ -40,27 +40,27 @@
     },
     "border-radius": {
       "none": {
-        "value": "{border-radius.none}",
+        "value": "{borderRadius.none}",
         "type": "borderRadius"
       },
       "sm": {
-        "value": "{border-radius.sm}",
+        "value": "{borderRadius.sm}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{border-radius.md}",
+        "value": "{borderRadius.md}",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{border-radius.lg}",
+        "value": "{borderRadius.lg}",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{border-radius.xl}",
+        "value": "{borderRadius.xl}",
         "type": "borderRadius"
       },
       "full": {
-        "value": "{border-radius.full}",
+        "value": "{borderRadius.full}",
         "type": "borderRadius"
       }
     },
@@ -410,7 +410,7 @@
       "shape": {
         "value": {
           "spacing": "{spacing.md}",
-          "borderRadius": "{border-radius.sm}",
+          "borderRadius": "{borderRadius.sm}",
           "borderWidth": "{ref.border-width.sm}",
           "borderColor": "{color.border.default}"
         },

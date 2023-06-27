@@ -5,7 +5,7 @@
         "value": {
           "verticalPadding": "{spacing.xxs}",
           "horizontalPadding": "{spacing.sm}",
-          "borderRadius": "{border-radius.full}",
+          "borderRadius": "{borderRadius.full}",
           "height": "{utility.grid-size.20}"
         },
         "type": "composition"
@@ -14,8 +14,8 @@
         "value": {
           "verticalPadding": "{spacing.xxs}",
           "horizontalPadding": "{spacing.md}",
-          "borderRadiusTopRight": "{border-radius.full}",
-          "borderRadiusBottomRight": "{border-radius.full}",
+          "borderRadiusTopRight": "{borderRadius.full}",
+          "borderRadiusBottomRight": "{borderRadius.full}",
           "height": "{utility.grid-size.20}"
         },
         "type": "composition"
@@ -24,7 +24,7 @@
         "value": {
           "verticalPadding": "{spacing.xxs}",
           "horizontalPadding": "{spacing.sm}",
-          "borderRadius": "{border-radius.full}",
+          "borderRadius": "{borderRadius.full}",
           "height": "{utility.grid-size.20}"
         },
         "type": "composition"

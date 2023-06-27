@@ -159,84 +159,47 @@
   },
   "aspect-ratio": {
     "1/1": {
-      "value": {
-        "height": "100%",
-        "width": "100%"
-      },
+      "value": "100%, 100%",
       "type": "other"
     },
     "5/4": {
-      "value": {
-        "height": "80%",
-        "width": "100%"
-      },
+      "value": "100%, 80%",
       "type": "other"
     },
     "4/3": {
-      "value": {
-        "height": "75%",
-        "width": "100%"
-      },
+      "value": "100%, 75%",
       "type": "other"
     },
     "3/2": {
-      "value": {
-        "height": "66.666%",
-        "width": "100%"
-      },
+      "value": "100%, 66.666%",
       "type": "other"
     },
     "16/9": {
-      "value": {
-        "height": "56.25%",
-        "width": "100%"
-      },
+      "value": "100%, 56.25%",
       "type": "other"
     },
     "2/1": {
-      "value": {
-        "height": "100%",
-        "width": "50%"
-      },
+      "value": "50%, 100%",
       "type": "other"
     },
     "4/5": {
-      "value": {
-        "height": "100%",
-        "width": "80%"
-      },
+      "value": "80%, 100%",
       "type": "other"
     },
     "3/4": {
-      "value": {
-        "height": "100%",
-        "width": "75%"
-      },
+      "value": "75%, 100%",
       "type": "other"
     },
     "2/3": {
-      "value": {
-        "height": "100%",
-        "width": "100%"
-      },
+      "value": "66.666%, 100%",
       "type": "other"
     },
     "9/16": {
-      "value": {
-        "height": "100%",
-        "width": "100%"
-      },
+      "value": "56.25%, 100%",
       "type": "other"
     },
     "1/2": {
-      "value": {
-        "height": "100%",
-        "width": "100%"
-      },
-      "type": "other"
-    },
-    "test": {
-      "value": "100%, 100%",
+      "value": "50%, 100%",
       "type": "other"
     }
   }

@@ -6,7 +6,7 @@
           "value": {
             "fontFamily": "{api.fonts.plain.family}",
             "fontWeight": "{api.fonts.plain.400}",
-            "lineHeight": "{ref.typescale.17.lineHeight}",
+            "lineHeights": "{ref.typescale.17.lineHeights}",
             "fontSize": "{ref.typescale.17.fontSize}",
             "letterSpacing": "{ref.letter-spacing.0}"
           },
@@ -16,7 +16,7 @@
           "value": {
             "fontFamily": "{api.fonts.plain.family}",
             "fontWeight": "{api.fonts.plain.400-italic}",
-            "lineHeight": "{ref.typescale.17.lineHeight}",
+            "lineHeights": "{ref.typescale.17.lineHeights}",
             "fontSize": "{ref.typescale.17.fontSize}",
             "letterSpacing": "{ref.letter-spacing.0}"
           },
@@ -26,7 +26,7 @@
           "value": {
             "fontFamily": "{api.fonts.plain.family}",
             "fontWeight": "{api.fonts.plain.500}",
-            "lineHeight": "{ref.typescale.17.lineHeight}",
+            "lineHeights": "{ref.typescale.17.lineHeights}",
             "fontSize": "{ref.typescale.17.fontSize}",
             "letterSpacing": "{ref.letter-spacing.0}"
           },
@@ -38,110 +38,140 @@
   "typescale": {
     "10": {
       "value": {
-        "lineHeight": "12",
+        "lineHeights": "12",
         "fontSize": "10"
       },
       "type": "typography"
     },
     "11": {
       "value": {
-        "lineHeight": "16",
+        "lineHeights": "16",
         "fontSize": "11"
       },
       "type": "typography"
     },
     "13": {
       "value": {
-        "lineHeight": "16",
+        "lineHeights": "16",
         "fontSize": "13"
       },
       "type": "typography"
     },
     "15": {
       "value": {
-        "lineHeight": "20",
+        "lineHeights": "20",
         "fontSize": "15"
       },
       "type": "typography"
     },
     "17": {
       "value": {
-        "lineHeight": "24",
+        "lineHeights": "24",
         "fontSize": "17"
       },
       "type": "typography"
     },
     "20": {
       "value": {
-        "lineHeight": "28",
+        "lineHeights": "28",
         "fontSize": "20"
       },
       "type": "typography"
     },
     "22": {
       "value": {
-        "lineHeight": "28",
+        "lineHeights": "28",
         "fontSize": "22"
       },
       "type": "typography"
     },
     "28": {
       "value": {
-        "lineHeight": "36",
+        "lineHeights": "36",
         "fontSize": "28"
       },
       "type": "typography"
     },
     "36": {
       "value": {
-        "lineHeight": "44",
+        "lineHeights": "44",
         "fontSize": "36"
       },
       "type": "typography"
     },
     "45": {
       "value": {
-        "lineHeight": "52",
+        "lineHeights": "52",
         "fontSize": "45"
       },
       "type": "typography"
     },
     "57": {
       "value": {
-        "lineHeight": "64",
+        "lineHeights": "64",
         "fontSize": "57"
       },
       "type": "typography"
     }
   },
   "letter-spacing": {
-    "0": {
+    "xs": {
+      "value": "-5%",
+      "type": "letterSpacing"
+    },
+    "sm": {
+      "value": "-2.5%",
+      "type": "letterSpacing"
+    },
+    "md": {
       "value": "0",
       "type": "letterSpacing"
     },
-    "10": {
-      "value": "0.1",
+    "lg": {
+      "value": "2.5%",
       "type": "letterSpacing"
     },
-    "15": {
-      "value": "0.15",
+    "xl": {
+      "value": "5%",
       "type": "letterSpacing"
     },
-    "25": {
-      "value": "0.25",
-      "type": "letterSpacing"
-    },
-    "40": {
-      "value": "0.4",
-      "type": "letterSpacing"
-    },
-    "50": {
-      "value": "0.5",
+    "2xl": {
+      "value": "10%",
       "type": "letterSpacing"
     }
   },
-  "text-case": {
-    "default": {
+  "line-height": {
+    "xs": {
+      "value": "100%",
+      "type": "lineHeights"
+    },
+    "sm": {
+      "value": "112.5%",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "125%",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "137.5%",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "150%",
+      "type": "lineHeights"
+    },
+    "2xl": {
+      "value": "175%",
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": "200%",
+      "type": "lineHeights"
+    }
+  },
+  "text-transform": {
+    "none": {
       "value": "none",
       "type": "textCase"
     },

@@ -1,5 +1,5 @@
 {
-  "border-radius": {
+  "borderRadius": {
     "none": {
       "value": "0",
       "type": "borderRadius"

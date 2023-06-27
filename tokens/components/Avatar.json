@@ -49,20 +49,20 @@
     "shape": {
       "rounded": {
         "sm": {
-          "value": "{border-radius.sm}",
+          "value": "{borderRadius.sm}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "{border-radius.sm}",
+          "value": "{borderRadius.sm}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{border-radius.sm}",
+          "value": "{borderRadius.sm}",
           "type": "borderRadius"
         }
       },
       "circle": {
-        "value": "{border-radius.full}",
+        "value": "{borderRadius.full}",
         "type": "borderRadius"
       }
     },
