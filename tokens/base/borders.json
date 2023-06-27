@@ -1,0 +1,24 @@
+{
+  "border-width": {
+    "0": {
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "1": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "2": {
+      "value": "2",
+      "type": "borderWidth"
+    },
+    "4": {
+      "value": "4",
+      "type": "borderWidth"
+    },
+    "8": {
+      "value": "4",
+      "type": "borderWidth"
+    }
+  }
+}

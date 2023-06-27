@@ -1,7 +1,7 @@
 {
   "api": {
-    "legacy": {
-      "color": {
+    "colors": {
+      "legacy": {
         "bodyFrontBg": {
           "value": "#ffffff",
           "type": "color",
@@ -208,400 +208,6 @@
           "description": "Color for benefits checkmark."
         }
       },
-      "palette": {
-        "body": {
-          "01": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x1}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "02": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x2}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "03": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x3}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "04": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x4}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "05": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x5}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "06": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x6}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "inverse": {
-            "value": "{api.legacy.color.bodyFrontBg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.inverse}",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "accent": {
-          "01": {
-            "value": "{api.legacy.color.primaryColor}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x6}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "02": {
-            "value": "{api.legacy.color.primaryColor}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x4}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "03": {
-            "value": "{api.legacy.color.primaryColor}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x5}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "inverse": {
-            "value": "{api.legacy.color.primaryColor}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.darken-amount.inverse}",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "info": {
-          "01": {
-            "value": "{api.color.info}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x6}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "02": {
-            "value": "{api.color.info}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x4}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "03": {
-            "value": "{api.color.info}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x5}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "inverse": {
-            "value": "{api.color.info}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.darken-amount.inverse}",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "success": {
-          "01": {
-            "value": "{api.color.success}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x6}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "02": {
-            "value": "{api.color.success}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x4}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "03": {
-            "value": "{api.color.success}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x5}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "inverse": {
-            "value": "{api.color.success}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.darken-amount.inverse}",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "warning": {
-          "01": {
-            "value": "{api.color.warning}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x6}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "02": {
-            "value": "{api.color.warning}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x4}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "03": {
-            "value": "{api.color.warning}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x5}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "inverse": {
-            "value": "{api.color.warning}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.darken-amount.inverse}",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        },
-        "danger": {
-          "01": {
-            "value": "{api.color.danger}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x6}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "02": {
-            "value": "{api.color.danger}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.lighten-amount.x4}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "03": {
-            "value": "{api.color.danger}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{ref.darken-amount.x5}",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
-          "inverse": {
-            "value": "{api.color.danger}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{ref.darken-amount.inverse}",
-                  "space": "srgb"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "color": {
-      "shade": {
-        "body": {
-          "value": "light",
-          "type": "other",
-          "description": "Returns whether bodyFrontBg is a light or dark color."
-        },
-        "header": {
-          "value": "light",
-          "type": "other",
-          "description": "Returns whether headerBg is a light or dark color."
-        },
-        "footer": {
-          "value": "light",
-          "type": "other",
-          "description": "Returns whether bottomTabsBg is a light or dark color."
-        },
-        "auth": {
-          "value": "dark",
-          "type": "other",
-          "description": "Returns whether authBgColor is a light or dark color."
-        },
-        "reg": {
-          "value": "dark",
-          "type": "other",
-          "description": "Returns whether regBgColor is a light or dark color."
-        }
-      },
       "accent": {
         "value": "#007AFF",
         "type": "color"
@@ -637,1366 +243,310 @@
         }
       }
     },
-    "palette": {
-      "accent": {
-        "0": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.0}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "10": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.10}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "20": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.20}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "30": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.30}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "40": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.40}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "50": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.50}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "60": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.60}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "70": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.70}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "80": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.80}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "90": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.90}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "95": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.95}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "98": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.98}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "99": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.99}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "100": {
-          "value": "{api.color.accent}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.100}",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      },
-      "info": {
-        "0": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.0}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "10": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.10}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "20": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.20}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "30": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.30}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "40": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.40}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "50": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.50}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "60": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.60}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "70": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.70}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "80": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.80}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "90": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.90}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "95": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.95}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "98": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.98}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "99": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.99}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "100": {
-          "value": "{api.color.info}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.100}",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      },
-      "success": {
-        "0": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.0}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "10": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.10}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "20": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.20}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "30": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.30}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "40": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.40}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "50": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.50}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "60": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.60}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "70": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.70}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "80": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.80}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "90": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.90}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "95": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.95}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "98": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.98}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "99": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.99}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "100": {
-          "value": "{api.color.success}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.100}",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      },
-      "danger": {
-        "0": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.0}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "10": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.10}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "20": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.20}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "30": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.30}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "40": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.40}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "50": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.50}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "60": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.60}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "70": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.70}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "80": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.80}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "90": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.90}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "95": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.95}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "98": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.98}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "99": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.99}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "100": {
-          "value": "{api.color.danger}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.100}",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      },
-      "warning": {
-        "0": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.0}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "10": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.10}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "20": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.20}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "30": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.30}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "40": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.40}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "50": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.50}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "60": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.60}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "70": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.70}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "80": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.80}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "90": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.90}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "95": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.95}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "98": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.98}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "99": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.99}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "100": {
-          "value": "{api.color.warning}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.100}",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      },
-      "neutral": {
-        "0": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.0}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "10": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.10}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "20": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.20}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "30": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.30}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "40": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.40}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "50": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "{ref.tone-amount.50}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "60": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.60}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "70": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.70}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "80": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.80}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "90": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.90}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "95": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.95}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "98": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.98}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "99": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.99}",
-                "space": "srgb"
-              }
-            }
-          }
-        },
-        "100": {
-          "value": "{api.color.neutral}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "{ref.tone-amount.100}",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      }
-    },
-    "font": {
+    "fonts": {
       "plain": {
         "300": {
-          "value": "{native.font.300}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.300.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.300.italic}",
+            "type": "fontWeights"
+          }
         },
         "400": {
-          "value": "{native.font.400}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.400.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.400.italic}",
+            "type": "fontWeights"
+          }
         },
         "500": {
-          "value": "{native.font.500}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.500.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.500.italic}",
+            "type": "fontWeights"
+          }
         },
         "600": {
-          "value": "{native.font.600}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.600.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.600.italic}",
+            "type": "fontWeights"
+          }
         },
         "700": {
-          "value": "{native.font.700}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.700.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.700.italic}",
+            "type": "fontWeights"
+          }
         },
-        "family": {
-          "value": "{native.font.family}",
+        "fontfamily": {
+          "value": "{native.font.fontFamily}",
           "type": "fontFamilies"
         },
-        "scaling": {
+        "fontScaling": {
           "value": "1",
           "type": "number",
           "description": "Returns the scaling value for the font applied to bodyText as a decimal (i.e. 160% = 1.6)"
-        },
-        "300-italic": {
-          "value": "{native.font.300-italic}",
-          "type": "fontWeights"
-        },
-        "400-italic": {
-          "value": "{native.font.400-italic}",
-          "type": "fontWeights"
-        },
-        "500-italic": {
-          "value": "{native.font.500-italic}",
-          "type": "fontWeights"
-        },
-        "600-italic": {
-          "value": "{native.font.600-italic}",
-          "type": "fontWeights"
-        },
-        "700-italic": {
-          "value": "{native.font.700-italic}",
-          "type": "fontWeights"
         }
       },
       "brand": {
         "300": {
-          "value": "{native.font.300}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.300.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.300.italic}",
+            "type": "fontWeights"
+          }
         },
         "400": {
-          "value": "{native.font.400}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.400.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.400.italic}",
+            "type": "fontWeights"
+          }
         },
         "500": {
-          "value": "{native.font.500}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.500.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.500.italic}",
+            "type": "fontWeights"
+          }
         },
         "600": {
-          "value": "{native.font.600}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.600.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.600.italic}",
+            "type": "fontWeights"
+          }
         },
         "700": {
-          "value": "{native.font.700}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.700.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.700.italic}",
+            "type": "fontWeights"
+          }
         },
-        "family": {
-          "value": "{native.font.family}",
+        "fontfamily": {
+          "value": "{native.font.fontFamily}",
           "type": "fontFamilies"
         },
-        "scaling": {
+        "fontScaling": {
           "value": "1",
           "type": "number",
-          "description": "Returns the scaling value for the font applied to appHeadings as a decimal (i.e. 160% = 1.6)"
-        },
-        "300-italic": {
-          "value": "{native.font.300-italic}",
-          "type": "fontWeights"
-        },
-        "400-italic": {
-          "value": "{native.font.400-italic}",
-          "type": "fontWeights"
-        },
-        "500-italic": {
-          "value": "{native.font.500-italic}",
-          "type": "fontWeights"
-        },
-        "600-italic": {
-          "value": "{native.font.600-italic}",
-          "type": "fontWeights"
-        },
-        "700-italic": {
-          "value": "{native.font.700-italic}",
-          "type": "fontWeights"
+          "description": ""
         }
       },
       "header": {
         "300": {
-          "value": "{native.font.300}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.300.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.300.italic}",
+            "type": "fontWeights"
+          }
         },
         "400": {
-          "value": "{native.font.400}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.400.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.400.italic}",
+            "type": "fontWeights"
+          }
         },
         "500": {
-          "value": "{native.font.500}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.500.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.500.italic}",
+            "type": "fontWeights"
+          }
         },
         "600": {
-          "value": "{native.font.600}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.600.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.600.italic}",
+            "type": "fontWeights"
+          }
         },
         "700": {
-          "value": "{native.font.700}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.700.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.700.italic}",
+            "type": "fontWeights"
+          }
         },
-        "family": {
-          "value": "{native.font.family}",
+        "fontfamily": {
+          "value": "{native.font.fontFamily}",
           "type": "fontFamilies"
         },
-        "scaling": {
+        "fontScaling": {
           "value": "1",
           "type": "number",
-          "description": "Returns the scaling value for the font applied to appHeaderTitle as a decimal (i.e. 160% = 1.6)"
-        },
-        "300-italic": {
-          "value": "{native.font.300-italic}",
-          "type": "fontWeights"
-        },
-        "400-italic": {
-          "value": "{native.font.400-italic}",
-          "type": "fontWeights"
-        },
-        "500-italic": {
-          "value": "{native.font.500-italic}",
-          "type": "fontWeights"
-        },
-        "600-italic": {
-          "value": "{native.font.600-italic}",
-          "type": "fontWeights"
-        },
-        "700-italic": {
-          "value": "{native.font.700-italic}",
-          "type": "fontWeights"
+          "description": ""
         }
       },
       "footer": {
         "300": {
-          "value": "{native.font.300}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.300.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.300.italic}",
+            "type": "fontWeights"
+          }
         },
         "400": {
-          "value": "{native.font.400}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.400.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.400.italic}",
+            "type": "fontWeights"
+          }
         },
         "500": {
-          "value": "{native.font.500}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.500.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.500.italic}",
+            "type": "fontWeights"
+          }
         },
         "600": {
-          "value": "{native.font.600}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.600.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.600.italic}",
+            "type": "fontWeights"
+          }
         },
         "700": {
-          "value": "{native.font.700}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.700.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.700.italic}",
+            "type": "fontWeights"
+          }
         },
-        "family": {
-          "value": "{native.font.family}",
+        "fontfamily": {
+          "value": "{native.font.fontFamily}",
           "type": "fontFamilies"
         },
-        "scaling": {
+        "fontScaling": {
           "value": "1",
           "type": "number",
-          "description": "Returns the scaling value for the font applied to appTabBar as a decimal (i.e. 160% = 1.6)"
-        },
-        "300-italic": {
-          "value": "{native.font.300-italic}",
-          "type": "fontWeights"
-        },
-        "400-italic": {
-          "value": "{native.font.400-italic}",
-          "type": "fontWeights"
-        },
-        "500-italic": {
-          "value": "{native.font.500-italic}",
-          "type": "fontWeights"
-        },
-        "600-italic": {
-          "value": "{native.font.600-italic}",
-          "type": "fontWeights"
-        },
-        "700-italic": {
-          "value": "{native.font.700-italic}",
-          "type": "fontWeights"
+          "description": ""
         }
       },
       "menu": {
         "300": {
-          "value": "{native.font.300}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.300.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.300.italic}",
+            "type": "fontWeights"
+          }
         },
         "400": {
-          "value": "{native.font.400}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.400.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.400.italic}",
+            "type": "fontWeights"
+          }
         },
         "500": {
-          "value": "{native.font.500}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.500.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.500.italic}",
+            "type": "fontWeights"
+          }
         },
         "600": {
-          "value": "{native.font.600}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.600.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.600.italic}",
+            "type": "fontWeights"
+          }
         },
         "700": {
-          "value": "{native.font.700}",
-          "type": "fontWeights"
+          "normal": {
+            "value": "{native.font.700.normal}",
+            "type": "fontWeights"
+          },
+          "italic": {
+            "value": "{native.font.700.italic}",
+            "type": "fontWeights"
+          }
         },
-        "family": {
-          "value": "{native.font.family}",
+        "fontfamily": {
+          "value": "{native.font.fontFamily}",
           "type": "fontFamilies"
         },
-        "scaling": {
+        "fontScaling": {
           "value": "1",
           "type": "number",
-          "description": "Returns the scaling value for the font applied to appMenus as a decimal (i.e. 160% = 1.6)"
-        },
-        "300-italic": {
-          "value": "{native.font.300-italic}",
-          "type": "fontWeights"
-        },
-        "400-italic": {
-          "value": "{native.font.400-italic}",
-          "type": "fontWeights"
-        },
-        "500-italic": {
-          "value": "{native.font.500-italic}",
-          "type": "fontWeights"
-        },
-        "600-italic": {
-          "value": "{native.font.600-italic}",
-          "type": "fontWeights"
-        },
-        "700-italic": {
-          "value": "{native.font.700-italic}",
-          "type": "fontWeights"
+          "description": ""
         }
       }
     }

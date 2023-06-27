@@ -235,7 +235,7 @@
       },
       "body": {
         "01": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -248,7 +248,7 @@
           }
         },
         "02": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -261,7 +261,7 @@
           }
         },
         "03": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -274,7 +274,7 @@
           }
         },
         "04": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -287,7 +287,7 @@
           }
         },
         "05": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -300,7 +300,7 @@
           }
         },
         "06": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -313,7 +313,7 @@
           }
         },
         "inverse": {
-          "value": "{api.legacy.color.bodyFrontBg}",
+          "value": "{api.colors.legacy.bodyFrontBg}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -328,7 +328,7 @@
       },
       "accent": {
         "01": {
-          "value": "{api.legacy.color.primaryColor}",
+          "value": "{api.colors.legacy.primaryColor}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -341,7 +341,7 @@
           }
         },
         "02": {
-          "value": "{api.legacy.color.primaryColor}",
+          "value": "{api.colors.legacy.primaryColor}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -354,7 +354,7 @@
           }
         },
         "03": {
-          "value": "{api.legacy.color.primaryColor}",
+          "value": "{api.colors.legacy.primaryColor}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -367,7 +367,7 @@
           }
         },
         "inverse": {
-          "value": "{api.legacy.color.primaryColor}",
+          "value": "{api.colors.legacy.primaryColor}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {

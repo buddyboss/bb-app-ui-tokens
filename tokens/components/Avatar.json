@@ -1,143 +1,107 @@
 {
-  "styles": {
-    "Avatar": {
-      "xs": {
-        "value": {
-          "sizing": "{utility.grid-size.20}"
-        },
-        "type": "composition"
-      },
+  "Avatar": {
+    "font": {
       "sm": {
         "value": {
-          "sizing": "{utility.grid-size.24}"
+          "fontFamily": "{font.family.plain}",
+          "fontWeight": "{ref.font-weight.plain-bold}",
+          "lineHeight": "{ref.font-size.tiny.lineHeight}",
+          "fontSize": "{ref.font-size.tiny.fontSize}",
+          "textCase": "{ref.text-case.uppercase}"
         },
-        "type": "composition"
+        "type": "typography"
       },
       "md": {
         "value": {
-          "sizing": "{utility.grid-size.32}"
+          "fontFamily": "{font.family.plain}",
+          "fontWeight": "{ref.font-weight.plain-semibold}",
+          "lineHeight": "{ref.font-size.xs.lineHeight}",
+          "fontSize": "{ref.font-size.xs.fontSize}",
+          "textCase": "{ref.text-case.uppercase}"
         },
-        "type": "composition"
+        "type": "typography"
       },
       "lg": {
         "value": {
-          "sizing": "{utility.grid-size.40}"
+          "fontFamily": "{font.family.plain}",
+          "fontWeight": "{ref.font-weight.plain-semibold}",
+          "lineHeight": "{ref.font-size.sm.lineHeight}",
+          "fontSize": "{ref.font-size.sm.fontSize}",
+          "textCase": "{ref.text-case.uppercase}"
         },
-        "type": "composition"
+        "type": "typography"
+      }
+    },
+    "size": {
+      "sm": {
+        "value": "{ref.grid-size.20}",
+        "type": "sizing"
       },
-      "xl": {
-        "value": {
-          "sizing": "{utility.grid-size.56}"
-        },
-        "type": "composition"
+      "md": {
+        "value": "{ref.grid-size.20}",
+        "type": "sizing"
       },
-      "huge": {
-        "value": {
-          "sizing": "{utility.grid-size.120}"
-        },
-        "type": "composition"
-      },
-      "initials": {
-        "xs": {
-          "value": {
-            "fontFamily": "{font.family.plain}",
-            "fontWeight": "{ref.font-weight.plain-bold}",
-            "lineHeight": "{ref.font-size.tiny.lineHeight}",
-            "fontSize": "8",
-            "textCase": "{ref.text-case.uppercase}"
-          },
-          "type": "typography"
-        },
+      "lg": {
+        "value": "{ref.grid-size.20}",
+        "type": "sizing"
+      }
+    },
+    "shape": {
+      "rounded": {
         "sm": {
-          "value": {
-            "fontFamily": "{font.family.plain}",
-            "fontWeight": "{ref.font-weight.plain-bold}",
-            "lineHeight": "{ref.font-size.tiny.lineHeight}",
-            "fontSize": "{ref.font-size.tiny.fontSize}",
-            "textCase": "{ref.text-case.uppercase}"
-          },
-          "type": "typography"
+          "value": "{border-radius.sm}",
+          "type": "borderRadius"
         },
         "md": {
-          "value": {
-            "fontFamily": "{font.family.plain}",
-            "fontWeight": "{ref.font-weight.plain-semibold}",
-            "lineHeight": "{ref.font-size.xs.lineHeight}",
-            "fontSize": "{ref.font-size.xs.fontSize}",
-            "textCase": "{ref.text-case.uppercase}"
-          },
-          "type": "typography"
+          "value": "{border-radius.sm}",
+          "type": "borderRadius"
         },
         "lg": {
-          "value": {
-            "fontFamily": "{font.family.plain}",
-            "fontWeight": "{ref.font-weight.plain-semibold}",
-            "lineHeight": "{ref.font-size.sm.lineHeight}",
-            "fontSize": "{ref.font-size.sm.fontSize}",
-            "textCase": "{ref.text-case.uppercase}"
-          },
-          "type": "typography"
-        },
-        "xl": {
-          "value": {
-            "fontFamily": "{font.family.plain}",
-            "fontWeight": "{ref.font-weight.plain-semibold}",
-            "lineHeight": "{ref.font-size.xl.lineHeight}",
-            "fontSize": "{ref.font-size.xl.fontSize}",
-            "textCase": "{ref.text-case.uppercase}"
-          },
-          "type": "typography"
-        },
-        "huge": {
-          "value": {
-            "fontFamily": "{font.family.plain}",
-            "fontWeight": "{ref.font-weight.plain-semibold}",
-            "lineHeight": "{ref.font-size.4xl.lineHeight}",
-            "fontSize": "{ref.font-size.4xl.fontSize}",
-            "textCase": "{ref.text-case.uppercase}"
-          },
-          "type": "typography"
+          "value": "{border-radius.sm}",
+          "type": "borderRadius"
         }
       },
+      "circle": {
+        "value": "{border-radius.full}",
+        "type": "borderRadius"
+      }
+    },
+    "border": {
+      "value": {
+        "color": "{color.transparent}",
+        "width": "{ref.border-width.none}"
+      },
+      "type": "border"
+    },
+    "outline": {
+      "value": {
+        "color": "{color.transparent}",
+        "width": "{ref.border-width.none}"
+      },
+      "type": "border"
+    },
+    "color": {
+      "bg": {
+        "value": "#",
+        "type": "color"
+      },
+      "fg": {
+        "value": "#",
+        "type": "color"
+      }
+    },
+    "states": {
       "pressed": {
-        "value": "{opacity.pressed}",
-        "type": "opacity",
-        "description": "Applied to avatars during onPress events."
+        "value": {
+          "opacity": "{opacity.pressed}"
+        },
+        "type": "composition"
       },
       "disabled": {
-        "value": "{opacity.disabled}",
-        "type": "opacity",
-        "description": "Applied to avatars when disabled."
-      },
-      "border-radius": {
-        "xs": {
-          "value": "{shape.corner.sm}",
-          "type": "borderRadius"
+        "value": {
+          "opacity": "{opacity.pressed}"
         },
-        "sm": {
-          "value": "{shape.corner.sm}",
-          "type": "borderRadius"
-        },
-        "md": {
-          "value": "{shape.corner.md}",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "{shape.corner.md}",
-          "type": "borderRadius"
-        },
-        "xl": {
-          "value": "{shape.corner.lg}",
-          "type": "borderRadius"
-        },
-        "huge": {
-          "value": "{shape.corner.xl}",
-          "type": "borderRadius"
-        },
-        "circle": {
-          "value": "{shape.corner.full}",
-          "type": "borderRadius"
-        }
+        "type": "composition"
       }
     }
   }

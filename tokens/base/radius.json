@@ -1,0 +1,40 @@
+{
+  "border-radius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "xs": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "2xl": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "3xl": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "full": {
+      "value": "9999",
+      "type": "borderRadius"
+    }
+  }
+}

@@ -1,7 +1,14 @@
 {
   "tokenSetOrder": [
-    "base/ref",
-    "base/system",
+    "base/borders",
+    "base/colors",
+    "base/motion",
+    "base/opacity",
+    "base/radius",
+    "base/shadows",
+    "base/sizes",
+    "base/space",
+    "base/typography",
     "base/web",
     "device/ios",
     "device/android",

@@ -3,28 +3,28 @@
     "Label": {
       "default": {
         "value": {
-          "verticalPadding": "{shape.spacing.xxs}",
-          "horizontalPadding": "{shape.spacing.sm}",
-          "borderRadius": "{shape.corner.full}",
+          "verticalPadding": "{spacing.xxs}",
+          "horizontalPadding": "{spacing.sm}",
+          "borderRadius": "{border-radius.full}",
           "height": "{utility.grid-size.20}"
         },
         "type": "composition"
       },
       "thumbnail": {
         "value": {
-          "verticalPadding": "{shape.spacing.xxs}",
-          "horizontalPadding": "{shape.spacing.md}",
-          "borderRadiusTopRight": "{shape.corner.full}",
-          "borderRadiusBottomRight": "{shape.corner.full}",
+          "verticalPadding": "{spacing.xxs}",
+          "horizontalPadding": "{spacing.md}",
+          "borderRadiusTopRight": "{border-radius.full}",
+          "borderRadiusBottomRight": "{border-radius.full}",
           "height": "{utility.grid-size.20}"
         },
         "type": "composition"
       },
       "status": {
         "value": {
-          "verticalPadding": "{shape.spacing.xxs}",
-          "horizontalPadding": "{shape.spacing.sm}",
-          "borderRadius": "{shape.corner.full}",
+          "verticalPadding": "{spacing.xxs}",
+          "horizontalPadding": "{spacing.sm}",
+          "borderRadius": "{border-radius.full}",
           "height": "{utility.grid-size.20}"
         },
         "type": "composition"
@@ -33,23 +33,23 @@
         "default": {
           "value": {
             "height": "{utility.grid-size.16}",
-            "horizontalPadding": "{shape.spacing.xs}",
-            "paddingBottom": "{shape.spacing.xxs}"
+            "horizontalPadding": "{spacing.xs}",
+            "paddingBottom": "{spacing.xxs}"
           },
           "type": "composition"
         },
         "thumbnail": {
           "value": {
             "height": "{utility.grid-size.16}",
-            "paddingBottom": "{shape.spacing.xxs}"
+            "paddingBottom": "{spacing.xxs}"
           },
           "type": "composition"
         },
         "status": {
           "value": {
             "height": "{utility.grid-size.16}",
-            "horizontalPadding": "{shape.spacing.xs}",
-            "paddingBottom": "{shape.spacing.xxs}"
+            "horizontalPadding": "{spacing.xs}",
+            "paddingBottom": "{spacing.xxs}"
           },
           "type": "composition"
         }

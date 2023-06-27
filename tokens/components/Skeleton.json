@@ -28,11 +28,11 @@
         },
         "border-radius": {
           "xl": {
-            "value": "{shape.corner.md}",
+            "value": "{border-radius.md}",
             "type": "borderRadius"
           },
           "lg": {
-            "value": "{shape.corner.sm}",
+            "value": "{border-radius.sm}",
             "type": "borderRadius"
           },
           "md": {
@@ -44,7 +44,7 @@
             "type": "borderRadius"
           },
           "pill": {
-            "value": "{shape.corner.full}",
+            "value": "{border-radius.full}",
             "type": "borderRadius"
           }
         }

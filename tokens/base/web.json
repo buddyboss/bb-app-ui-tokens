@@ -2,65 +2,65 @@
   "web": {
     "spacing": {
       "xxs": {
-        "value": "{shape.spacing.xxs}",
+        "value": "{spacing.xxs}",
         "type": "spacing"
       },
       "xs": {
-        "value": "{shape.spacing.xs}",
+        "value": "{spacing.xs}",
         "type": "spacing"
       },
       "sm": {
-        "value": "{shape.spacing.sm}",
+        "value": "{spacing.sm}",
         "type": "spacing"
       },
       "md": {
-        "value": "{shape.spacing.md}",
+        "value": "{spacing.md}",
         "type": "spacing"
       },
       "lg": {
-        "value": "{shape.spacing.lg}",
+        "value": "{spacing.lg}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{shape.spacing.xl}",
+        "value": "{spacing.xl}",
         "type": "spacing"
       },
       "xxl": {
-        "value": "{shape.spacing.xxl}",
+        "value": "{spacing.xxl}",
         "type": "spacing"
       },
       "xxxl": {
-        "value": "{shape.spacing.xxxl}",
+        "value": "{spacing.xxxl}",
         "type": "spacing"
       },
       "none": {
-        "value": "{shape.spacing.xxxl}",
+        "value": "{spacing.xxxl}",
         "type": "spacing"
       }
     },
     "border-radius": {
       "none": {
-        "value": "{shape.corner.none}",
+        "value": "{border-radius.none}",
         "type": "borderRadius"
       },
       "sm": {
-        "value": "{shape.corner.sm}",
+        "value": "{border-radius.sm}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{shape.corner.md}",
+        "value": "{border-radius.md}",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{shape.corner.lg}",
+        "value": "{border-radius.lg}",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{shape.corner.xl}",
+        "value": "{border-radius.xl}",
         "type": "borderRadius"
       },
       "full": {
-        "value": "{shape.corner.full}",
+        "value": "{border-radius.full}",
         "type": "borderRadius"
       }
     },
@@ -129,9 +129,9 @@
     "body": {
       "shape": {
         "value": {
-          "itemSpacing": "{shape.spacing.md}",
-          "horizontalPadding": "{shape.spacing.margin}",
-          "verticalPadding": "{shape.spacing.md}"
+          "itemSpacing": "{spacing.md}",
+          "horizontalPadding": "{spacing.margin}",
+          "verticalPadding": "{spacing.md}"
         },
         "type": "composition"
       },
@@ -333,7 +333,7 @@
     "description": {
       "list": {
         "value": {
-          "itemSpacing": "{shape.spacing.sm}"
+          "itemSpacing": "{spacing.sm}"
         },
         "type": "composition"
       },
@@ -345,7 +345,7 @@
       },
       "details": {
         "value": {
-          "paddingLeft": "{shape.spacing.md}"
+          "paddingLeft": "{spacing.md}"
         },
         "type": "composition"
       }
@@ -409,8 +409,8 @@
     "form": {
       "shape": {
         "value": {
-          "spacing": "{shape.spacing.md}",
-          "borderRadius": "{shape.corner.sm}",
+          "spacing": "{spacing.md}",
+          "borderRadius": "{border-radius.sm}",
           "borderWidth": "{ref.border-width.sm}",
           "borderColor": "{color.border.default}"
         },
@@ -418,7 +418,7 @@
       },
       "legend": {
         "value": {
-          "spacing": "{shape.spacing.sm}",
+          "spacing": "{spacing.sm}",
           "fontWeights": "500"
         },
         "type": "composition"
@@ -432,7 +432,7 @@
       },
       "field": {
         "value": {
-          "itemSpacing": "{shape.spacing.sm}"
+          "itemSpacing": "{spacing.sm}"
         },
         "type": "composition"
       },
@@ -457,7 +457,7 @@
           "height": "{TextInput.shape.height}",
           "horizontalPadding": "{TextInput.shape.horizontalPadding}",
           "borderRadius": "{TextInput.shape.borderRadius}",
-          "itemSpacing": "{shape.spacing.sm}"
+          "itemSpacing": "{spacing.sm}"
         },
         "type": "composition"
       },

@@ -1,0 +1,124 @@
+{
+  "spacing": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "1": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "2": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "3": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "4": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "5": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "6": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "7": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "9": {
+      "value": "36",
+      "type": "spacing"
+    },
+    "10": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "48",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "64",
+      "type": "spacing"
+    },
+    "20": {
+      "value": "80",
+      "type": "spacing"
+    },
+    "24": {
+      "value": "96",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "128",
+      "type": "spacing"
+    },
+    "40": {
+      "value": "160",
+      "type": "spacing"
+    },
+    "48": {
+      "value": "192",
+      "type": "spacing"
+    },
+    "56": {
+      "value": "224",
+      "type": "spacing"
+    },
+    "64": {
+      "value": "256",
+      "type": "spacing"
+    },
+    "72": {
+      "value": "288",
+      "type": "spacing"
+    },
+    "80": {
+      "value": "320",
+      "type": "spacing"
+    },
+    "96": {
+      "value": "384",
+      "type": "spacing"
+    },
+    "none": {
+      "value": "{spacing.0}",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "{spacing.2}",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "{spacing.4}",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "{spacing.6}",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "{spacing.8}",
+      "type": "spacing"
+    },
+    "full": {
+      "value": "100%",
+      "type": "spacing"
+    },
+    "margin": {
+      "value": "{spacing.4}",
+      "type": "spacing"
+    }
+  }
+}

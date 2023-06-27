@@ -1,0 +1,55 @@
+{
+  "motion": {
+    "productive": {
+      "short": {
+        "value": "70",
+        "type": "other",
+        "description": "Use when components require minor changes, micro-Interactions, and fades"
+      },
+      "medium": {
+        "value": "100",
+        "type": "other",
+        "description": "Use when components require medium changes, small expansions, and notifications"
+      },
+      "long": {
+        "value": "150",
+        "type": "other",
+        "description": "Use when components require major changes, expansions, and distance movement"
+      }
+    },
+    "expressive": {
+      "short": {
+        "value": "250",
+        "type": "other",
+        "description": "Expansions and other change in states that require attention during movement"
+      },
+      "long": {
+        "value": "400",
+        "type": "other",
+        "description": "Alerts, notifications, sheets and other mediations that enter the screen with movement"
+      }
+    },
+    "easing": {
+      "enter": {
+        "value": "0,0,0.35,1",
+        "type": "other",
+        "description": "Decelerated easing. Use when an object enters from out of screen to reveal extra information."
+      },
+      "exit": {
+        "value": "0.4,0,1,1",
+        "type": "other",
+        "description": "Accelerated easing. Use when object leaves the screen to hide element."
+      },
+      "transition": {
+        "value": "0.4,0,0.2,1",
+        "type": "other",
+        "description": "Standard easing. Use to transition between different states of the same element in screen."
+      },
+      "emphasize": {
+        "value": "0,0,0.2,1.4",
+        "type": "other",
+        "description": "Elastic easing. Use to draw attention to a specific action or specific information. Duration must be over 200ms."
+      }
+    }
+  }
+}

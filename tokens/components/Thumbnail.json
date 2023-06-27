@@ -43,23 +43,23 @@
       },
       "border-radius": {
         "xl": {
-          "value": "{shape.corner.xl}",
+          "value": "{border-radius.xl}",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "{shape.corner.lg}",
+          "value": "{border-radius.lg}",
           "type": "borderRadius"
         },
         "md": {
-          "value": "{shape.corner.lg}",
+          "value": "{border-radius.lg}",
           "type": "borderRadius"
         },
         "sm": {
-          "value": "{shape.corner.md}",
+          "value": "{border-radius.md}",
           "type": "borderRadius"
         },
         "xs": {
-          "value": "{shape.corner.md}",
+          "value": "{border-radius.md}",
           "type": "borderRadius"
         }
       },
@@ -67,7 +67,7 @@
         "xl": {
           "value": {
             "sizing": "{utility.grid-size.48}",
-            "borderRadius": "{shape.corner.full}",
+            "borderRadius": "{border-radius.full}",
             "fill": "{color.image.item-bg}"
           },
           "type": "composition"
@@ -75,7 +75,7 @@
         "lg": {
           "value": {
             "sizing": "36",
-            "borderRadius": "{shape.corner.full}",
+            "borderRadius": "{border-radius.full}",
             "fill": "{color.image.item-bg}"
           },
           "type": "composition"
@@ -83,7 +83,7 @@
         "md": {
           "value": {
             "sizing": "{utility.grid-size.32}",
-            "borderRadius": "{shape.corner.full}",
+            "borderRadius": "{border-radius.full}",
             "fill": "{color.image.item-bg}"
           },
           "type": "composition"
@@ -91,7 +91,7 @@
         "sm": {
           "value": {
             "sizing": "{utility.grid-size.28}",
-            "borderRadius": "{shape.corner.full}",
+            "borderRadius": "{border-radius.full}",
             "fill": "{color.image.item-bg}"
           },
           "type": "composition"
@@ -99,7 +99,7 @@
         "xs": {
           "value": {
             "sizing": "{utility.grid-size.24}",
-            "borderRadius": "{shape.corner.full}",
+            "borderRadius": "{border-radius.full}",
             "fill": "{color.image.item-bg}"
           },
           "type": "composition"

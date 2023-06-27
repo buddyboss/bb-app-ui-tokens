@@ -1,57 +1,69 @@
 {
   "native": {
-    "header": {
-      "value": "44",
-      "type": "sizing"
-    },
-    "footer": {
-      "value": "34",
-      "type": "sizing"
+    "sizing": {
+      "header": {
+        "value": "44",
+        "type": "sizing"
+      },
+      "footer": {
+        "value": "34",
+        "type": "sizing"
+      }
     },
     "font": {
       "300": {
-        "value": "Light",
-        "type": "fontWeights"
+        "normal": {
+          "value": "Light",
+          "type": "fontWeights"
+        },
+        "italic": {
+          "value": "Light Italic",
+          "type": "fontWeights"
+        }
       },
       "400": {
-        "value": "Regular",
-        "type": "fontWeights"
+        "normal": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "italic": {
+          "value": "Regular Italic",
+          "type": "fontWeights"
+        }
       },
       "500": {
-        "value": "Medium",
-        "type": "fontWeights"
+        "normal": {
+          "value": "Medium",
+          "type": "fontWeights"
+        },
+        "italic": {
+          "value": "Medium Italic",
+          "type": "fontWeights"
+        }
       },
       "600": {
-        "value": "Semibold",
-        "type": "fontWeights"
+        "normal": {
+          "value": "Semibold",
+          "type": "fontWeights"
+        },
+        "italic": {
+          "value": "Semibold Italic",
+          "type": "fontWeights"
+        }
       },
       "700": {
-        "value": "Bold",
-        "type": "fontWeights"
+        "normal": {
+          "value": "Bold",
+          "type": "fontWeights"
+        },
+        "italic": {
+          "value": "Bold Italic",
+          "type": "fontWeights"
+        }
       },
-      "family": {
+      "fontFamily": {
         "value": "SF Pro",
         "type": "fontFamilies"
-      },
-      "300-italic": {
-        "value": "Light Italic",
-        "type": "fontWeights"
-      },
-      "400-italic": {
-        "value": "Regular Italic",
-        "type": "fontWeights"
-      },
-      "500-italic": {
-        "value": "Medium Italic",
-        "type": "fontWeights"
-      },
-      "600-italic": {
-        "value": "Semibold Italic",
-        "type": "fontWeights"
-      },
-      "700-italic": {
-        "value": "Bold Italic",
-        "type": "fontWeights"
       }
     }
   }
