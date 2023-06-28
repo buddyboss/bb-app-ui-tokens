@@ -1,5 +1,5 @@
 {
-  "borderWidths": {
+  "borderWidth": {
     "0": {
       "value": "0",
       "type": "borderWidth"

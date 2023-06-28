@@ -1,5 +1,5 @@
 {
-  "sizing": {
+  "size": {
     "0": {
       "value": "0",
       "type": "sizing"
@@ -157,7 +157,7 @@
       "type": "sizing"
     }
   },
-  "aspect-ratio": {
+  "aspectRatio": {
     "1/1": {
       "value": "100%, 100%",
       "type": "other"
