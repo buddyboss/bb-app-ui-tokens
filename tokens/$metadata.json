@@ -10,6 +10,7 @@
     "base/space",
     "base/typography",
     "base/web",
+    "base/map",
     "device/ios",
     "device/android",
     "mode/light",

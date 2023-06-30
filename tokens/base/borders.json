@@ -1,23 +1,23 @@
 {
   "borderWidth": {
-    "0": {
+    "none": {
       "value": "0",
       "type": "borderWidth"
     },
-    "1": {
+    "sm": {
       "value": "1",
       "type": "borderWidth"
     },
-    "2": {
+    "md": {
       "value": "2",
       "type": "borderWidth"
     },
-    "4": {
+    "lg": {
       "value": "4",
       "type": "borderWidth"
     },
-    "8": {
-      "value": "4",
+    "xl": {
+      "value": "8",
       "type": "borderWidth"
     }
   }

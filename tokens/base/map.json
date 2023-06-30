@@ -1,0 +1,206 @@
+{
+  "color": {
+    "value": "color",
+    "type": "property"
+  },
+  "bg": {
+    "value": "color",
+    "type": "property"
+  },
+  "gap": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "margin": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "m": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "marginX": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "mx": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "marginY": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "my": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "marginTop": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "mt": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "marginBottom": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "mb": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "marginLeft": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "ml": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "marginRight": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "mr": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "padding": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "p": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "paddingX": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "px": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "paddingY": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "py": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "paddingTop": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "pt": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "paddingBottom": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "pb": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "paddingLeft": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "pl": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "paddingRight": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "pr": {
+    "value": "spacing",
+    "type": "property"
+  },
+  "ratio": {
+    "value": "aspectRatio",
+    "type": "property"
+  },
+  "size": {
+    "value": "size",
+    "type": "property"
+  },
+  "height": {
+    "value": "size",
+    "type": "property"
+  },
+  "h": {
+    "value": "size",
+    "type": "property"
+  },
+  "width": {
+    "value": "size",
+    "type": "property"
+  },
+  "w": {
+    "value": "size",
+    "type": "property"
+  },
+  "borderRadius": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "br": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "borderRadiusX": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "brx": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "borderRadiusY": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "bry": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "borderTopRightRadius": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "btrr": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "borderBottomRightRadius": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "bbrr": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "borderBottomLeftRadius": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "bblr": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "borderTopLeftRadius": {
+    "value": "borderRadius",
+    "type": "property"
+  },
+  "btlr": {
+    "value": "borderRadius",
+    "type": "property"
+  }
+}

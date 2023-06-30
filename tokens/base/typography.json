@@ -201,5 +201,11 @@
       "value": "line-through",
       "type": "textDecoration"
     }
+  },
+  "fontSize": {
+    "2xs": {
+      "value": "10",
+      "type": "fontSizes"
+    }
   }
 }
