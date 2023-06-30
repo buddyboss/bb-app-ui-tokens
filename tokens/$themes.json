@@ -41,8 +41,7 @@
       "base/colors": "enabled",
       "base/motion": "enabled",
       "base/typography": "enabled",
-      "base/sizes": "enabled",
-      "base/map": "disabled"
+      "base/sizes": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:3",
     "$figmaModeId": "45:0",
@@ -54,8 +53,7 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/default": "enabled",
-      "base/map": "disabled"
+      "brand/default": "enabled"
     },
     "group": "brand",
     "$figmaCollectionId": "VariableCollectionId:45:199",
@@ -68,8 +66,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/financial": "enabled",
-      "brand/default": "source",
-      "base/map": "disabled"
+      "brand/default": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:2",
@@ -82,8 +79,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/fitness": "enabled",
-      "brand/default": "source",
-      "base/map": "disabled"
+      "brand/default": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:3",
@@ -96,8 +92,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/gaming": "enabled",
-      "brand/default": "source",
-      "base/map": "disabled"
+      "brand/default": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:4",
@@ -109,8 +104,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "mode/light": "enabled",
-      "base/map": "disabled"
+      "mode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:268",
     "$figmaModeId": "45:5",
@@ -122,8 +116,7 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "mode/dark": "enabled",
-      "base/map": "disabled"
+      "mode/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:268",
     "$figmaModeId": "45:6",
@@ -135,8 +128,7 @@
     "name": "legacy",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "mode/legacy": "enabled",
-      "base/map": "disabled"
+      "mode/legacy": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:268",
     "$figmaModeId": "45:7",
@@ -148,8 +140,7 @@
     "name": "ios",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "device/ios": "enabled",
-      "base/map": "disabled"
+      "device/ios": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:340",
     "$figmaModeId": "45:9",
@@ -161,8 +152,7 @@
     "name": "android",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "device/android": "enabled",
-      "base/map": "disabled"
+      "device/android": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:340",
     "$figmaModeId": "45:8",
