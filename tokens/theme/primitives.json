@@ -1,0 +1,635 @@
+{
+  "size": {
+    "0": {
+      "value": "0",
+      "type": "sizing"
+    },
+    "1": {
+      "value": "4",
+      "type": "sizing"
+    },
+    "2": {
+      "value": "8",
+      "type": "sizing"
+    },
+    "3": {
+      "value": "12",
+      "type": "sizing"
+    },
+    "4": {
+      "value": "16",
+      "type": "sizing"
+    },
+    "5": {
+      "value": "20",
+      "type": "sizing"
+    },
+    "6": {
+      "value": "24",
+      "type": "sizing"
+    },
+    "7": {
+      "value": "28",
+      "type": "sizing"
+    },
+    "8": {
+      "value": "32",
+      "type": "sizing"
+    },
+    "9": {
+      "value": "36",
+      "type": "sizing"
+    },
+    "10": {
+      "value": "40",
+      "type": "sizing"
+    },
+    "12": {
+      "value": "48",
+      "type": "sizing"
+    },
+    "16": {
+      "value": "64",
+      "type": "sizing"
+    },
+    "20": {
+      "value": "80",
+      "type": "sizing"
+    },
+    "24": {
+      "value": "96",
+      "type": "sizing"
+    },
+    "32": {
+      "value": "128",
+      "type": "sizing"
+    },
+    "40": {
+      "value": "160",
+      "type": "sizing"
+    },
+    "48": {
+      "value": "192",
+      "type": "sizing"
+    },
+    "56": {
+      "value": "224",
+      "type": "sizing"
+    },
+    "64": {
+      "value": "256",
+      "type": "sizing"
+    },
+    "72": {
+      "value": "288",
+      "type": "sizing"
+    },
+    "80": {
+      "value": "320",
+      "type": "sizing"
+    },
+    "96": {
+      "value": "384",
+      "type": "sizing"
+    },
+    "1/2": {
+      "value": "50%",
+      "type": "sizing"
+    },
+    "1/3": {
+      "value": "33.333%",
+      "type": "sizing"
+    },
+    "2/3": {
+      "value": "66.666%",
+      "type": "sizing"
+    },
+    "1/4": {
+      "value": "25%",
+      "type": "sizing"
+    },
+    "2/4": {
+      "value": "50%",
+      "type": "sizing"
+    },
+    "3/4": {
+      "value": "75%",
+      "type": "sizing"
+    },
+    "1/5": {
+      "value": "20%",
+      "type": "sizing"
+    },
+    "2/5": {
+      "value": "40%",
+      "type": "sizing"
+    },
+    "3/5": {
+      "value": "60%",
+      "type": "sizing"
+    },
+    "4/5": {
+      "value": "80%",
+      "type": "sizing"
+    },
+    "1/6": {
+      "value": "16.666%",
+      "type": "sizing"
+    },
+    "2/6": {
+      "value": "33.333%",
+      "type": "sizing"
+    },
+    "3/6": {
+      "value": "50%",
+      "type": "sizing"
+    },
+    "4/6": {
+      "value": "66.666%",
+      "type": "sizing"
+    },
+    "5/6": {
+      "value": "83.333%",
+      "type": "sizing"
+    },
+    "full": {
+      "value": "100%",
+      "type": "sizing"
+    }
+  },
+  "aspectRatio": {
+    "1/1": {
+      "value": "100%, 100%",
+      "type": "other"
+    },
+    "5/4": {
+      "value": "100%, 80%",
+      "type": "other"
+    },
+    "4/3": {
+      "value": "100%, 75%",
+      "type": "other"
+    },
+    "3/2": {
+      "value": "100%, 66.666%",
+      "type": "other"
+    },
+    "16/9": {
+      "value": "100%, 56.25%",
+      "type": "other"
+    },
+    "2/1": {
+      "value": "50%, 100%",
+      "type": "other"
+    },
+    "4/5": {
+      "value": "80%, 100%",
+      "type": "other"
+    },
+    "3/4": {
+      "value": "75%, 100%",
+      "type": "other"
+    },
+    "2/3": {
+      "value": "66.666%, 100%",
+      "type": "other"
+    },
+    "9/16": {
+      "value": "56.25%, 100%",
+      "type": "other"
+    },
+    "1/2": {
+      "value": "50%, 100%",
+      "type": "other"
+    }
+  },
+  "space": {
+    "sm": {
+      "value": "{size.2}",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "{size.4}",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "{size.6}",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "{size.8}",
+      "type": "spacing"
+    },
+    "full": {
+      "value": "{size.full}",
+      "type": "spacing"
+    },
+    "margin": {
+      "value": "{size.4}",
+      "type": "spacing"
+    }
+  },
+  "borderRadius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "xs": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "2xl": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "3xl": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "full": {
+      "value": "9999",
+      "type": "borderRadius"
+    }
+  },
+  "borderWidth": {
+    "0": {
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "1": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "2": {
+      "value": "2",
+      "type": "borderWidth"
+    },
+    "4": {
+      "value": "4",
+      "type": "borderWidth"
+    },
+    "8": {
+      "value": "4",
+      "type": "borderWidth"
+    }
+  },
+  "fontSize": {
+    "2xs": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "18",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "22",
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": "24",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "28",
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": "32",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "40",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "48",
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": "64",
+      "type": "fontSizes"
+    }
+  },
+  "lineHeight": {
+    "2xs": {
+      "value": "16",
+      "type": "lineHeights"
+    },
+    "xs": {
+      "value": "18",
+      "type": "lineHeights"
+    },
+    "sm": {
+      "value": "20",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "22",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "24",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "28",
+      "type": "lineHeights"
+    },
+    "2xl": {
+      "value": "32",
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": "40",
+      "type": "lineHeights"
+    },
+    "4xl": {
+      "value": "48",
+      "type": "lineHeights"
+    },
+    "5xl": {
+      "value": "64",
+      "type": "lineHeights"
+    }
+  },
+  "letterSpacing": {
+    "xs": {
+      "value": "-5%",
+      "type": "letterSpacing"
+    },
+    "sm": {
+      "value": "-2.5%",
+      "type": "letterSpacing"
+    },
+    "md": {
+      "value": "0",
+      "type": "letterSpacing"
+    },
+    "lg": {
+      "value": "2.5%",
+      "type": "letterSpacing"
+    },
+    "xl": {
+      "value": "5%",
+      "type": "letterSpacing"
+    },
+    "2xl": {
+      "value": "10%",
+      "type": "letterSpacing"
+    }
+  },
+  "textCase": {
+    "normal": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase"
+    },
+    "lowercase": {
+      "value": "lowercase",
+      "type": "textCase"
+    },
+    "capitalize": {
+      "value": "capitalize",
+      "type": "textCase"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
+    }
+  },
+  "duration": {
+    "productive": {
+      "short": {
+        "value": "70",
+        "type": "other",
+        "description": "Use when components require minor changes, micro-Interactions, and fades"
+      },
+      "medium": {
+        "value": "100",
+        "type": "other",
+        "description": "Use when components require medium changes, small expansions, and notifications"
+      },
+      "long": {
+        "value": "150",
+        "type": "other",
+        "description": "Use when components require major changes, expansions, and distance movement"
+      }
+    },
+    "expressive": {
+      "short": {
+        "value": "250",
+        "type": "other",
+        "description": "Expansions and other change in states that require attention during movement"
+      },
+      "long": {
+        "value": "400",
+        "type": "other",
+        "description": "Alerts, notifications, sheets and other mediations that enter the screen with movement"
+      }
+    }
+  },
+  "easing": {
+    "enter": {
+      "value": "0,0,0.35,1",
+      "type": "other",
+      "description": "Decelerated easing. Use when an object enters from out of screen to reveal extra information."
+    },
+    "exit": {
+      "value": "0.4,0,1,1",
+      "type": "other",
+      "description": "Accelerated easing. Use when object leaves the screen to hide element."
+    },
+    "transition": {
+      "value": "0.4,0,0.2,1",
+      "type": "other",
+      "description": "Standard easing. Use to transition between different states of the same element in screen."
+    },
+    "emphasize": {
+      "value": "0,0,0.2,1.4",
+      "type": "other",
+      "description": "Elastic easing. Use to draw attention to a specific action or specific information. Duration must be over 200ms."
+    }
+  },
+  "opacity": {
+    "0": {
+      "value": "0",
+      "type": "opacity"
+    },
+    "5": {
+      "value": "0.05",
+      "type": "opacity"
+    },
+    "10": {
+      "value": "0.1",
+      "type": "opacity"
+    },
+    "20": {
+      "value": "0.2",
+      "type": "opacity"
+    },
+    "25": {
+      "value": "0.25",
+      "type": "opacity"
+    },
+    "30": {
+      "value": "0.3",
+      "type": "opacity"
+    },
+    "40": {
+      "value": "0.4",
+      "type": "opacity"
+    },
+    "50": {
+      "value": "0.5",
+      "type": "opacity"
+    },
+    "60": {
+      "value": "0.6",
+      "type": "opacity"
+    },
+    "70": {
+      "value": "0.7",
+      "type": "opacity"
+    },
+    "75": {
+      "value": "0.75",
+      "type": "opacity"
+    },
+    "80": {
+      "value": "0.8",
+      "type": "opacity"
+    },
+    "90": {
+      "value": "0.9",
+      "type": "opacity"
+    },
+    "95": {
+      "value": "0.95",
+      "type": "opacity"
+    },
+    "100": {
+      "value": "100",
+      "type": "opacity"
+    }
+  },
+  "shadow": {
+    "xs": {
+      "value": {
+        "x": "0",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "$extensions": {
+        "bb.app.ui": {
+          "shadowColor": "#000000",
+          "shadowOffsetWidth": "0",
+          "shadowOffsetHeight": "1",
+          "shadowOpacity": "0.16",
+          "shadowRadius": "1.51",
+          "elevation": "2"
+        }
+      }
+    },
+    "sm": {
+      "value": {
+        "x": "0",
+        "y": "3px",
+        "blur": "5px",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "$extensions": {
+        "bb.app.ui": {
+          "shadowColor": "#000000",
+          "shadowOffsetWidth": "0",
+          "shadowOffsetHeight": "3",
+          "shadowOpacity": "0.17",
+          "shadowRadius": "3.05",
+          "elevation": "4"
+        }
+      }
+    },
+    "md": {
+      "value": {
+        "x": "0",
+        "y": "6px",
+        "blur": "10px",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "$extensions": {
+        "bb.app.ui": {
+          "shadowColor": "#000000",
+          "shadowOffsetWidth": "0",
+          "shadowOffsetHeight": "6",
+          "shadowOpacity": "0.20",
+          "shadowRadius": "5.62",
+          "elevation": "8"
+        }
+      }
+    },
+    "lg": {
+      "value": {
+        "x": "0",
+        "y": "9px",
+        "blur": "17px",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "$extensions": {
+        "bb.app.ui": {
+          "shadowColor": "#000000",
+          "shadowOffsetWidth": "0",
+          "shadowOffsetHeight": "9",
+          "shadowOpacity": "0.22",
+          "shadowRadius": "10.24",
+          "elevation": "13"
+        }
+      }
+    }
+  }
+}

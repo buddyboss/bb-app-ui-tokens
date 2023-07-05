@@ -1,0 +1,292 @@
+{
+  "font": {
+    "plain": {
+      "300": {
+        "value": "{system.font.300}",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "{system.font.400}",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "{system.font.500}",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "{system.font.600}",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "{system.font.700}",
+        "type": "fontWeights"
+      },
+      "base": {
+        "value": "{system.font.base}",
+        "type": "fontFamilies"
+      },
+      "italic": {
+        "300": {
+          "value": "{system.font.italic.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{system.font.italic.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{system.font.italic.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{system.font.italic.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{system.font.italic.700}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "brand": {
+      "300": {
+        "value": "{system.font.300}",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "{system.font.400}",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "{system.font.500}",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "{system.font.600}",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "{system.font.700}",
+        "type": "fontWeights"
+      },
+      "base": {
+        "value": "{system.font.base}",
+        "type": "fontFamilies"
+      },
+      "italic": {
+        "300": {
+          "value": "{system.font.italic.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{system.font.italic.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{system.font.italic.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{system.font.italic.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{system.font.italic.700}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "header": {
+      "300": {
+        "value": "{system.font.300}",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "{system.font.400}",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "{system.font.500}",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "{system.font.600}",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "{system.font.700}",
+        "type": "fontWeights"
+      },
+      "base": {
+        "value": "{system.font.base}",
+        "type": "fontFamilies"
+      },
+      "italic": {
+        "300": {
+          "value": "{system.font.italic.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{system.font.italic.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{system.font.italic.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{system.font.italic.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{system.font.italic.700}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "footer": {
+      "300": {
+        "value": "{system.font.300}",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "{system.font.400}",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "{system.font.500}",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "{system.font.600}",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "{system.font.700}",
+        "type": "fontWeights"
+      },
+      "base": {
+        "value": "{system.font.base}",
+        "type": "fontFamilies"
+      },
+      "italic": {
+        "300": {
+          "value": "{system.font.italic.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{system.font.italic.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{system.font.italic.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{system.font.italic.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{system.font.italic.700}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "menu": {
+      "300": {
+        "value": "{system.font.300}",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "{system.font.400}",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "{system.font.500}",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "{system.font.600}",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "{system.font.700}",
+        "type": "fontWeights"
+      },
+      "base": {
+        "value": "{system.font.base}",
+        "type": "fontFamilies"
+      },
+      "italic": {
+        "300": {
+          "value": "{system.font.italic.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{system.font.italic.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{system.font.italic.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{system.font.italic.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{system.font.italic.700}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "code": {
+      "300": {
+        "value": "{system.font.300}",
+        "type": "fontWeights"
+      },
+      "400": {
+        "value": "{system.font.400}",
+        "type": "fontWeights"
+      },
+      "500": {
+        "value": "{system.font.500}",
+        "type": "fontWeights"
+      },
+      "600": {
+        "value": "{system.font.600}",
+        "type": "fontWeights"
+      },
+      "700": {
+        "value": "{system.font.700}",
+        "type": "fontWeights"
+      },
+      "base": {
+        "value": "{system.font.base}",
+        "type": "fontFamilies"
+      },
+      "italic": {
+        "300": {
+          "value": "{system.font.italic.300}",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "{system.font.italic.400}",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "{system.font.italic.500}",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "{system.font.italic.600}",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "{system.font.italic.700}",
+          "type": "fontWeights"
+        }
+      }
+    }
+  }
+}
