@@ -14,6 +14,7 @@
     "theme/_legacy",
     "components/Text/base",
     "components/Text/_legacy",
+    "components/WebView/base",
     "examples/gaming",
     "examples/fitness",
     "examples/financial"

@@ -8,8 +8,8 @@
       "setup/colors": "source",
       "theme/fonts": "source",
       "components/Text/base": "source",
-      "theme/colors": "disabled",
-      "theme/primitives": "source"
+      "theme/primitives": "source",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:1",
@@ -25,8 +25,8 @@
       "setup/modifiers": "source",
       "setup/colors": "source",
       "examples/financial": "enabled",
-      "theme/colors": "disabled",
-      "theme/primitives": "source"
+      "theme/primitives": "source",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:2",
@@ -42,8 +42,8 @@
       "setup/modifiers": "source",
       "setup/colors": "source",
       "examples/fitness": "enabled",
-      "theme/colors": "disabled",
-      "theme/primitives": "source"
+      "theme/primitives": "source",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:3",
@@ -59,8 +59,8 @@
       "setup/modifiers": "source",
       "setup/colors": "source",
       "examples/gaming": "enabled",
-      "theme/colors": "disabled",
-      "theme/primitives": "source"
+      "theme/primitives": "source",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:199",
     "$figmaModeId": "45:4",
@@ -74,8 +74,7 @@
     "selectedTokenSets": {
       "theme/@ios": "enabled",
       "setup/@ios": "source",
-      "theme/colors": "disabled",
-      "theme/primitives": "disabled"
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:340",
     "$figmaModeId": "45:9",
@@ -89,8 +88,7 @@
     "selectedTokenSets": {
       "theme/@android": "enabled",
       "setup/@ios": "source",
-      "theme/colors": "disabled",
-      "theme/primitives": "disabled"
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:340",
     "$figmaModeId": "45:8",
@@ -102,7 +100,8 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "theme/colors": "enabled"
+      "theme/colors": "enabled",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:268",
     "$figmaModeId": "45:5",
@@ -115,7 +114,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "theme/_dark": "enabled",
-      "theme/colors": "source"
+      "theme/colors": "source",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:268",
     "$figmaModeId": "45:6",
@@ -129,7 +129,8 @@
     "selectedTokenSets": {
       "theme/_legacy": "enabled",
       "components/Text/_legacy": "source",
-      "theme/colors": "source"
+      "theme/colors": "source",
+      "components/WebView/base": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:45:268",
     "$figmaModeId": "45:7",
