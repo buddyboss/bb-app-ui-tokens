@@ -16,6 +16,8 @@ jobs:
       - name: Write file
         run: |
           echo "Hello, World!" > file.txt
+          git config --local user.email "denciczarko@gmail.com"
+          git config --local user.name "GitHub Action"
           git add file.txt
           git commit -m "Add file.txt"
           git push
