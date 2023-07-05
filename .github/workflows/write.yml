@@ -13,11 +13,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Write file
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Write config
         run: |
-          echo "Hello, World!" > file.txt
+          node create-config.js
           git config --local user.email "denciczarko@gmail.com"
           git config --local user.name "GitHub Action"
-          git add file.txt
-          git commit -m "Add file.txt"
+          git add config.json
+          git commit -m "Update config"
           git push
