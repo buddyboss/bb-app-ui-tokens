@@ -1,0 +1,21 @@
+name: Write File Action
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  write-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Write file
+        run: |
+          echo "Hello, World!" > file.txt
+          git add file.txt
+          git commit -m "Add file.txt"
+          git push
