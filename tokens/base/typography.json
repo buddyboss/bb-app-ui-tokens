@@ -203,8 +203,8 @@
     }
   },
   "fontSize": {
-    "2xs": {
-      "value": "10",
+    "base": {
+      "value": "16",
       "type": "fontSizes"
     }
   }

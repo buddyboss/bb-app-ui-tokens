@@ -237,7 +237,7 @@
               "type": "mix",
               "value": "0.08",
               "space": "lch",
-              "color": "{api.key-color.accent}"
+              "color": "{api.colors.accent}"
             }
           }
         }
