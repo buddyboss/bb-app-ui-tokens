@@ -1,22 +1,18 @@
 {
   "tokenSetOrder": [
-    "setup/modifiers",
-    "setup/colors",
-    "setup/@ios",
-    "setup/@android",
-    "theme/primitives",
-    "theme/colors",
-    "theme/fonts",
+    "setup",
+    "brand/default",
+    "brand/gaming",
+    "brand/fitness",
+    "brand/financial",
+    "theme/index",
     "theme/@ios",
     "theme/@android",
     "theme/@web",
     "theme/_dark",
     "theme/_legacy",
-    "components/Text/base",
+    "components/Text/index",
     "components/Text/_legacy",
-    "components/WebView/base",
-    "examples/gaming",
-    "examples/fitness",
-    "examples/financial"
+    "components/WebView/index"
   ]
 }
