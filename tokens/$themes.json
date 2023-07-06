@@ -587,7 +587,10 @@
     },
     "$figmaCollectionId": "VariableCollectionId:97:3606",
     "$figmaModeId": "97:78",
-    "$figmaVariableReferences": {},
+    "$figmaVariableReferences": {
+      "device.header": "05e8948fa836dcad0548d60c920dc777cd9882f2",
+      "device.footer": "27eb92ba73fbc3ece39d0ce8857d1d3ac8b6565e"
+    },
     "group": "device"
   },
   {
@@ -599,7 +602,10 @@
     },
     "$figmaCollectionId": "VariableCollectionId:97:3606",
     "$figmaModeId": "97:79",
-    "$figmaVariableReferences": {},
+    "$figmaVariableReferences": {
+      "device.header": "05e8948fa836dcad0548d60c920dc777cd9882f2",
+      "device.footer": "27eb92ba73fbc3ece39d0ce8857d1d3ac8b6565e"
+    },
     "group": "device"
   },
   {

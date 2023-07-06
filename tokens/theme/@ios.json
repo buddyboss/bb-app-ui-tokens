@@ -47,6 +47,14 @@
           "type": "fontWeights"
         }
       }
+    },
+    "header": {
+      "value": "44",
+      "type": "sizing"
+    },
+    "footer": {
+      "value": "30",
+      "type": "sizing"
     }
   }
 }
