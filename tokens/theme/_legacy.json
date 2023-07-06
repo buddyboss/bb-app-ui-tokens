@@ -22,7 +22,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "{darken.x5}",
+              "value": "0.32",
               "space": "srgb"
             }
           }
@@ -35,7 +35,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "{darken.x3}",
+              "value": "0.08",
               "space": "srgb"
             }
           }
@@ -78,7 +78,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "{darken.x4}",
+              "value": "0.16",
               "space": "srgb"
             }
           }
@@ -91,7 +91,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "{darken.x5}",
+              "value": "0.32",
               "space": "srgb"
             }
           }
@@ -110,7 +110,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x5}",
+              "value": "0.34",
               "space": "srgb"
             }
           }
@@ -123,7 +123,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x4}",
+              "value": "0.18",
               "space": "lch"
             }
           }
@@ -136,7 +136,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x1}",
+              "value": "0.04",
               "space": "srgb"
             }
           }
@@ -149,7 +149,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.full}",
+              "value": "1",
               "space": "srgb"
             }
           }
@@ -162,7 +162,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x6}",
+              "value": "0.68",
               "space": "srgb"
             }
           }
@@ -175,7 +175,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.full}",
+              "value": "1",
               "space": "srgb"
             }
           }
@@ -194,7 +194,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x5}",
+              "value": "0.34",
               "space": "srgb"
             }
           }
@@ -207,7 +207,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x4}",
+              "value": "0.18",
               "space": "lch"
             }
           }
@@ -220,7 +220,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x1}",
+              "value": "0.04",
               "space": "srgb"
             }
           }
@@ -233,7 +233,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.full}",
+              "value": "1",
               "space": "srgb"
             }
           }
@@ -246,7 +246,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.x6}",
+              "value": "0.68",
               "space": "srgb"
             }
           }
@@ -259,7 +259,7 @@
           "studio.tokens": {
             "modify": {
               "type": "lighten",
-              "value": "{lighten.full}",
+              "value": "1",
               "space": "srgb"
             }
           }
@@ -278,7 +278,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "{darken.x3}",
+              "value": "0.08",
               "space": "srgb"
             }
           }
@@ -291,7 +291,7 @@
           "studio.tokens": {
             "modify": {
               "type": "darken",
-              "value": "{darken.x4}",
+              "value": "0.16",
               "space": "srgb"
             }
           }
