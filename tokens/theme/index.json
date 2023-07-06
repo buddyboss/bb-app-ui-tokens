@@ -94,63 +94,168 @@
     },
     "1-2": {
       "value": "50%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "1/2"
+          }
+        }
+      }
     },
     "1-3": {
       "value": "33.333%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "1/3"
+          }
+        }
+      }
     },
     "2-3": {
       "value": "66.666%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "2/3"
+          }
+        }
+      }
     },
     "1-4": {
       "value": "25%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "1/4"
+          }
+        }
+      }
     },
     "2-4": {
       "value": "50%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "2/4"
+          }
+        }
+      }
     },
     "3-4": {
       "value": "75%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "3/4"
+          }
+        }
+      }
     },
     "1-5": {
       "value": "20%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "1/5"
+          }
+        }
+      }
     },
     "2-5": {
       "value": "40%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "2/5"
+          }
+        }
+      }
     },
     "3-5": {
       "value": "60%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "3/5"
+          }
+        }
+      }
     },
     "4-5": {
       "value": "80%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "4/5"
+          }
+        }
+      }
     },
     "1-6": {
       "value": "16.666%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "1/6"
+          }
+        }
+      }
     },
     "2-6": {
       "value": "33.333%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "2/6"
+          }
+        }
+      }
     },
     "3-6": {
       "value": "50%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "3/6"
+          }
+        }
+      }
     },
     "4-6": {
       "value": "66.666%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "4/6"
+          }
+        }
+      }
     },
     "5-6": {
       "value": "83.333%",
-      "type": "sizing"
+      "type": "sizing",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "name": "5/6"
+          }
+        }
+      }
     },
     "full": {
       "value": "100%",
@@ -559,12 +664,14 @@
       "type": "boxShadow",
       "$extensions": {
         "bb.app.ui": {
-          "shadowColor": "#000000",
-          "shadowOffsetWidth": "0",
-          "shadowOffsetHeight": "1",
-          "shadowOpacity": "0.16",
-          "shadowRadius": "1.51",
-          "elevation": "2"
+          "customValues": {
+            "shadowColor": "#000000",
+            "shadowOffsetWidth": "0",
+            "shadowOffsetHeight": "1",
+            "shadowOpacity": "0.16",
+            "shadowRadius": "1.51",
+            "elevation": "2"
+          }
         }
       }
     },
@@ -580,12 +687,14 @@
       "type": "boxShadow",
       "$extensions": {
         "bb.app.ui": {
-          "shadowColor": "#000000",
-          "shadowOffsetWidth": "0",
-          "shadowOffsetHeight": "3",
-          "shadowOpacity": "0.17",
-          "shadowRadius": "3.05",
-          "elevation": "4"
+          "customValues": {
+            "shadowColor": "#000000",
+            "shadowOffsetWidth": "0",
+            "shadowOffsetHeight": "3",
+            "shadowOpacity": "0.17",
+            "shadowRadius": "3.05",
+            "elevation": "4"
+          }
         }
       }
     },
@@ -601,12 +710,14 @@
       "type": "boxShadow",
       "$extensions": {
         "bb.app.ui": {
-          "shadowColor": "#000000",
-          "shadowOffsetWidth": "0",
-          "shadowOffsetHeight": "6",
-          "shadowOpacity": "0.20",
-          "shadowRadius": "5.62",
-          "elevation": "8"
+          "customValues": {
+            "shadowColor": "#000000",
+            "shadowOffsetWidth": "0",
+            "shadowOffsetHeight": "6",
+            "shadowOpacity": "0.20",
+            "shadowRadius": "5.62",
+            "elevation": "8"
+          }
         }
       }
     },
@@ -622,12 +733,14 @@
       "type": "boxShadow",
       "$extensions": {
         "bb.app.ui": {
-          "shadowColor": "#000000",
-          "shadowOffsetWidth": "0",
-          "shadowOffsetHeight": "9",
-          "shadowOpacity": "0.22",
-          "shadowRadius": "10.24",
-          "elevation": "13"
+          "customValues": {
+            "shadowColor": "#000000",
+            "shadowOffsetWidth": "0",
+            "shadowOffsetHeight": "9",
+            "shadowOpacity": "0.22",
+            "shadowRadius": "10.24",
+            "elevation": "13"
+          }
         }
       }
     }

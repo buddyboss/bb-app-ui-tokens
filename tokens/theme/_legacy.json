@@ -9,11 +9,21 @@
     "bg": {
       "canvas": {
         "value": "{color.bodyBg}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "surface": {
         "value": "{color.bodyFrontBg}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "muted": {
         "value": "{color.bodyFrontBg}",
@@ -25,6 +35,9 @@
               "value": "0.32",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -38,38 +51,76 @@
               "value": "0.08",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
       "on-subtle": {
         "value": "{color.coverImageBg}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "cover": {
         "value": "{color.coverImageBg}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       }
     },
     "fg": {
       "default": {
         "value": "{color.textColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "emphasis": {
         "value": "{color.headingsColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "muted": {
         "value": "{color.descTextColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "subtle": {
         "value": "{color.descLightTextColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "inverse": {
         "value": "{color.bodyFrontBg}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "disabled": {
         "value": "{color.bodyFrontBg}",
@@ -81,6 +132,9 @@
               "value": "0.16",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -94,6 +148,9 @@
               "value": "0.32",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       }
@@ -101,7 +158,12 @@
     "accent": {
       "default": {
         "value": "{color.primaryColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "emphasis": {
         "value": "{color.primaryColor}",
@@ -113,6 +175,9 @@
               "value": "0.34",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -126,6 +191,9 @@
               "value": "0.18",
               "space": "lch"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -139,6 +207,9 @@
               "value": "0.04",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -152,6 +223,9 @@
               "value": "1",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -165,6 +239,9 @@
               "value": "0.68",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -178,6 +255,9 @@
               "value": "1",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       }
@@ -185,7 +265,12 @@
     "info": {
       "default": {
         "value": "{color.primaryColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "emphasis": {
         "value": "{color.primaryColor}",
@@ -197,6 +282,9 @@
               "value": "0.34",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -210,6 +298,9 @@
               "value": "0.18",
               "space": "lch"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -223,6 +314,9 @@
               "value": "0.04",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -236,6 +330,9 @@
               "value": "1",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -249,6 +346,9 @@
               "value": "0.68",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -262,6 +362,9 @@
               "value": "1",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       }
@@ -269,7 +372,12 @@
     "border": {
       "default": {
         "value": "{color.borderColor}",
-        "type": "color"
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "resolve": "true"
+          }
+        }
       },
       "subtle": {
         "value": "{color.bodyFrontBg}",
@@ -281,6 +389,9 @@
               "value": "0.08",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       },
@@ -294,6 +405,9 @@
               "value": "0.16",
               "space": "srgb"
             }
+          },
+          "bb.app.ui": {
+            "resolve": "true"
           }
         }
       }
