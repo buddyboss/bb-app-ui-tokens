@@ -3,7 +3,8 @@ name: Write File Action
 on:
   push:
     branches:
-      - test
+      - ongoing
+      - master
 
 jobs:
   write-file:
@@ -22,6 +23,9 @@ jobs:
           node create-config.js
           git config --local user.email "denciczarko@gmail.com"
           git config --local user.name "GitHub Action"
-          git add config.json
+          git add default.json
+          git add financial.json
+          git add fitness.json
+          git add gaming.json
           git commit -m "Update config"
           git push
