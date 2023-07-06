@@ -20,6 +20,7 @@ jobs:
       - name: Write config
         run: |
           npm install
+          node delete-fonts.js
           node create-config.js
           git config --local user.email "denciczarko@gmail.com"
           git config --local user.name "GitHub Action"
