@@ -58,7 +58,7 @@ fs.readdir(brandPath, (err, files) => {
   files.forEach((file) => {
     const paletteFile = path.join(palettesPath, file);
     const brandName = path.parse(file).name;
-    const outputFile = path.join(tokensPath, `${brandName}.json`);
+    const outputFile = `${brandName}.json`;
 
     // transform brand files
     const sdBase = StyleDictionary.extend(configBase(brandName));
