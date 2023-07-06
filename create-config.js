@@ -1,57 +1,236 @@
 const fs = require("fs");
 const path = require("path");
+const {
+  registerTransforms,
+  transformColorModifiers,
+} = require("@tokens-studio/sd-transforms");
+const StyleDictionary = require("style-dictionary");
 
-function readJSONFilesFromFolder(folderPath) {
-  const files = fs.readdirSync(folderPath);
-  const jsonFiles = files;
-  //   .filter((file) => file.endsWith(".json"));
+// delete fonts
+const bPath = "./tokens/brand";
 
-  const result = {};
+// Read all the brand files
+fs.readdir(bPath, (err, files) => {
+  if (err) {
+    console.error("Error reading brand directory:", err);
+    return;
+  }
 
-  jsonFiles.forEach((file) => {
-    const filePath = path.join(folderPath, file);
-    const stats = fs.statSync(filePath);
+  // Process each brand file
+  files.forEach((file) => {
+    const brandFile = path.join(bPath, file);
 
-    if (stats.isDirectory()) {
-      const folderName = path.basename(file);
-      result[folderName] = readJSONFilesFromFolder(filePath);
-    } else {
-      const content = fs.readFileSync(filePath, "utf8");
-      const fileName = file.replace(".json", "");
-
-      if (fileName.startsWith("@") || fileName.startsWith("_")) {
-        result[fileName] = JSON.parse(content);
-      } else {
-        if (!result.base) {
-          result.base = {};
-        }
-        result.base[fileName] = JSON.parse(content);
+    // Read the contents of the brand file
+    fs.readFile(brandFile, "utf8", (err, brandData) => {
+      if (err) {
+        console.error(`Error reading brand file ${brandFile}:`, err);
+        return;
       }
-    }
+
+      let jsonData;
+      try {
+        jsonData = JSON.parse(brandData);
+      } catch (parseError) {
+        console.error(
+          `Error parsing JSON in brand file ${brandFile}:`,
+          parseError
+        );
+        return;
+      }
+
+      // Remove the "font" key and its value
+      delete jsonData.font;
+
+      // Write the modified data back to the brand file
+      fs.writeFile(
+        brandFile,
+        JSON.stringify(jsonData, null, 2),
+        "utf8",
+        (err) => {
+          if (err) {
+            console.error(`Error writing brand file ${brandFile}:`, err);
+            return;
+          }
+
+          console.log(`Font key removed from ${brandFile}.`);
+        }
+      );
+    });
   });
+});
 
-  return result;
-}
+// delete fonts
 
-function mergeJSONFilesFromFolders(folders) {
-  const result = {};
+registerTransforms(StyleDictionary);
 
-  folders.forEach((folder) => {
-    const folderPath = path.join(tokensFolderPath, folder);
-    const folderName = path.basename(folder);
+StyleDictionary.registerTransform({
+  name: "color/modifiers",
+  type: "value",
+  transitive: true,
+  matcher: (token) =>
+    token.type === "color" &&
+    token.$extensions &&
+    token.$extensions["studio.tokens"]?.modify,
+  transformer: (token) => {
+    token.$extensions["studio.tokens"].modify = {
+      ...(token.$extensions["studio.tokens"]?.modify || {}),
+      format: "hex",
+    };
+    return transformColorModifiers(token);
+  },
+});
 
-    result[folderName] = readJSONFilesFromFolder(folderPath);
+const configBase = (file) => ({
+  source: [`tokens/setup.json`, `tokens/brand/${file}.json`],
+  platforms: {
+    json: {
+      transforms: ["color/modifiers", "name/cti/camel"],
+      buildPath: `tokens/palettes/`,
+      files: [
+        {
+          destination: `${file}.json`,
+          format: "json",
+        },
+      ],
+    },
+  },
+});
+
+const tokensPath = "./tokens";
+const brandPath = path.join(tokensPath, "brand");
+const palettesPath = path.join(tokensPath, "palettes");
+const themePath = path.join(tokensPath, "theme");
+const componentsPath = path.join(tokensPath, "components");
+
+// Read all the brand files
+fs.readdir(brandPath, (err, files) => {
+  if (err) {
+    console.error("Error reading brand directory:", err);
+    return;
+  }
+
+  // Process each brand file
+  files.forEach((file) => {
+    const paletteFile = path.join(palettesPath, file);
+    const brandName = path.parse(file).name;
+    const outputFile = path.join(tokensPath, `${brandName}.json`);
+
+    // transform brand files
+    const sdBase = StyleDictionary.extend(configBase(brandName));
+
+    sdBase.cleanAllPlatforms();
+    sdBase.buildAllPlatforms();
+
+    // Read the contents of the brand file
+    fs.readFile(paletteFile, "utf8", (err, brandData) => {
+      if (err) {
+        console.error(`Error reading brand file ${paletteFile}:`, err);
+        return;
+      }
+
+      let mergedData = {};
+
+      // Merge theme files
+      fs.readdir(themePath, (err, themeFiles) => {
+        if (err) {
+          console.error("Error reading theme directory:", err);
+          return;
+        }
+
+        themeFiles.forEach((themeFile) => {
+          const themeFilePath = path.join(themePath, themeFile);
+
+          // Read the contents of the theme file
+          fs.readFile(themeFilePath, "utf8", (err, themeData) => {
+            if (err) {
+              console.error(`Error reading theme file ${themeFilePath}:`, err);
+              return;
+            }
+
+            const themeName = path.parse(themeFile).name;
+            mergedData[themeName] = JSON.parse(themeData);
+          });
+        });
+      });
+
+      // Merge component files
+      fs.readdir(
+        componentsPath,
+        { withFileTypes: true },
+        (err, componentDirs) => {
+          if (err) {
+            console.error("Error reading components directory:", err);
+            return;
+          }
+
+          componentDirs.forEach((componentDir) => {
+            if (componentDir.isDirectory()) {
+              const componentPath = path.join(
+                componentsPath,
+                componentDir.name
+              );
+
+              fs.readdir(componentPath, (err, componentFiles) => {
+                if (err) {
+                  console.error(
+                    `Error reading component directory ${componentPath}:`,
+                    err
+                  );
+                  return;
+                }
+
+                componentFiles.forEach((componentFile) => {
+                  const componentFilePath = path.join(
+                    componentPath,
+                    componentFile
+                  );
+
+                  // Read the contents of the component file
+                  fs.readFile(
+                    componentFilePath,
+                    "utf8",
+                    (err, componentData) => {
+                      if (err) {
+                        console.error(
+                          `Error reading component file ${componentFilePath}:`,
+                          err
+                        );
+                        return;
+                      }
+
+                      const componentName = path.parse(componentFile).name;
+                      mergedData[componentDir.name] =
+                        mergedData[componentDir.name] || {};
+                      mergedData[componentDir.name][componentName] =
+                        JSON.parse(componentData);
+                    }
+                  );
+                });
+              });
+            }
+          });
+        }
+      );
+
+      // Wait for the theme and component files to be merged
+      setTimeout(() => {
+        mergedData.index.palette = JSON.parse(brandData).palette;
+
+        // Write the merged data to the output file
+        fs.writeFile(
+          outputFile,
+          JSON.stringify(mergedData, null, 2),
+          "utf8",
+          (err) => {
+            if (err) {
+              console.error(`Error writing output file ${outputFile}:`, err);
+              return;
+            }
+
+            console.log(`File ${outputFile} created successfully.`);
+          }
+        );
+      }, 1000); // Wait for 1 second to allow merging of theme and component files
+    });
   });
-
-  return result;
-}
-
-// Example usage
-const tokensFolderPath = "./tokens"; // Replace with the full path to the "tokens" folder
-const folders = ["components", "setup", "theme"];
-const mergedJSON = mergeJSONFilesFromFolders(folders);
-
-// Save the merged JSON object to config.json
-fs.writeFileSync("config.json", JSON.stringify(mergedJSON, null, 2));
-
-console.log("config.json file saved successfully.");
+});

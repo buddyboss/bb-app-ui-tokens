@@ -1,0 +1,4723 @@
+{
+  "tone": {
+    "0": {
+      "value": "1",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "1",
+        "type": "number"
+      },
+      "name": "tone0",
+      "attributes": {},
+      "path": [
+        "tone",
+        "0"
+      ]
+    },
+    "10": {
+      "value": "0.8",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.8",
+        "type": "number"
+      },
+      "name": "tone10",
+      "attributes": {},
+      "path": [
+        "tone",
+        "10"
+      ]
+    },
+    "20": {
+      "value": "0.6",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.6",
+        "type": "number"
+      },
+      "name": "tone20",
+      "attributes": {},
+      "path": [
+        "tone",
+        "20"
+      ]
+    },
+    "25": {
+      "value": "0.5",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.5",
+        "type": "number"
+      },
+      "name": "tone25",
+      "attributes": {},
+      "path": [
+        "tone",
+        "25"
+      ]
+    },
+    "30": {
+      "value": "0.4",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.4",
+        "type": "number"
+      },
+      "name": "tone30",
+      "attributes": {},
+      "path": [
+        "tone",
+        "30"
+      ]
+    },
+    "35": {
+      "value": "0.3",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.3",
+        "type": "number"
+      },
+      "name": "tone35",
+      "attributes": {},
+      "path": [
+        "tone",
+        "35"
+      ]
+    },
+    "40": {
+      "value": "0.2",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.2",
+        "type": "number"
+      },
+      "name": "tone40",
+      "attributes": {},
+      "path": [
+        "tone",
+        "40"
+      ]
+    },
+    "50": {
+      "value": "0",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0",
+        "type": "number"
+      },
+      "name": "tone50",
+      "attributes": {},
+      "path": [
+        "tone",
+        "50"
+      ]
+    },
+    "60": {
+      "value": "0.2",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.2",
+        "type": "number"
+      },
+      "name": "tone60",
+      "attributes": {},
+      "path": [
+        "tone",
+        "60"
+      ]
+    },
+    "70": {
+      "value": "0.4",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.4",
+        "type": "number"
+      },
+      "name": "tone70",
+      "attributes": {},
+      "path": [
+        "tone",
+        "70"
+      ]
+    },
+    "80": {
+      "value": "0.6",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.6",
+        "type": "number"
+      },
+      "name": "tone80",
+      "attributes": {},
+      "path": [
+        "tone",
+        "80"
+      ]
+    },
+    "90": {
+      "value": "0.8",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.8",
+        "type": "number"
+      },
+      "name": "tone90",
+      "attributes": {},
+      "path": [
+        "tone",
+        "90"
+      ]
+    },
+    "95": {
+      "value": "0.9",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.9",
+        "type": "number"
+      },
+      "name": "tone95",
+      "attributes": {},
+      "path": [
+        "tone",
+        "95"
+      ]
+    },
+    "98": {
+      "value": "0.96",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.96",
+        "type": "number"
+      },
+      "name": "tone98",
+      "attributes": {},
+      "path": [
+        "tone",
+        "98"
+      ]
+    },
+    "99": {
+      "value": "0.98",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.98",
+        "type": "number"
+      },
+      "name": "tone99",
+      "attributes": {},
+      "path": [
+        "tone",
+        "99"
+      ]
+    },
+    "100": {
+      "value": "1",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "1",
+        "type": "number"
+      },
+      "name": "tone100",
+      "attributes": {},
+      "path": [
+        "tone",
+        "100"
+      ]
+    }
+  },
+  "lighten": {
+    "x1": {
+      "value": "0.04",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.04",
+        "type": "number"
+      },
+      "name": "lightenX1",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "x1"
+      ]
+    },
+    "x2": {
+      "value": "0.06",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.06",
+        "type": "number"
+      },
+      "name": "lightenX2",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "x2"
+      ]
+    },
+    "x3": {
+      "value": "0.1",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.1",
+        "type": "number"
+      },
+      "name": "lightenX3",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "x3"
+      ]
+    },
+    "x4": {
+      "value": "0.18",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.18",
+        "type": "number"
+      },
+      "name": "lightenX4",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "x4"
+      ]
+    },
+    "x5": {
+      "value": "0.34",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.34",
+        "type": "number"
+      },
+      "name": "lightenX5",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "x5"
+      ]
+    },
+    "x6": {
+      "value": "0.68",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.68",
+        "type": "number"
+      },
+      "name": "lightenX6",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "x6"
+      ]
+    },
+    "full": {
+      "value": "1",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "1",
+        "type": "number"
+      },
+      "name": "lightenFull",
+      "attributes": {},
+      "path": [
+        "lighten",
+        "full"
+      ]
+    }
+  },
+  "darken": {
+    "x1": {
+      "value": "0.02",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.02",
+        "type": "number"
+      },
+      "name": "darkenX1",
+      "attributes": {},
+      "path": [
+        "darken",
+        "x1"
+      ]
+    },
+    "x2": {
+      "value": "0.04",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.04",
+        "type": "number"
+      },
+      "name": "darkenX2",
+      "attributes": {},
+      "path": [
+        "darken",
+        "x2"
+      ]
+    },
+    "x3": {
+      "value": "0.08",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.08",
+        "type": "number"
+      },
+      "name": "darkenX3",
+      "attributes": {},
+      "path": [
+        "darken",
+        "x3"
+      ]
+    },
+    "x4": {
+      "value": "0.16",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.16",
+        "type": "number"
+      },
+      "name": "darkenX4",
+      "attributes": {},
+      "path": [
+        "darken",
+        "x4"
+      ]
+    },
+    "x5": {
+      "value": "0.32",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.32",
+        "type": "number"
+      },
+      "name": "darkenX5",
+      "attributes": {},
+      "path": [
+        "darken",
+        "x5"
+      ]
+    },
+    "x6": {
+      "value": "0.64",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "0.64",
+        "type": "number"
+      },
+      "name": "darkenX6",
+      "attributes": {},
+      "path": [
+        "darken",
+        "x6"
+      ]
+    },
+    "full": {
+      "value": "1",
+      "type": "number",
+      "filePath": "tokens/setup.json",
+      "isSource": true,
+      "original": {
+        "value": "1",
+        "type": "number"
+      },
+      "name": "darkenFull",
+      "attributes": {},
+      "path": [
+        "darken",
+        "full"
+      ]
+    }
+  },
+  "color": {
+    "accent": {
+      "value": "#007AFF",
+      "type": "color",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#007AFF",
+        "type": "color"
+      },
+      "name": "colorAccent",
+      "attributes": {},
+      "path": [
+        "color",
+        "accent"
+      ]
+    },
+    "info": {
+      "value": "#007AFF",
+      "type": "color",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#007AFF",
+        "type": "color"
+      },
+      "name": "colorInfo",
+      "attributes": {},
+      "path": [
+        "color",
+        "info"
+      ]
+    },
+    "success": {
+      "value": "#34C759",
+      "type": "color",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#34C759",
+        "type": "color"
+      },
+      "name": "colorSuccess",
+      "attributes": {},
+      "path": [
+        "color",
+        "success"
+      ]
+    },
+    "danger": {
+      "value": "#FF3B30",
+      "type": "color",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF3B30",
+        "type": "color"
+      },
+      "name": "colorDanger",
+      "attributes": {},
+      "path": [
+        "color",
+        "danger"
+      ]
+    },
+    "warning": {
+      "value": "#FF9500",
+      "type": "color",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF9500",
+        "type": "color"
+      },
+      "name": "colorWarning",
+      "attributes": {},
+      "path": [
+        "color",
+        "warning"
+      ]
+    },
+    "neutral": {
+      "value": "#202020",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "#007AFF",
+            "filePath": "tokens/brand/default.json",
+            "isSource": true,
+            "format": "hex"
+          }
+        }
+      },
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#202020",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0.08",
+              "space": "lch",
+              "color": "{color.accent}",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true
+            }
+          }
+        }
+      },
+      "name": "colorNeutral",
+      "attributes": {},
+      "path": [
+        "color",
+        "neutral"
+      ]
+    },
+    "bodyFrontBg": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Background color for secondary content areas throughout the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Background color for secondary content areas throughout the app."
+      },
+      "name": "colorBodyFrontBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "bodyFrontBg"
+      ]
+    },
+    "bodyBg": {
+      "value": "#f6f6f8",
+      "type": "color",
+      "description": "Background color for the main content throughout the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#f6f6f8",
+        "type": "color",
+        "description": "Background color for the main content throughout the app."
+      },
+      "name": "colorBodyBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "bodyBg"
+      ]
+    },
+    "coverImageBg": {
+      "value": "#EDEEF2",
+      "type": "color",
+      "description": "Background color to use when no cover image is uploaded.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#EDEEF2",
+        "type": "color",
+        "description": "Background color to use when no cover image is uploaded."
+      },
+      "name": "colorCoverImageBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "coverImageBg"
+      ]
+    },
+    "borderColor": {
+      "value": "#C6C6C8",
+      "type": "color",
+      "description": "Color of the border dividers between sections throughout the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#C6C6C8",
+        "type": "color",
+        "description": "Color of the border dividers between sections throughout the app."
+      },
+      "name": "colorBorderColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "borderColor"
+      ]
+    },
+    "primaryColor": {
+      "value": "#007cff",
+      "type": "color",
+      "description": "Used for various app elements.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#007cff",
+        "type": "color",
+        "description": "Used for various app elements."
+      },
+      "name": "colorPrimaryColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "primaryColor"
+      ]
+    },
+    "headerBg": {
+      "value": "#F9F9F9",
+      "type": "color",
+      "description": "Background color for the navigation bar at the top of the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#F9F9F9",
+        "type": "color",
+        "description": "Background color for the navigation bar at the top of the app."
+      },
+      "name": "colorHeaderBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "headerBg"
+      ]
+    },
+    "headerColor": {
+      "value": "#211C44",
+      "type": "color",
+      "description": "Text color for titles in the navigation bar at the top of the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#211C44",
+        "type": "color",
+        "description": "Text color for titles in the navigation bar at the top of the app."
+      },
+      "name": "colorHeaderColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "headerColor"
+      ]
+    },
+    "headerIconColor": {
+      "value": "#2F74F6",
+      "type": "color",
+      "description": "Color for links and icons in the navigation bar at the top of the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#2F74F6",
+        "type": "color",
+        "description": "Color for links and icons in the navigation bar at the top of the app."
+      },
+      "name": "colorHeaderIconColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "headerIconColor"
+      ]
+    },
+    "bottomTabsBg": {
+      "value": "#EEF0F3",
+      "type": "color",
+      "description": "Background color for the Tab Bar navigation at the bottom of the app.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#EEF0F3",
+        "type": "color",
+        "description": "Background color for the Tab Bar navigation at the bottom of the app."
+      },
+      "name": "colorBottomTabsBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "bottomTabsBg"
+      ]
+    },
+    "bottomTabsColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Default color for icons, and labels if enabled, in the Tab Bar and More Screen. Can be overwritten in menus with custom icon colors.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Default color for icons, and labels if enabled, in the Tab Bar and More Screen. Can be overwritten in menus with custom icon colors."
+      },
+      "name": "colorBottomTabsColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "bottomTabsColor"
+      ]
+    },
+    "bottomTabsActiveColor": {
+      "value": "#007cff",
+      "type": "color",
+      "description": "Color for icons, and labels if enabled, when the icon is currently selected in the Tab Bar.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#007cff",
+        "type": "color",
+        "description": "Color for icons, and labels if enabled, when the icon is currently selected in the Tab Bar."
+      },
+      "name": "colorBottomTabsActiveColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "bottomTabsActiveColor"
+      ]
+    },
+    "primaryButtonBg": {
+      "value": "#013A7E",
+      "type": "color",
+      "description": "Background color of buttons seen on Login and Signup Screen.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#013A7E",
+        "type": "color",
+        "description": "Background color of buttons seen on Login and Signup Screen."
+      },
+      "name": "colorPrimaryButtonBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "primaryButtonBg"
+      ]
+    },
+    "primaryButtonColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color of buttons seen on Course Lesson and Topic screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color of buttons seen on Course Lesson and Topic screens."
+      },
+      "name": "colorPrimaryButtonColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "primaryButtonColor"
+      ]
+    },
+    "secondaryButtonBg": {
+      "value": "#EDEEF2",
+      "type": "color",
+      "description": "Background color for Secondary Button.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#EDEEF2",
+        "type": "color",
+        "description": "Background color for Secondary Button."
+      },
+      "name": "colorSecondaryButtonBg",
+      "attributes": {},
+      "path": [
+        "color",
+        "secondaryButtonBg"
+      ]
+    },
+    "secondaryButtonColor": {
+      "value": "#516CD9",
+      "type": "color",
+      "description": "Text color for Secondary Button.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#516CD9",
+        "type": "color",
+        "description": "Text color for Secondary Button."
+      },
+      "name": "colorSecondaryButtonColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "secondaryButtonColor"
+      ]
+    },
+    "headingsColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for Heading elements.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Text color for Heading elements."
+      },
+      "name": "colorHeadingsColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "headingsColor"
+      ]
+    },
+    "textColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for the General Body content. ",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Text color for the General Body content. "
+      },
+      "name": "colorTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "textColor"
+      ]
+    },
+    "descTextColor": {
+      "value": "#737679",
+      "type": "color",
+      "description": "Text color for Item descriptions.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#737679",
+        "type": "color",
+        "description": "Text color for Item descriptions."
+      },
+      "name": "colorDescTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "descTextColor"
+      ]
+    },
+    "descLightTextColor": {
+      "value": "#838A98",
+      "type": "color",
+      "description": "Text color for meta items like '2 days ago' and '3 Discussions'.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#838A98",
+        "type": "color",
+        "description": "Text color for meta items like '2 days ago' and '3 Discussions'."
+      },
+      "name": "colorDescLightTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "descLightTextColor"
+      ]
+    },
+    "labelBgColor": {
+      "value": "#EDEEF2",
+      "type": "color",
+      "description": "Background color for the labels.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#EDEEF2",
+        "type": "color",
+        "description": "Background color for the labels."
+      },
+      "name": "colorLabelBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "labelBgColor"
+      ]
+    },
+    "labelTextColor": {
+      "value": "#92949D",
+      "type": "color",
+      "description": "Text color for the labels.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#92949D",
+        "type": "color",
+        "description": "Text color for the labels."
+      },
+      "name": "colorLabelTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "labelTextColor"
+      ]
+    },
+    "authBgColor": {
+      "value": "#3598FF",
+      "type": "color",
+      "description": "Background color for Login, Forgot Password, and related authentication screens. Login screen can also be a background image.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#3598FF",
+        "type": "color",
+        "description": "Background color for Login, Forgot Password, and related authentication screens. Login screen can also be a background image."
+      },
+      "name": "colorAuthBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "authBgColor"
+      ]
+    },
+    "authTextColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for Login, Forgot Password, and related authentication screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Text color for Login, Forgot Password, and related authentication screens."
+      },
+      "name": "colorAuthTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "authTextColor"
+      ]
+    },
+    "authFieldBgColor": {
+      "value": "rgba(0,0,0,0.2)",
+      "type": "color",
+      "description": "Background color for input fields on Login, Forgot Password, and related authentication screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0,0,0,0.2)",
+        "type": "color",
+        "description": "Background color for input fields on Login, Forgot Password, and related authentication screens."
+      },
+      "name": "colorAuthFieldBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "authFieldBgColor"
+      ]
+    },
+    "authFieldTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for input fields on Login, Forgot Password, and related authentication screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for input fields on Login, Forgot Password, and related authentication screens."
+      },
+      "name": "colorAuthFieldTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "authFieldTextColor"
+      ]
+    },
+    "authButtonBgColor": {
+      "value": "#013a7e",
+      "type": "color",
+      "description": "Background color for buttons on Login, Forgot Password, and related authentication screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#013a7e",
+        "type": "color",
+        "description": "Background color for buttons on Login, Forgot Password, and related authentication screens."
+      },
+      "name": "colorAuthButtonBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "authButtonBgColor"
+      ]
+    },
+    "authButtonTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for buttons on Login, Forgot Password, and related authentication screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for buttons on Login, Forgot Password, and related authentication screens."
+      },
+      "name": "colorAuthButtonTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "authButtonTextColor"
+      ]
+    },
+    "regBgColor": {
+      "value": "#3598FF",
+      "type": "color",
+      "description": "Background color for Registration and Activation Code screens. Registration screen can also be a background image.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#3598FF",
+        "type": "color",
+        "description": "Background color for Registration and Activation Code screens. Registration screen can also be a background image."
+      },
+      "name": "colorRegBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "regBgColor"
+      ]
+    },
+    "regTextColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for Registration and Activation Code screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Text color for Registration and Activation Code screens."
+      },
+      "name": "colorRegTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "regTextColor"
+      ]
+    },
+    "regFieldBgColor": {
+      "value": "rgba(0,0,0,0.2)",
+      "type": "color",
+      "description": "Background color for input fields and products on Registration and Activation Code screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "rgba(0,0,0,0.2)",
+        "type": "color",
+        "description": "Background color for input fields and products on Registration and Activation Code screens."
+      },
+      "name": "colorRegFieldBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "regFieldBgColor"
+      ]
+    },
+    "regFieldTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for input fields and products on Registration and Activation Code screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for input fields and products on Registration and Activation Code screens."
+      },
+      "name": "colorRegFieldTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "regFieldTextColor"
+      ]
+    },
+    "regButtonBgColor": {
+      "value": "#013a7e",
+      "type": "color",
+      "description": "Background color for buttons on Registration and Activation Code screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#013a7e",
+        "type": "color",
+        "description": "Background color for buttons on Registration and Activation Code screens."
+      },
+      "name": "colorRegButtonBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "regButtonBgColor"
+      ]
+    },
+    "regButtonTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for buttons on Registration and Activation Code screens.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Text color for buttons on Registration and Activation Code screens."
+      },
+      "name": "colorRegButtonTextColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "regButtonTextColor"
+      ]
+    },
+    "androidStatusBgColor": {
+      "value": "#3598FF",
+      "type": "color",
+      "description": "Background color for the Android Status Bar.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#3598FF",
+        "type": "color",
+        "description": "Background color for the Android Status Bar."
+      },
+      "name": "colorAndroidStatusBgColor",
+      "attributes": {},
+      "path": [
+        "color",
+        "androidStatusBgColor"
+      ]
+    },
+    "coursesLabelCompleted": {
+      "value": "#10D639",
+      "type": "color",
+      "description": "Background color for courses completed status label.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#10D639",
+        "type": "color",
+        "description": "Background color for courses completed status label."
+      },
+      "name": "colorCoursesLabelCompleted",
+      "attributes": {},
+      "path": [
+        "color",
+        "coursesLabelCompleted"
+      ]
+    },
+    "coursesLabelProgress": {
+      "value": "#8F42E1",
+      "type": "color",
+      "description": "Background color for courses in progress status label.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#8F42E1",
+        "type": "color",
+        "description": "Background color for courses in progress status label."
+      },
+      "name": "colorCoursesLabelProgress",
+      "attributes": {},
+      "path": [
+        "color",
+        "coursesLabelProgress"
+      ]
+    },
+    "coursesLabelStart": {
+      "value": "#007cff",
+      "type": "color",
+      "description": "Background color for courses start course status label.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#007cff",
+        "type": "color",
+        "description": "Background color for courses start course status label."
+      },
+      "name": "colorCoursesLabelStart",
+      "attributes": {},
+      "path": [
+        "color",
+        "coursesLabelStart"
+      ]
+    },
+    "coursesLabelFree": {
+      "value": "#8F42E1",
+      "type": "color",
+      "description": "Background color for courses free status label.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#8F42E1",
+        "type": "color",
+        "description": "Background color for courses free status label."
+      },
+      "name": "colorCoursesLabelFree",
+      "attributes": {},
+      "path": [
+        "color",
+        "coursesLabelFree"
+      ]
+    },
+    "coursesLabelNotEnrolled": {
+      "value": "#E142A6",
+      "type": "color",
+      "description": "Background color for courses not enrolled status label.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#E142A6",
+        "type": "color",
+        "description": "Background color for courses not enrolled status label."
+      },
+      "name": "colorCoursesLabelNotEnrolled",
+      "attributes": {},
+      "path": [
+        "color",
+        "coursesLabelNotEnrolled"
+      ]
+    },
+    "iapStatusCheckmark": {
+      "value": "#10D639",
+      "type": "color",
+      "description": "Color for purchased status checkmark.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#10D639",
+        "type": "color",
+        "description": "Color for purchased status checkmark."
+      },
+      "name": "colorIapStatusCheckmark",
+      "attributes": {},
+      "path": [
+        "color",
+        "iapStatusCheckmark"
+      ]
+    },
+    "iapBenefitsCheckmark": {
+      "value": "#10D639",
+      "type": "color",
+      "description": "Color for benefits checkmark.",
+      "filePath": "tokens/brand/default.json",
+      "isSource": true,
+      "original": {
+        "value": "#10D639",
+        "type": "color",
+        "description": "Color for benefits checkmark."
+      },
+      "name": "colorIapBenefitsCheckmark",
+      "attributes": {},
+      "path": [
+        "color",
+        "iapBenefitsCheckmark"
+      ]
+    }
+  },
+  "palette": {
+    "accent": {
+      "0": {
+        "value": "#000",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent0",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "0"
+        ]
+      },
+      "10": {
+        "value": "#001833",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent10",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "10"
+        ]
+      },
+      "20": {
+        "value": "#003166",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent20",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#004999",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent30",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#0062cc",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent40",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#007aff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent50",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#3395ff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent60",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#66afff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent70",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#99caff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent80",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "80"
+        ]
+      },
+      "90": {
+        "value": "#cce4ff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent90",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "90"
+        ]
+      },
+      "95": {
+        "value": "#e6f2ff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.9",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent95",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "95"
+        ]
+      },
+      "98": {
+        "value": "#f5faff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.96",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent98",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "98"
+        ]
+      },
+      "99": {
+        "value": "#fafcff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.98",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent99",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "99"
+        ]
+      },
+      "100": {
+        "value": "#fff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.accent}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteAccent100",
+        "attributes": {},
+        "path": [
+          "palette",
+          "accent",
+          "100"
+        ]
+      }
+    },
+    "info": {
+      "0": {
+        "value": "#000",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo0",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "0"
+        ]
+      },
+      "10": {
+        "value": "#001833",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo10",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "10"
+        ]
+      },
+      "20": {
+        "value": "#003166",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo20",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#004999",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{tone.30}",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo30",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#0062cc",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo40",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#007aff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo50",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#3395ff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo60",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#66afff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo70",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#99caff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo80",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "80"
+        ]
+      },
+      "90": {
+        "value": "#cce4ff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo90",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "90"
+        ]
+      },
+      "95": {
+        "value": "#e6f2ff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.9",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo95",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "95"
+        ]
+      },
+      "98": {
+        "value": "#f5faff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.96",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo98",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "98"
+        ]
+      },
+      "99": {
+        "value": "#fafcff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.98",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo99",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "99"
+        ]
+      },
+      "100": {
+        "value": "#fff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.info}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteInfo100",
+        "attributes": {},
+        "path": [
+          "palette",
+          "info",
+          "100"
+        ]
+      }
+    },
+    "success": {
+      "0": {
+        "value": "#000",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess0",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "0"
+        ]
+      },
+      "10": {
+        "value": "#0a2812",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess10",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "10"
+        ]
+      },
+      "20": {
+        "value": "#155024",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess20",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#1f7735",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{tone.30}",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess30",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#2a9f47",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess40",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#34c759",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess50",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#5dd27a",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess60",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#85dd9b",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess70",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#aee9bd",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess80",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "80"
+        ]
+      },
+      "90": {
+        "value": "#d6f4de",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess90",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "90"
+        ]
+      },
+      "95": {
+        "value": "#ebf9ee",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.9",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess95",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "95"
+        ]
+      },
+      "98": {
+        "value": "#f7fdf8",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.96",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess98",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "98"
+        ]
+      },
+      "99": {
+        "value": "#fbfefc",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.98",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess99",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "99"
+        ]
+      },
+      "100": {
+        "value": "#fff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.success}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteSuccess100",
+        "attributes": {},
+        "path": [
+          "palette",
+          "success",
+          "100"
+        ]
+      }
+    },
+    "danger": {
+      "0": {
+        "value": "#000",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger0",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "0"
+        ]
+      },
+      "10": {
+        "value": "#330c0a",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger10",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "10"
+        ]
+      },
+      "20": {
+        "value": "#661813",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger20",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#99231d",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{tone.30}",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger30",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#cc2f26",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger40",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#ff3b30",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger50",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#ff6259",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger60",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#ff8983",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger70",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#ffb1ac",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger80",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "80"
+        ]
+      },
+      "90": {
+        "value": "#ffd8d6",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger90",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "90"
+        ]
+      },
+      "95": {
+        "value": "#ffebea",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.9",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger95",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "95"
+        ]
+      },
+      "98": {
+        "value": "#fff7f7",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.96",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger98",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "98"
+        ]
+      },
+      "99": {
+        "value": "#fffbfb",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.98",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger99",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "99"
+        ]
+      },
+      "100": {
+        "value": "#fff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.danger}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteDanger100",
+        "attributes": {},
+        "path": [
+          "palette",
+          "danger",
+          "100"
+        ]
+      }
+    },
+    "warning": {
+      "0": {
+        "value": "#000",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning0",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "0"
+        ]
+      },
+      "10": {
+        "value": "#331e00",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning10",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "10"
+        ]
+      },
+      "20": {
+        "value": "#663c00",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning20",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#995900",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{tone.30}",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning30",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#c70",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning40",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#ff9500",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning50",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#fa3",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning60",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#ffbf66",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning70",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#ffd599",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning80",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "80"
+        ]
+      },
+      "90": {
+        "value": "#ffeacc",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning90",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "90"
+        ]
+      },
+      "95": {
+        "value": "#fff4e6",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.9",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning95",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "95"
+        ]
+      },
+      "98": {
+        "value": "#fffbf5",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.96",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning98",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "98"
+        ]
+      },
+      "99": {
+        "value": "#fffdfa",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.98",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning99",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "99"
+        ]
+      },
+      "100": {
+        "value": "#fff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.warning}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteWarning100",
+        "attributes": {},
+        "path": [
+          "palette",
+          "warning",
+          "100"
+        ]
+      }
+    },
+    "neutral": {
+      "0": {
+        "value": "#000",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral0",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "0"
+        ]
+      },
+      "10": {
+        "value": "#060606",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral10",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "10"
+        ]
+      },
+      "20": {
+        "value": "#0d0d0d",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral20",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "20"
+        ]
+      },
+      "30": {
+        "value": "#131313",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{tone.30}",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral30",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "30"
+        ]
+      },
+      "40": {
+        "value": "#1a1a1a",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral40",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "40"
+        ]
+      },
+      "50": {
+        "value": "#202020",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral50",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "50"
+        ]
+      },
+      "60": {
+        "value": "#4d4d4d",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.2",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral60",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "60"
+        ]
+      },
+      "70": {
+        "value": "#797979",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.4",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral70",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "70"
+        ]
+      },
+      "80": {
+        "value": "#a6a6a6",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.6",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral80",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "80"
+        ]
+      },
+      "90": {
+        "value": "#d2d2d2",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.8",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral90",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "90"
+        ]
+      },
+      "95": {
+        "value": "#e9e9e9",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.9",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral95",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "95"
+        ]
+      },
+      "98": {
+        "value": "#f6f6f6",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.96",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral98",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "98"
+        ]
+      },
+      "99": {
+        "value": "#fbfbfb",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0.98",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral99",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "99"
+        ]
+      },
+      "100": {
+        "value": "#fff",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb",
+              "filePath": "tokens/brand/default.json",
+              "isSource": true,
+              "format": "hex"
+            }
+          }
+        },
+        "filePath": "tokens/brand/default.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.neutral}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb",
+                "filePath": "tokens/brand/default.json",
+                "isSource": true
+              }
+            }
+          }
+        },
+        "name": "paletteNeutral100",
+        "attributes": {},
+        "path": [
+          "palette",
+          "neutral",
+          "100"
+        ]
+      }
+    }
+  }
+}
