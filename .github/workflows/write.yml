@@ -10,19 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Setup
+      - name: Setup node
         uses: ./.github/actions/setup
 
-      - name: Write config
+      - name: Write Files
         run: |
           npm install
           node delete-fonts.js
           node create-config.js
+
+      - name: Configure Git
+        run: |
           git config --local user.email "denciczarko@gmail.com"
           git config --local user.name "GitHub Action"
+
+      - name: Commit Changes
+        run: |
           git checkout -b feature-generated-files
           git add default.json
           git add financial.json
@@ -30,10 +36,12 @@ jobs:
           git add gaming.json
           git commit -m "Update config"
           git push origin feature-generated-files
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: feature-generated-files
-          title: "Proposed Changes"
+          base: ongoing
+          title: "Generated theme files"
           body: "Please review and merge these changes."
