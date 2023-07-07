@@ -1,4 +1,4 @@
-name: Generate Theme Files
+name: Generate Theme
 
 on:
   push:
