@@ -31,16 +31,12 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git add default.json
-          git add financial.json
-          git add fitness.json
-          git add gaming.json
           git add .
-          git reset 'tokens/palettes/default.json'
-          git reset 'tokens/palettes/financial.json'
-          git reset 'tokens/palettes/fitness.json'
-          git reset 'tokens/palettes/gaming.json'
-          git reset 'tokens/brand/default.json'
+          git rm -f 'tokens/palettes/default.json'
+          git rm -f 'tokens/palettes/financial.json'
+          git rm -f 'tokens/palettes/fitness.json'
+          git rm -f 'tokens/palettes/gaming.json'
+          git rm -f 'tokens/brand/default.json'
           git status
           git commit -m "Update config"
 
