@@ -23,27 +23,6 @@ jobs:
           git config --local user.email "denciczarko@gmail.com"
           git config --local user.name "GitHub Action"
 
-      - name: Check if Branch Exists
-        id: branch-check
-        run: |
-          if git ls-remote --heads origin feature-generated-files | grep -q "feature-generated-files"; then
-            echo "Branch exists"
-            echo "::set-output name=branch_exists::true"
-          else
-            echo "Branch does not exist"
-            echo "::set-output name=branch_exists::false"
-          fi
-
-      - name: Create Branch
-        if: steps.branch-check.outputs.branch_exists == 'false'
-        run: |
-          git branch feature-generated-files
-          git push origin feature-generated-files
-
-      - name: Checkout Branch
-        run: |
-          git checkout feature-generated-files
-
       - name: Write Files
         run: |
           npm install
@@ -58,13 +37,6 @@ jobs:
           git add gaming.json
           git status
           git commit -m "Update config"
-          git push origin feature-generated-files
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: feature-generated-files
-          base: ongoing
-          title: "Generated theme files"
-          body: "Please review and merge these changes."
