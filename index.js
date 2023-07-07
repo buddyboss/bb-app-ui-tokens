@@ -1,4 +1,6 @@
-export { defaultData } from "./default.json";
-export { financialData } from "./financial.json";
-export { fitnessData } from "./fitness.json";
-export { gamingData } from "./gaming.json";
+import defaultData from "./default.json";
+import financialData from "./financial.json";
+import fitnessData from "./fitness.json";
+import gamingData from "./gaming.json";
+
+export { defaultData, financialData, fitnessData, gamingData };
