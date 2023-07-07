@@ -3,7 +3,7 @@ name: Generate Theme
 on:
   push:
     branches:
-      - ongoing-test
+      - ongoing
 
 jobs:
   generate-theme-files:
