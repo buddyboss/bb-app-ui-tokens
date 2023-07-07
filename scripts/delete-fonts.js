@@ -39,7 +39,7 @@ fs.readdir(bPath, (err, files) => {
 
       // Write the modified data back to the brand file
       fs.writeFile(
-        brandFile,
+        outputFile,
         JSON.stringify(jsonData, null, 2),
         "utf8",
         (err) => {
