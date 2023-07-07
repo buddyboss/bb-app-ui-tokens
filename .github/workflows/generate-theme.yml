@@ -54,4 +54,4 @@ jobs:
           git add fitness.json
           git add gaming.json
           git commit -m "Update config"
-          git push origin feature-generated-files
+          git push
