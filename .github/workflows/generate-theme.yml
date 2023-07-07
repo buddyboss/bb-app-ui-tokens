@@ -55,12 +55,3 @@ jobs:
           git add gaming.json
           git commit -m "Update config"
           git push origin feature-generated-files
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: feature-generated-files
-          base: ongoing
-          title: "Generated theme files"
-          body: "Please review and merge these changes."
