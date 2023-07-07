@@ -73,7 +73,7 @@ fs.readdir(brandPath, (err, files) => {
         return;
       }
 
-      let mergedData = {};
+      let mergedData = { components: {} };
 
       // Merge theme files
       fs.readdir(themePath, (err, themeFiles) => {
@@ -143,7 +143,6 @@ fs.readdir(brandPath, (err, files) => {
                         return;
                       }
 
-                      mergedData.components = {};
                       const componentName = path.parse(componentFile).name;
                       mergedData.components[componentDir.name] =
                         mergedData.components[componentDir.name] || {};
