@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - ongoing
+  pull_request:
+    branches:
+      - ongoing
 
 jobs:
   generate-theme-files:
