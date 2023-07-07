@@ -52,6 +52,7 @@ jobs:
 
       - name: Commit Changes
         run: |
+          git status
           git add default.json
           git add financial.json
           git add fitness.json
