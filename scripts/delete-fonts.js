@@ -3,6 +3,7 @@ const path = require("path");
 
 // delete fonts
 const bPath = "./tokens/brand";
+const bChangedPath = "./tokens/changedBrand";
 
 // Read all the brand files
 fs.readdir(bPath, (err, files) => {
@@ -11,10 +12,18 @@ fs.readdir(bPath, (err, files) => {
     return;
   }
 
+  fs.mkdir(bChangedPath, { recursive: true }, (err) => {
+    if (err) {
+      console.error("Error creating directory:", err);
+    } else {
+      console.log("Directory created successfully.");
+    }
+  });
+
   // Process each brand file
   files.forEach((file) => {
     const brandFile = path.join(bPath, file);
-    const outputFile = path.join(bPath, `changed-${file}`);
+    const outputFile = path.join(bChangedPath, file);
 
     // Read the contents of the brand file
     fs.readFile(brandFile, "utf8", (err, brandData) => {

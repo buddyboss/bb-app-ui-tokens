@@ -26,7 +26,7 @@ StyleDictionary.registerTransform({
 });
 
 const configBase = (file) => ({
-  source: [`tokens/setup.json`, `tokens/brand/${file}.json`],
+  source: [`tokens/setup.json`, `tokens/changedBrand/${file}.json`],
   platforms: {
     json: {
       transforms: ["color/modifiers", "name/cti/camel"],
@@ -42,7 +42,7 @@ const configBase = (file) => ({
 });
 
 const tokensPath = "./tokens";
-const brandPath = path.join(tokensPath, "brand");
+const brandPath = path.join(tokensPath, "changedBrand");
 const palettesPath = path.join(tokensPath, "palettes");
 const themePath = path.join(tokensPath, "theme");
 const componentsPath = path.join(tokensPath, "components");
