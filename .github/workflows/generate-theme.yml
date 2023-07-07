@@ -35,8 +35,13 @@ jobs:
           git add financial.json
           git add fitness.json
           git add gaming.json
+          git add --all ':/' ':!/tokens/palettes/default.json' ':!/tokens/palettes/financial.json' ':!/tokens/palettes/fitness.json' ':!/tokens/palettes/gaming.json' ':!/tokens/brand/default.json'
           git status
           git commit -m "Update config"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Generated theme files"
+          body: "Please review and merge these changes."
