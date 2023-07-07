@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "BB App UI Tokens",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "index.js",
+    "index.d.ts",
     "default.json",
     "financial.json",
     "fitness.json",
