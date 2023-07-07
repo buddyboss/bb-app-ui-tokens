@@ -18,6 +18,12 @@ jobs:
       - name: Setup node
         uses: ./.github/actions/setup
 
+      - name: Write Files
+        run: |
+          npm install
+          node scripts/delete-fonts.js
+          node scripts/create-config.js
+
       - name: Configure Git
         run: |
           git config --local user.email "denciczarko@gmail.com"
@@ -44,11 +50,8 @@ jobs:
         run: |
           git checkout feature-generated-files
 
-      - name: Write Files And Commit Changes
+      - name: Commit Changes
         run: |
-          npm install
-          node delete-fonts.js
-          node create-config.js
           git add default.json
           git add financial.json
           git add fitness.json
