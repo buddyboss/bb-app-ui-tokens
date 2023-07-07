@@ -36,7 +36,7 @@ jobs:
           git rm -f 'tokens/palettes/financial.json'
           git rm -f 'tokens/palettes/fitness.json'
           git rm -f 'tokens/palettes/gaming.json'
-          git rm -f 'tokens/brand/default.json'
+          git rm -f 'tokens/brand/changed-default.json'
           git status
           git commit -m "Update config"
 

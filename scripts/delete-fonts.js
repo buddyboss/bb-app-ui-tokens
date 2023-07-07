@@ -14,6 +14,7 @@ fs.readdir(bPath, (err, files) => {
   // Process each brand file
   files.forEach((file) => {
     const brandFile = path.join(bPath, file);
+    const outputFile = path.join(bPath, `changed-${file}`);
 
     // Read the contents of the brand file
     fs.readFile(brandFile, "utf8", (err, brandData) => {
