@@ -1,4 +1,4 @@
-name: Write File Action
+name: Generate Theme Files
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - ongoing
 
 jobs:
-  write-file:
+  generate-theme-files:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,9 +27,29 @@ jobs:
           git config --local user.email "denciczarko@gmail.com"
           git config --local user.name "GitHub Action"
 
+      - name: Check if Branch Exists
+        id: branch-check
+        run: |
+          if git ls-remote --heads origin feature-generated-files | grep -q "feature-generated-files"; then
+            echo "Branch exists"
+            echo "::set-output name=branch_exists::true"
+          else
+            echo "Branch does not exist"
+            echo "::set-output name=branch_exists::false"
+          fi
+
+      - name: Create Branch
+        if: steps.branch-check.outputs.branch_exists == 'false'
+        run: |
+          git branch feature-generated-files
+          git push origin feature-generated-files
+
+      - name: Checkout Branch
+        run: |
+          git checkout feature-generated-files
+
       - name: Commit Changes
         run: |
-          git checkout -b feature-generated-files
           git add default.json
           git add financial.json
           git add fitness.json
