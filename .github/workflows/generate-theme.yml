@@ -44,14 +44,11 @@ jobs:
         run: |
           git checkout feature-generated-files
 
-      - name: Write Files
+      - name: Write Files & Commit Changes
         run: |
           npm install
           node scripts/delete-fonts.js
           node scripts/create-config.js
-
-      - name: Commit Changes
-        run: |
           git add default.json
           git add financial.json
           git add fitness.json
