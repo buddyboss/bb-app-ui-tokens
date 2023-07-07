@@ -143,10 +143,11 @@ fs.readdir(brandPath, (err, files) => {
                         return;
                       }
 
+                      mergedData.components = {};
                       const componentName = path.parse(componentFile).name;
-                      mergedData[componentDir.name] =
-                        mergedData[componentDir.name] || {};
-                      mergedData[componentDir.name][componentName] =
+                      mergedData.components[componentDir.name] =
+                        mergedData.components[componentDir.name] || {};
+                      mergedData.components[componentDir.name][componentName] =
                         JSON.parse(componentData);
                     }
                   );
