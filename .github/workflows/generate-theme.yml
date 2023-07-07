@@ -52,10 +52,7 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git add default.json
-          git add financial.json
-          git add fitness.json
-          git add gaming.json
+          git add --all
           git commit -m "Update config"
           git push origin feature-generated-files
 
