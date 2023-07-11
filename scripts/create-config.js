@@ -5,7 +5,6 @@ const {
   transformColorModifiers,
 } = require("@tokens-studio/sd-transforms");
 const StyleDictionary = require("style-dictionary");
-// const transformObject = require("style-dictionary/lib/transform/object");
 
 function replaceKeyWithValue(json) {
   if (typeof json !== "object") {
