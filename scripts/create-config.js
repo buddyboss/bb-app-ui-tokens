@@ -5,6 +5,37 @@ const {
   transformColorModifiers,
 } = require("@tokens-studio/sd-transforms");
 const StyleDictionary = require("style-dictionary");
+// const transformObject = require("style-dictionary/lib/transform/object");
+
+function replaceKeyWithValue(json) {
+  if (typeof json !== "object") {
+    return json;
+  }
+
+  if (Array.isArray(json)) {
+    return json.map(replaceKeyWithValue);
+  }
+
+  const result = {};
+
+  for (const key in json) {
+    const value = json[key];
+
+    if (
+      typeof value === "object" &&
+      value !== null &&
+      value.$extensions &&
+      value.$extensions["bb.app.ui"]?.transformed?.name
+    ) {
+      result[value.$extensions["bb.app.ui"]?.transformed?.name] =
+        replaceKeyWithValue(value);
+    } else {
+      result[key] = replaceKeyWithValue(value);
+    }
+  }
+
+  return result;
+}
 
 registerTransforms(StyleDictionary);
 
@@ -25,11 +56,30 @@ StyleDictionary.registerTransform({
   },
 });
 
-const configBase = (file) => ({
+StyleDictionary.registerTransform({
+  name: "name/modifiers",
+  type: "name",
+  transitive: true,
+  matcher: (token) => {
+    return (
+      token.$extensions && token.$extensions["bb.app.ui"]?.transformed?.name
+    );
+  },
+  transformer: (token) => {
+    if (
+      token.$extensions &&
+      token.$extensions["bb.app.ui"]?.transformed?.name
+    ) {
+      return token.$extensions["bb.app.ui"]?.transformed?.name;
+    }
+  },
+});
+
+const configBrandSD = (file) => ({
   source: [`tokens/setup.json`, `tokens/changedBrand/${file}.json`],
   platforms: {
     json: {
-      transforms: ["color/modifiers", "name/cti/camel"],
+      transforms: ["name/cti/camel"],
       buildPath: `tokens/palettes/`,
       files: [
         {
@@ -46,6 +96,7 @@ const brandPath = path.join(tokensPath, "changedBrand");
 const palettesPath = path.join(tokensPath, "palettes");
 const themePath = path.join(tokensPath, "theme");
 const componentsPath = path.join(tokensPath, "components");
+const defaultPalettePath = path.join(palettesPath, "default.json");
 
 // Read all the brand files
 fs.readdir(brandPath, (err, files) => {
@@ -61,10 +112,21 @@ fs.readdir(brandPath, (err, files) => {
     const outputFile = `${brandName}.json`;
 
     // transform brand files
-    const sdBase = StyleDictionary.extend(configBase(brandName));
+    const sdBrand = StyleDictionary.extend(configBrandSD(brandName));
 
-    sdBase.cleanAllPlatforms();
-    sdBase.buildAllPlatforms();
+    sdBrand.cleanAllPlatforms();
+    sdBrand.buildAllPlatforms();
+
+    let defaultPalette;
+
+    fs.readFile(defaultPalettePath, "utf8", (err, defaultPaletteData) => {
+      if (err) {
+        console.error(`Error reading brand file ${defaultPalettePath}:`, err);
+        return;
+      }
+
+      defaultPalette = defaultPaletteData;
+    });
 
     // Read the contents of the brand file
     fs.readFile(paletteFile, "utf8", (err, brandData) => {
@@ -93,7 +155,11 @@ fs.readdir(brandPath, (err, files) => {
             }
 
             const themeName = path.parse(themeFile).name;
-            mergedData[themeName] = JSON.parse(themeData);
+            if (themeName === "index") {
+              mergedData = Object.assign(mergedData, JSON.parse(themeData));
+            } else {
+              mergedData[themeName] = JSON.parse(themeData);
+            }
           });
         });
       });
@@ -146,8 +212,18 @@ fs.readdir(brandPath, (err, files) => {
                       const componentName = path.parse(componentFile).name;
                       mergedData.components[componentDir.name] =
                         mergedData.components[componentDir.name] || {};
-                      mergedData.components[componentDir.name][componentName] =
-                        JSON.parse(componentData);
+
+                      if (componentName === "index") {
+                        mergedData.components[componentDir.name] =
+                          Object.assign(
+                            mergedData.components[componentDir.name],
+                            JSON.parse(componentData)
+                          );
+                      } else {
+                        mergedData.components[componentDir.name][
+                          componentName
+                        ] = JSON.parse(componentData);
+                      }
                     }
                   );
                 });
@@ -159,12 +235,24 @@ fs.readdir(brandPath, (err, files) => {
 
       // Wait for the theme and component files to be merged
       setTimeout(() => {
-        mergedData.index.palette = JSON.parse(brandData).palette;
+        // merge default palette with brand
+        mergedData.palette = Object.assign(
+          JSON.parse(defaultPalette).palette,
+          JSON.parse(brandData).palette
+        );
+        // merge index, default and brand colors
+        mergedData.color = Object.assign(
+          mergedData.color,
+          JSON.parse(defaultPalette).color,
+          JSON.parse(brandData).color
+        );
+
+        //rename all tokens that have "name" tokens
 
         // Write the merged data to the output file
         fs.writeFile(
           outputFile,
-          JSON.stringify(mergedData, null, 2),
+          JSON.stringify(replaceKeyWithValue(mergedData), null, 2),
           "utf8",
           (err) => {
             if (err) {

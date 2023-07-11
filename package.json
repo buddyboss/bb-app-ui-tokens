@@ -4,6 +4,7 @@
   "description": "BB App UI Tokens",
   "main": "index.js",
   "types": "index.d.ts",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +29,8 @@
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.10.0",
     "style-dictionary": "^3.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
