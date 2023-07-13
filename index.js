@@ -1,6 +1,6 @@
-import defaultData from "./default.json";
-import financialData from "./financial.json";
-import fitnessData from "./fitness.json";
-import gamingData from "./gaming.json";
+import defaultConfig from "./default.json";
+import financialConfig from "./financial.json";
+import fitnessConfig from "./fitness.json";
+import gamingConfig from "./gaming.json";
 
-export { defaultData, financialData, fitnessData, gamingData };
+export { defaultConfig, financialConfig, fitnessConfig, gamingConfig };

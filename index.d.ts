@@ -1,11 +1,11 @@
-declare const defaultData: any;
-declare const financialData: any;
-declare const fitnessData: any;
-declare const gamingData: any;
+declare const defaultConfig: any;
+declare const financialConfig: any;
+declare const fitnessConfig: any;
+declare const gamingConfig: any;
 
 export {
-  defaultData,
-  financialData,
-  fitnessData,
-  gamingData,
+  defaultConfig,
+  financialConfig,
+  fitnessConfig,
+  gamingConfig,
 };
