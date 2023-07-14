@@ -32,7 +32,21 @@ jobs:
           node scripts/delete-fonts.js
           node scripts/create-config.js
 
+      - name: Check for Changes
+        id: changes
+        run: |
+          git status --porcelain > changes.txt
+          cat changes.txt
+          if [ -s changes.txt ]; then
+            echo "Changes detected. Proceeding with commit."
+            exit 0
+          else
+            echo "No changes. Skipping commit."
+            exit 1
+          fi
+
       - name: Commit Changes
+        if: steps.changes.outcome == 'success'
         run: |
           git add .
           git rm -f 'tokens/palettes/default.json'
