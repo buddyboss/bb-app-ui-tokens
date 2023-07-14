@@ -5,66 +5,6 @@
     },
     "WebView": {}
   },
-  "@android": {
-    "system": {
-      "font": {
-        "300": {
-          "value": "Light",
-          "type": "fontWeights"
-        },
-        "400": {
-          "value": "Regular",
-          "type": "fontWeights"
-        },
-        "500": {
-          "value": "Medium",
-          "type": "fontWeights"
-        },
-        "600": {
-          "value": "SemiBold",
-          "type": "fontWeights"
-        },
-        "700": {
-          "value": "Bold",
-          "type": "fontWeights"
-        },
-        "base": {
-          "value": "Roboto",
-          "type": "fontFamilies"
-        },
-        "italic": {
-          "300": {
-            "value": "Light Italic",
-            "type": "fontWeights"
-          },
-          "400": {
-            "value": "Italic",
-            "type": "fontWeights"
-          },
-          "500": {
-            "value": "Medium Italic",
-            "type": "fontWeights"
-          },
-          "600": {
-            "value": "SemiBold Italic",
-            "type": "fontWeights"
-          },
-          "700": {
-            "value": "Bold Italic",
-            "type": "fontWeights"
-          }
-        }
-      },
-      "header": {
-        "value": "44",
-        "type": "sizing"
-      },
-      "footer": {
-        "value": "30",
-        "type": "sizing"
-      }
-    }
-  },
   "@ios": {
     "system": {
       "font": {
@@ -126,6 +66,66 @@
     }
   },
   "@web": {},
+  "@android": {
+    "system": {
+      "font": {
+        "300": {
+          "value": "Light",
+          "type": "fontWeights"
+        },
+        "400": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "500": {
+          "value": "Medium",
+          "type": "fontWeights"
+        },
+        "600": {
+          "value": "SemiBold",
+          "type": "fontWeights"
+        },
+        "700": {
+          "value": "Bold",
+          "type": "fontWeights"
+        },
+        "base": {
+          "value": "Roboto",
+          "type": "fontFamilies"
+        },
+        "italic": {
+          "300": {
+            "value": "Light Italic",
+            "type": "fontWeights"
+          },
+          "400": {
+            "value": "Italic",
+            "type": "fontWeights"
+          },
+          "500": {
+            "value": "Medium Italic",
+            "type": "fontWeights"
+          },
+          "600": {
+            "value": "SemiBold Italic",
+            "type": "fontWeights"
+          },
+          "700": {
+            "value": "Bold Italic",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "header": {
+        "value": "44",
+        "type": "sizing"
+      },
+      "footer": {
+        "value": "30",
+        "type": "sizing"
+      }
+    }
+  },
   "_dark": {
     "color": {
       "bg": {
