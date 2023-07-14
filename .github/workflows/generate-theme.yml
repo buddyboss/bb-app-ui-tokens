@@ -61,6 +61,7 @@ jobs:
           git commit -m "Update config"
 
       - name: Create Pull Request
+        if: steps.changes.outcome == 'success'
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
