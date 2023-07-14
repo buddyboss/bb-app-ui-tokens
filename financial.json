@@ -126,232 +126,6 @@
     }
   },
   "@web": {},
-  "_dark": {
-    "color": {
-      "bg": {
-        "canvas": {
-          "value": "{palette.neutral.10}",
-          "type": "color"
-        },
-        "surface": {
-          "value": "{palette.neutral.50}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.neutral.70}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.neutral.60}",
-          "type": "color"
-        },
-        "on-subtle": {
-          "value": "{palette.neutral.70}",
-          "type": "color"
-        },
-        "cover": {
-          "value": "{palette.neutral.30}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{color.bg.surface}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "lighten",
-                "value": "1",
-                "space": "srgb"
-              }
-            }
-          }
-        }
-      },
-      "fg": {
-        "default": {
-          "value": "{palette.neutral.95}",
-          "type": "color"
-        },
-        "emphasis": {
-          "value": "{palette.neutral.99}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.neutral.90}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.neutral.80}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{palette.neutral.10}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.neutral.60}",
-          "type": "color"
-        },
-        "on-disabled": {
-          "value": "{palette.neutral.50}",
-          "type": "color"
-        }
-      },
-      "accent": {
-        "default": {
-          "value": "{palette.accent.60}",
-          "type": "color"
-        },
-        "emphasis": {
-          "value": "{palette.accent.80}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.accent.30}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.accent.20}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{palette.accent.99}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.accent.30}",
-          "type": "color"
-        },
-        "on-disabled": {
-          "value": "{palette.neutral.70}",
-          "type": "color"
-        }
-      },
-      "info": {
-        "default": {
-          "value": "{palette.info.60}",
-          "type": "color"
-        },
-        "emphasis": {
-          "value": "{palette.info.80}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.info.30}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.info.20}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{palette.info.99}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.info.30}",
-          "type": "color"
-        }
-      },
-      "success": {
-        "default": {
-          "value": "{palette.success.60}",
-          "type": "color"
-        },
-        "emphasis": {
-          "value": "{palette.success.80}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.success.30}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.success.20}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{palette.success.99}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.success.30}",
-          "type": "color"
-        }
-      },
-      "danger": {
-        "default": {
-          "value": "{palette.danger.60}",
-          "type": "color"
-        },
-        "emphasis": {
-          "value": "{palette.danger.80}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.danger.30}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.danger.20}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{palette.danger.99}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.danger.30}",
-          "type": "color"
-        }
-      },
-      "warning": {
-        "default": {
-          "value": "{palette.warning.60}",
-          "type": "color"
-        },
-        "emphasis": {
-          "value": "{palette.warning.80}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{palette.warning.30}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.warning.20}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{palette.warning.99}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.warning.30}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{palette.neutral.70}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{palette.neutral.60}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{palette.neutral.60}",
-          "type": "color"
-        },
-        "outline": {
-          "value": "rgba({color.bg.inverse},0.05)",
-          "type": "color",
-          "description": "Applied inside images to differentiate them from the background"
-        }
-      }
-    }
-  },
   "_legacy": {
     "space": {
       "margin": {
@@ -764,6 +538,232 @@
               "resolve": "true"
             }
           }
+        }
+      }
+    }
+  },
+  "_dark": {
+    "color": {
+      "bg": {
+        "canvas": {
+          "value": "{palette.neutral.10}",
+          "type": "color"
+        },
+        "surface": {
+          "value": "{palette.neutral.50}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.neutral.70}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.neutral.60}",
+          "type": "color"
+        },
+        "on-subtle": {
+          "value": "{palette.neutral.70}",
+          "type": "color"
+        },
+        "cover": {
+          "value": "{palette.neutral.30}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.bg.surface}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "1",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "fg": {
+        "default": {
+          "value": "{palette.neutral.95}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{palette.neutral.99}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.neutral.90}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.neutral.80}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{palette.neutral.10}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.neutral.60}",
+          "type": "color"
+        },
+        "on-disabled": {
+          "value": "{palette.neutral.50}",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{palette.accent.60}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{palette.accent.80}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.accent.30}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.accent.20}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{palette.accent.99}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.accent.30}",
+          "type": "color"
+        },
+        "on-disabled": {
+          "value": "{palette.neutral.70}",
+          "type": "color"
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{palette.info.60}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{palette.info.80}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.info.30}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.info.20}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{palette.info.99}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.info.30}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{palette.success.60}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{palette.success.80}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.success.30}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.success.20}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{palette.success.99}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.success.30}",
+          "type": "color"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{palette.danger.60}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{palette.danger.80}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.danger.30}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.danger.20}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{palette.danger.99}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.danger.30}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{palette.warning.60}",
+          "type": "color"
+        },
+        "emphasis": {
+          "value": "{palette.warning.80}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{palette.warning.30}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.warning.20}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{palette.warning.99}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.warning.30}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{palette.neutral.70}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{palette.neutral.60}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{palette.neutral.60}",
+          "type": "color"
+        },
+        "outline": {
+          "value": "rgba({color.bg.inverse},0.05)",
+          "type": "color",
+          "description": "Applied inside images to differentiate them from the background"
         }
       }
     }
