@@ -49,10 +49,6 @@ jobs:
         if: steps.changes.outcome == 'success'
         run: |
           git add .
-          git rm -f 'tokens/palettes/default.json'
-          git rm -f 'tokens/palettes/financial.json'
-          git rm -f 'tokens/palettes/fitness.json'
-          git rm -f 'tokens/palettes/gaming.json'
           git rm -f 'tokens/changedBrand/default.json'
           git rm -f 'tokens/changedBrand/financial.json'
           git rm -f 'tokens/changedBrand/fitness.json'
