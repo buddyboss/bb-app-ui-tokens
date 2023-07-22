@@ -39,14 +39,14 @@ jobs:
           cat changes.txt
           if [ -s changes.txt ]; then
             echo "Changes detected. Proceeding with commit."
-            exit 0
+            echo "::set-output name=has_changes::true"
           else
             echo "No changes. Skipping commit."
-            exit 1
+            echo "::set-output name=has_changes::false"
           fi
 
       - name: Commit Changes
-        if: steps.changes.outcome == 'success'
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git add .
           git rm -f 'tokens/changedBrand/default.json'
@@ -57,7 +57,7 @@ jobs:
           git commit -m "Update config"
 
       - name: Create Pull Request
-        if: steps.changes.outcome == 'success'
+        if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
