@@ -1,3 +1,38 @@
+/**
+ * This script goes through all brand files and does the font modifications
+ * For example from this
+ *
+ * 	"font": {
+ *     "plain": {
+ *       "base": {
+ *         "value": "SF Pro",
+ *         "type": "fontFamily"
+ *       },
+ *       "300": {
+ *         "normal": {
+ *           "value": "Regular",
+ *           "type": "fontWeight"
+ *         },
+ *         "italic": {
+ *           "value": "Regular Italic",
+ *           "type": "fontWeight"
+ *         }
+ *       }
+ *     }
+ *  },
+ *
+ *  makes this:
+ *
+ *   "font": {
+ *     "plain": {
+ *       "value": "SF Pro",
+ *       "type": "fontFamily"
+ *     }
+ *   },
+ *
+ * The result is placed in changedBrand folder which gets discarded after CI complets
+ */
+
 const fs = require("fs");
 const path = require("path");
 
@@ -43,8 +78,19 @@ fs.readdir(bPath, (err, files) => {
         return;
       }
 
-      // Remove the "font" key and its value
-      delete jsonData.font;
+      for (const section in jsonData.font) {
+        jsonData.font[section] = jsonData.font[section].base.value.includes(
+          "system"
+        )
+          ? {
+              value: "System",
+              type: "fontFamilies",
+            }
+          : jsonData.font[section].base.value;
+        delete jsonData.font[section].base;
+        delete jsonData.font[section].normal;
+        delete jsonData.font[section].italic;
+      }
 
       // Write the modified data back to the brand file
       fs.writeFile(
@@ -63,5 +109,3 @@ fs.readdir(bPath, (err, files) => {
     });
   });
 });
-
-// delete fonts

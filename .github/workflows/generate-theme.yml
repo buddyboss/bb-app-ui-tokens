@@ -29,8 +29,8 @@ jobs:
       - name: Write Files
         run: |
           npm install
-          node scripts/delete-fonts.js
-          node scripts/create-config.js
+          node scripts/modify-fonts.js
+          node scripts/transform-tokens.js
 
       - name: Check for Changes
         id: changes
