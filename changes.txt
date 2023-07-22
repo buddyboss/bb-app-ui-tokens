@@ -1,7 +1,2 @@
- M default.json
- M fitness.json
- M gaming.json
- M package-lock.json
-?? changes.txt
+ M changes.txt
 ?? tokens/changedBrand/
-?? tokens/palettes/
