@@ -30,7 +30,7 @@ jobs:
         run: |
           npm install
           node scripts/modify-fonts.js
-          node scripts/transform-config.js
+          node scripts/transform-tokens.js
 
       - name: Check for Changes
         id: changes
