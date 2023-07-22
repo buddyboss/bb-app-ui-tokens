@@ -49,10 +49,10 @@ jobs:
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           git add .
-          if [ -f "tokens/changedBrand/default.json" ]; then git rm -f 'tokens/changedBrand/default.json'; fi
-          if [ -f "tokens/changedBrand/financial.json" ]; then git rm -f 'tokens/changedBrand/financial.json'; fi
-          if [ -f "tokens/changedBrand/fitness.json" ]; then git rm -f 'tokens/changedBrand/fitness.json'; fi
-          if [ -f "tokens/changedBrand/gaming.json" ]; then git rm -f 'tokens/changedBrand/gaming.json'; fi
+          git rm -f 'tokens/changedBrand/default.json'
+          git rm -f 'tokens/changedBrand/financial.json'
+          git rm -f 'tokens/changedBrand/fitness.json'
+          git rm -f 'tokens/changedBrand/gaming.json'
           git status
           git commit -m "Update config"
 
