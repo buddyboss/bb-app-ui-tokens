@@ -49,10 +49,10 @@ jobs:
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           git add .
-          git rm -f 'tokens/changedBrand/default.json'
-          git rm -f 'tokens/changedBrand/financial.json'
-          git rm -f 'tokens/changedBrand/fitness.json'
-          git rm -f 'tokens/changedBrand/gaming.json'
+          git rm -f --ignore-unmatch 'tokens/changedBrand/default.json'
+          git rm -f --ignore-unmatch 'tokens/changedBrand/financial.json'
+          git rm -f --ignore-unmatch 'tokens/changedBrand/fitness.json'
+          git rm -f --ignore-unmatch 'tokens/changedBrand/gaming.json'
           git status
           git commit -m "Update config"
 
