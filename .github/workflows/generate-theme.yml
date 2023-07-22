@@ -37,7 +37,7 @@ jobs:
         run: |
           git status --porcelain > changes.txt
           cat changes.txt
-          if grep -qE '^\s+[MADRC]' changes.txt; then
+          if grep -qE '^\s*[MADRC]' changes.txt; then
             echo "Changes detected. Proceeding with commit."
             echo "::set-output name=has_changes::true"
           else
