@@ -10,10 +10,10 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "default.json",
-    "financial.json",
-    "fitness.json",
-    "gaming.json"
+    "transformed/default.json",
+    "transformed/financial.json",
+    "transformed/fitness.json",
+    "transformed/gaming.json"
   ],
   "repository": {
     "type": "git",
