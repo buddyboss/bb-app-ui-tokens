@@ -54,7 +54,6 @@ function setupTokens(json) {
   for (const key in json) {
     const token = json[key];
 
-    // Replace key with name attribute
     if (
       typeof token === "object" &&
       !!token.value &&
@@ -62,19 +61,18 @@ function setupTokens(json) {
         "undefined" ||
         token?.$extensions?.["bb.app.ui"]?.transformed?.resolve === "true")
     ) {
+      // Replace key with name attribute
       result[key] = token.value;
-    } else {
-      result[key] = setupTokens(token);
-    }
-
-    // Change refrence notation
-    if (
+    } else if (
       key in referencesMap &&
       typeof token === "object" &&
       !!token.value &&
       isReference(token.value)
     ) {
+      // Change refrence notation
       result[key] = changeReferenceNotation(token.value, referencesMap[key]);
+    } else {
+      result[key] = setupTokens(token);
     }
   }
 
