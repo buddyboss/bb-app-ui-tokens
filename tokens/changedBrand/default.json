@@ -1,0 +1,2087 @@
+{
+  "color": {
+    "accent": {
+      "value": "#007AFF",
+      "type": "color"
+    },
+    "info": {
+      "value": "#007AFF",
+      "type": "color"
+    },
+    "success": {
+      "value": "#34C759",
+      "type": "color"
+    },
+    "danger": {
+      "value": "#FF3B30",
+      "type": "color"
+    },
+    "warning": {
+      "value": "#FF9500",
+      "type": "color"
+    },
+    "neutral": {
+      "value": "#202020",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0.08",
+            "space": "lch",
+            "color": "{color.accent}"
+          }
+        },
+        "bb.app.ui": {
+          "transformed": {
+            "resolve": "true"
+          }
+        }
+      }
+    },
+    "bodyFrontBg": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Background color for secondary content areas throughout the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "bodyBg": {
+      "value": "#f6f6f8",
+      "type": "color",
+      "description": "Background color for the main content throughout the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "coverImageBg": {
+      "value": "#EDEEF2",
+      "type": "color",
+      "description": "Background color to use when no cover image is uploaded.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "borderColor": {
+      "value": "#C6C6C8",
+      "type": "color",
+      "description": "Color of the border dividers between sections throughout the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "primaryColor": {
+      "value": "#007cff",
+      "type": "color",
+      "description": "Used for various app elements.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "headerBg": {
+      "value": "#F9F9F9",
+      "type": "color",
+      "description": "Background color for the navigation bar at the top of the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "headerColor": {
+      "value": "#211C44",
+      "type": "color",
+      "description": "Text color for titles in the navigation bar at the top of the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "headerIconColor": {
+      "value": "#2F74F6",
+      "type": "color",
+      "description": "Color for links and icons in the navigation bar at the top of the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "bottomTabsBg": {
+      "value": "#EEF0F3",
+      "type": "color",
+      "description": "Background color for the Tab Bar navigation at the bottom of the app.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "bottomTabsColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Default color for icons, and labels if enabled, in the Tab Bar and More Screen. Can be overwritten in menus with custom icon colors.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "bottomTabsActiveColor": {
+      "value": "#007cff",
+      "type": "color",
+      "description": "Color for icons, and labels if enabled, when the icon is currently selected in the Tab Bar.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "primaryButtonBg": {
+      "value": "#013A7E",
+      "type": "color",
+      "description": "Background color of buttons seen on Login and Signup Screen.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "primaryButtonColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color of buttons seen on Course Lesson and Topic screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "secondaryButtonBg": {
+      "value": "#EDEEF2",
+      "type": "color",
+      "description": "Background color for Secondary Button.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "secondaryButtonColor": {
+      "value": "#516CD9",
+      "type": "color",
+      "description": "Text color for Secondary Button.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "headingsColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for Heading elements.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "textColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for the General Body content. ",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "descTextColor": {
+      "value": "#737679",
+      "type": "color",
+      "description": "Text color for Item descriptions.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "descLightTextColor": {
+      "value": "#838A98",
+      "type": "color",
+      "description": "Text color for meta items like '2 days ago' and '3 Discussions'.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "labelBgColor": {
+      "value": "#EDEEF2",
+      "type": "color",
+      "description": "Background color for the labels.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "labelTextColor": {
+      "value": "#92949D",
+      "type": "color",
+      "description": "Text color for the labels.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "authBgColor": {
+      "value": "#3598FF",
+      "type": "color",
+      "description": "Background color for Login, Forgot Password, and related authentication screens. Login screen can also be a background image.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "authTextColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for Login, Forgot Password, and related authentication screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "authFieldBgColor": {
+      "value": "rgba(0,0,0,0.2)",
+      "type": "color",
+      "description": "Background color for input fields on Login, Forgot Password, and related authentication screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "authFieldTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for input fields on Login, Forgot Password, and related authentication screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "authButtonBgColor": {
+      "value": "#013a7e",
+      "type": "color",
+      "description": "Background color for buttons on Login, Forgot Password, and related authentication screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "authButtonTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for buttons on Login, Forgot Password, and related authentication screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "regBgColor": {
+      "value": "#3598FF",
+      "type": "color",
+      "description": "Background color for Registration and Activation Code screens. Registration screen can also be a background image.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "regTextColor": {
+      "value": "#000000",
+      "type": "color",
+      "description": "Text color for Registration and Activation Code screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "regFieldBgColor": {
+      "value": "rgba(0,0,0,0.2)",
+      "type": "color",
+      "description": "Background color for input fields and products on Registration and Activation Code screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "regFieldTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for input fields and products on Registration and Activation Code screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "regButtonBgColor": {
+      "value": "#013a7e",
+      "type": "color",
+      "description": "Background color for buttons on Registration and Activation Code screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "regButtonTextColor": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Text color for buttons on Registration and Activation Code screens.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "androidStatusBgColor": {
+      "value": "#3598FF",
+      "type": "color",
+      "description": "Background color for the Android Status Bar.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "coursesLabelCompleted": {
+      "value": "#10D639",
+      "type": "color",
+      "description": "Background color for courses completed status label.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "coursesLabelProgress": {
+      "value": "#8F42E1",
+      "type": "color",
+      "description": "Background color for courses in progress status label.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "coursesLabelStart": {
+      "value": "#007cff",
+      "type": "color",
+      "description": "Background color for courses start course status label.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "coursesLabelFree": {
+      "value": "#8F42E1",
+      "type": "color",
+      "description": "Background color for courses free status label.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "coursesLabelNotEnrolled": {
+      "value": "#E142A6",
+      "type": "color",
+      "description": "Background color for courses not enrolled status label.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "iapStatusCheckmark": {
+      "value": "#10D639",
+      "type": "color",
+      "description": "Color for purchased status checkmark.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    },
+    "iapBenefitsCheckmark": {
+      "value": "#10D639",
+      "type": "color",
+      "description": "Color for benefits checkmark.",
+      "$extensions": {
+        "bb.app.ui": {
+          "transformed": {
+            "ignore": "true"
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "plain": {
+      "value": "System",
+      "type": "fontFamilies"
+    },
+    "brand": {
+      "value": "System",
+      "type": "fontFamilies"
+    },
+    "header": {
+      "value": "System",
+      "type": "fontFamilies"
+    },
+    "footer": {
+      "value": "System",
+      "type": "fontFamilies"
+    },
+    "menu": {
+      "value": "System",
+      "type": "fontFamilies"
+    },
+    "code": {
+      "value": "System",
+      "type": "fontFamilies"
+    }
+  },
+  "palette": {
+    "accent": {
+      "0": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "10": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "20": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "30": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "40": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "60": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "70": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "80": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "90": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "95": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "98": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "99": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "100": {
+        "value": "{color.accent}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      }
+    },
+    "info": {
+      "0": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "10": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "20": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "30": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "40": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "60": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "70": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "80": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "90": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "95": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "98": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "99": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "100": {
+        "value": "{color.info}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      }
+    },
+    "success": {
+      "0": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "10": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "20": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "30": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "40": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "60": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "70": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "80": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "90": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "95": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "98": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "99": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "100": {
+        "value": "{color.success}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      }
+    },
+    "danger": {
+      "0": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "10": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "20": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "30": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "40": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "60": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "70": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "80": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "90": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "95": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "98": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "99": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "100": {
+        "value": "{color.danger}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      }
+    },
+    "warning": {
+      "0": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "10": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "20": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "30": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "40": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "60": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "70": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "80": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "90": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "95": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "98": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "99": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "100": {
+        "value": "{color.warning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      }
+    },
+    "neutral": {
+      "0": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "10": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "20": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "30": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "40": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "50": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "60": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.2",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "70": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.4",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "80": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.6",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "90": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.8",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "95": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.9",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "98": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.96",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "99": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "0.98",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      },
+      "100": {
+        "value": "{color.neutral}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "1",
+              "space": "srgb"
+            }
+          },
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "true"
+            }
+          }
+        }
+      }
+    }
+  }
+}

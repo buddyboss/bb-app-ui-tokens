@@ -13,7 +13,8 @@
     "transformed/default.json",
     "transformed/financial.json",
     "transformed/fitness.json",
-    "transformed/gaming.json"
+    "transformed/gaming.json",
+    "references-map.json"
   ],
   "repository": {
     "type": "git",

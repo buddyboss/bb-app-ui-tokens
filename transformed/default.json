@@ -1,7 +1,11 @@
 {
   "components": {
     "Text": {
-      "_legacy": {}
+      "_legacy": {},
+      "_text": {
+        "color": "{palette.accent.10}",
+        "gap": "$sm"
+      }
     },
     "WebView": {}
   },

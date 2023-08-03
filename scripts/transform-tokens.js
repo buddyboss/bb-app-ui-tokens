@@ -68,7 +68,12 @@ function setupTokens(json) {
     }
 
     // Change refrence notation
-    if (key in referencesMap && isReference(token.value)) {
+    if (
+      key in referencesMap &&
+      typeof token === "object" &&
+      !!token.value &&
+      isReference(token.value)
+    ) {
       result[key] = changeReferenceNotation(token.value, referencesMap[key]);
     }
   }

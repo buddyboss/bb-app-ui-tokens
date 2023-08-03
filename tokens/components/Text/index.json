@@ -1,1 +1,27 @@
-{}
+{
+    "_legacy": {},
+    "_text": {
+      "color": {
+        "value": "{palette.accent.10}",
+        "type": "color",
+        "$extensions": {
+          "bb.app.ui": {
+            "transformed": {
+              "resolve": "false"
+            }
+          }
+        }
+      },
+      "gap": {
+        "value": "{space.sm}",
+        "type": "space",
+        "$extensions": {
+            "bb.app.ui": {
+              "transformed": {
+                "resolve": "false"
+              }
+            }
+          }
+      }
+    }
+}
