@@ -14,7 +14,8 @@
     "transformed/financial.json",
     "transformed/fitness.json",
     "transformed/gaming.json",
-    "references-map.json"
+    "references-map.json",
+    "styleprops-map.json"
   ],
   "repository": {
     "type": "git",
