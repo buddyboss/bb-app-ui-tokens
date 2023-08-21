@@ -284,19 +284,19 @@ async function mergeThemesAndComponents(mergedData) {
 async function main() {
   const files = await fs.readdir(brandPath);
 
+  // Read the default brand file
+  let defaultBrandData;
+  try {
+    defaultBrandData = await fs.readFile(defaultBrandPath, "utf8");
+  } catch (err) {
+    console.error(`Error reading brand file ${defaultBrandPath}:`, err);
+    return;
+  }
+
   for (const file of files) {
     const brandFile = path.join(brandPath, file);
     const brandName = path.parse(file).name;
     const outputFile = path.join(outputPath, `${brandName}.json`);
-
-    // Read the default brand file
-    let defaultBrandData;
-    try {
-      defaultBrandData = await fs.readFile(defaultBrandPath, "utf8");
-    } catch (err) {
-      console.error(`Error reading brand file ${defaultBrandPath}:`, err);
-      return;
-    }
 
     // Read the current brand file
     let brandData;
