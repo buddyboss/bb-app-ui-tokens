@@ -293,6 +293,7 @@ async function main() {
     return;
   }
 
+  // Loop over all brand files
   for (const file of files) {
     const brandFile = path.join(brandPath, file);
     const brandName = path.parse(file).name;
