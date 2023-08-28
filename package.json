@@ -1,0 +1,37 @@
+{
+  "name": "bb-app-ui-tokens",
+  "version": "0.0.3",
+  "description": "BB App UI Tokens",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "transformed/default.json",
+    "transformed/financial.json",
+    "transformed/fitness.json",
+    "transformed/gaming.json",
+    "references-map.json",
+    "styleprops-map.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddyboss/bb-app-ui-tokens.git"
+  },
+  "author": "BuddyBoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buddyboss/bb-app-ui-tokens/issues"
+  },
+  "homepage": "https://github.com/buddyboss/bb-app-ui-tokens#readme",
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^0.10.0",
+    "style-dictionary": "^3.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

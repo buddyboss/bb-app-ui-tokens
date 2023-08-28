@@ -1,0 +1,18 @@
+{
+  "tokenSetOrder": [
+    "setup",
+    "brand/default",
+    "brand/gaming",
+    "brand/fitness",
+    "brand/financial",
+    "theme/index",
+    "theme/@ios",
+    "theme/@android",
+    "theme/@web",
+    "theme/_dark",
+    "theme/_legacy",
+    "components/Text/index",
+    "components/Text/_legacy",
+    "components/WebView/index"
+  ]
+}
