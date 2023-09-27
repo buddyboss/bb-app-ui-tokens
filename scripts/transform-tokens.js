@@ -4,7 +4,7 @@ const { transformColorModifiers } = require("@tokens-studio/sd-transforms");
 /**
  * A map that is used to change refrence notation from {} to $
  */
-const referencesMap = require("./references-map.json");
+const referencesMap = require("../mappings/references-map.json");
 
 const resolveObject = require("./resolveObject");
 const transformObject = require("style-dictionary/lib/transform/object");

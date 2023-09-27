@@ -1,6 +1,6 @@
 {
   "name": "bb-app-ui-tokens",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "BB App UI Tokens",
   "main": "index.js",
   "types": "index.d.ts",
@@ -14,8 +14,8 @@
     "transformed/financial.json",
     "transformed/fitness.json",
     "transformed/gaming.json",
-    "scripts/references-map.json",
-    "scripts/styleprops-map.json"
+    "mappings/references-map.json",
+    "mappings/styleprops-map.json"
   ],
   "repository": {
     "type": "git",
