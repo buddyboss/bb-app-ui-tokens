@@ -47,6 +47,8 @@ function resolveObject(object, opts) {
 const isReference = (value) =>
   typeof value === "string" && value.startsWith("{") && value.endsWith("}");
 
+const hasModifier = (value) => !!value?.$extensions?.["studio.tokens"]?.modify;
+
 function traverseObj(obj) {
   let key;
 
@@ -133,7 +135,11 @@ function traverseObj(obj) {
     if (typeof obj[key] === "object") {
       traverseObj(obj[key]);
     } else {
-      if (typeof obj[key] === "string" && obj[key].indexOf("{") > -1) {
+      if (
+        typeof obj[key] === "string" &&
+        obj[key].indexOf("{") > -1 &&
+        hasModifier(obj) // don't resolve references that don't have modifiers
+      ) {
         obj[key] = compile_value(obj[key], [getName(current_context)]);
       }
     }
