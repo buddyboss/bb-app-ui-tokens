@@ -47,7 +47,7 @@ function resolveObject(object, opts) {
 const isReference = (value) =>
   typeof value === "string" && value.startsWith("{") && value.endsWith("}");
 
-const hasModifier = (value) => !!value?.$extensions?.["studio.tokens"]?.modify;
+const hasModifier = (value) => !!value?.$extensions;
 
 function traverseObj(obj) {
   let key;

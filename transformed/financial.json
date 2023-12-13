@@ -123,24 +123,24 @@
     },
     "color": {
       "bg": {
-        "canvas": "{color.bodyBg}",
-        "surface": "{color.bodyFrontBg}",
+        "canvas": "#f6f6f8",
+        "surface": "#ffffff",
         "muted": "#adadad",
         "subtle": "#ebebeb",
-        "on-subtle": "{color.coverImageBg}",
-        "cover": "{color.coverImageBg}"
+        "on-subtle": "#EDEEF2",
+        "cover": "#EDEEF2"
       },
       "fg": {
-        "default": "{color.textColor}",
-        "emphasis": "{color.headingsColor}",
-        "muted": "{color.descTextColor}",
-        "subtle": "{color.descLightTextColor}",
-        "inverse": "{color.bodyFrontBg}",
+        "default": "#000000",
+        "emphasis": "#000000",
+        "muted": "#737679",
+        "subtle": "#838A98",
+        "inverse": "#ffffff",
         "disabled": "#d6d6d6",
         "on-disabled": "#adadad"
       },
       "accent": {
-        "default": "{color.primaryColor}",
+        "default": "#007cff",
         "emphasis": "#57a9ff",
         "muted": "#6092ff",
         "subtle": "#0a81ff",
@@ -149,7 +149,7 @@
         "on-disabled": "#fff"
       },
       "info": {
-        "default": "{color.primaryColor}",
+        "default": "#007cff",
         "emphasis": "#57a9ff",
         "muted": "#6092ff",
         "subtle": "#0a81ff",
@@ -158,7 +158,7 @@
         "on-disabled": "#fff"
       },
       "border": {
-        "default": "{color.borderColor}",
+        "default": "#C6C6C8",
         "subtle": "#ebebeb",
         "disabled": "#d6d6d6"
       }
