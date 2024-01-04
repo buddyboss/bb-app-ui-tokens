@@ -37,7 +37,7 @@ jobs:
         run: |
           git status --porcelain > changes.txt
           cat changes.txt
-          if grep -qE '^\s*[MADRC]' changes.txt | grep -qv '^\s*M changes.txt'; then
+          if grep -qE '^\s*[MADRC]' changes.txt; then
             echo "Changes detected. Proceeding with commit."
             echo "::set-output name=has_changes::true"
           else
@@ -49,6 +49,7 @@ jobs:
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           git add .
+          git rm -f 'changes.txt'
           git rm -f 'tokens/changedBrand/default.json'
           git rm -f 'tokens/changedBrand/financial.json'
           git rm -f 'tokens/changedBrand/fitness.json'
